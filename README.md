@@ -1,23 +1,25 @@
 ## Doceria Ana Diniz
 
-`CURSO`
+`Curso de Tecnologia em Análise e Desenvolvimento de Sistemas - EAD`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`2º 2021`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Cristiano Garcia Ridolfi
+* Luis Galdino de Almeida da Silva
+* Michelle Leal Rodrigues
+* Pedro Daniel Jardim 
+* Renata Diniz Guimarães de Oliveira
+* Willian de Jesus Silva
 
 ## Orientador
 
-* Nome completo do professor 1.
+* Joyce Christina de Paiva Carvalho.
 
 ## Instruções de utilização
 
