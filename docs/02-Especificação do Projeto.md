@@ -2,13 +2,73 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da entrevista com proprietário, atendente e cliente. Os detalhes levantados nesse processo estão consolidados na forma de personas e histórias de usuários e, as mudanças que possam ocorrer ao longo do caminho e do projeto devem adaptar-se de maneira organizada e segura para os envolvidos, acrescentando e retirando funcionalidades da lista, atribuindo novas prioridades e adicionando detalhes de acordo com o fornecimento dos feedbacks.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas Figuras que se seguem.
+
+##  Pessoa 1 (cliente) 
+ 
+Fonte: depositphotos (2013)	Idade: 32 
+Ocupação: Secretária durante os dias úteis e aos fins de semana realiza os serviços domésticos de sua casa.	Aplicativos 
+•	Instagram 
+•	Facebook 
+•	WhatsApp 
+•	Apps bancários 
+ 
+Motivações 
+•	Gostaria de ter mais praticidade durante sua rotina atarefada, para que possa passar mais tempo ao lado dos filhos. 
+•	Diversificação de Meios de pagamento. 
+•	Praticidade na visualização dos produtos. 
+ 	Frustrações 
+•	Atualmente gostaria de organizar uma festa, entretanto, os preparativos demandam muito tempo. 
+•	Não gosta de doce com fruta. 
+•	Falta de informações de fácil acesso sobre o produto. 	Hobbies, História 
+•	Tem 2 filhos. 
+•	Costuma usar as redes sociais com frequência. 
+
+##  Pessoa 2 (Proprietária) 
+ 
+Fonte: Acervo Pessoal	Idade: 43 
+Ocupação: Administrada de empresas (Comércio Exterior); professora de inglês; proprietária de uma pequena doceria na região metropolitana de Minas Gerais que atua em proporcionar experiências a seus usuários.  
+	Aplicativos
+•	Instagram 
+•	Facebook 
+•	WhatsApp 
+•	Aplicativo de banco 
+•	Canva 
+Motivações 
+•	Aumentar a clientela 
+•	Padronizar solicitações de pedidos 
+•	Organizar e mitigar as entregas 
+•	Emissão de relatórios pra gerenciamento do negócio
+ 	Frustrações 
+•	Não conseguir atender seu cliente em único meio on-line. 
+•	Não ter visibilidade da parte gerencial do projeto. 
+ 	Hobbies, História 
+•	Tem personalidade forte, empreendedora. Gosta de dar aula e lidar com os jovens. 
+
+## Pessoa 3 (Atendente) 
+ 
+Fonte: depositphotos (2015)	Idade: 22 anos 
+Ocupação: Atendente 
+	Aplicativos
+•	Facebook 
+•	WhatsApp 
+•	Instagram  
+•	Tik Tok 
+•	You Tube 
+Motivações 
+•	Atender os pedidos de forma mais ágil. 
+•	Confiabilidade na empresa.
+•	Assertividade nos pedidos.
+•	Clareza nas informações
+ 	Frustrações 
+•	Quantidade elevada de pedidos. 
+•	Dificuldade em separar os pedidos. 
+•	Ordem dos Pedidos. 	Hobbies, História 
+•	Aventureiro, gosta de curtir a vida, pessoa ágil e bem resolvida. 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -24,11 +84,11 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Pessoa 1 (Cliente)  |                                    | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
