@@ -7,7 +7,7 @@
 `2º 2021`
 
 O projeto que está sendo desenvolvido, é um website feito em HTML, CSS e JS, para um estabelecimento comercial, que pretende
-aumentar o raio de seu alcance, bem como, proporcionar a compra venda de seus produtos com diversas formas de pagamento.
+aumentar o raio de seu alcance, bem como, proporcionar a venda de seus produtos disponibilizando ao cliente final diversas formas de pagamento.
 
 O projeto terá imagens portifólio dos produtos disponibilizados e proporcionará ao cliente efetuar a compra, ou contatar a loja em questão,
 através de um aplicativo de mensagens, e-mail ou fale conosco.
