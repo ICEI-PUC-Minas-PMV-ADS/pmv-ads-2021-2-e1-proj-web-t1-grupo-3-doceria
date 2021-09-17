@@ -88,8 +88,17 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Pessoa 1 (Cliente)  |                                    | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Pessoa 1 (Cliente)  |Visualizar, selecionar, comprar e pedir entrega em domicílio, doces para uma festa  | Para que possa poupar tempo e priorizar outras tarefas               |
+|Pessoa 1 (Cliente)  | Realizar uma alteração no prato/pedido | Para que atenda às suas preferências |
+|Pessoa 1 (Cliente)  | Desejo um cardápio claro, um site esclarecedor e simples| Não posso perder tempo, pois minha rotina é muito corrida|
+|Pessoa 1 (Cliente)  | Ter formas de pagamento variadas| Para que possa escolher a melhor opção|
+|Pessoa 2 (Proprietário)  | Conseguir atender mais de um cliente em um único meio on-line| Potencializar as vendas, atendendo mais de um cliente em único meio on-line|
+|Pessoa 2 (Proprietário)  | Ter visibilidade de dados centralizados de vendas realizadas na plataforma| Para que a partir de dados, poder fazer um cálculo preciso de estoque de itens mais pedidos e direcionar melhor as campanhas de marketing|
+|Pessoa 2 (Proprietário)  | Site permita interação com o cliente| Para permitir fidelização e melhorias|
+|Pessoa 2 (Proprietário)  | Site permita mostrar ao cliente a quantidade de disponibilidade de determinados produtos| Para que o cliente visualize a disponibilidade do produtos|
+|Pessoa 3 (Atendente)  | Gerenciar quantidade elevadas de pedidos| Para organizar recursos e tempo ao separar os pedidos com mais agilizados|
+|Pessoa 3 (Atendente)  | Conseguir separar os pedidos com mais agilidade| Para diminuir o tempo gasto com logística entre o momento do pedido ao destino do produto|
+|Pessoa 3 (Atendente)  | Ter ordenação de pedidos por prioridade, ordem de chegada, local de entrega| Para as prioridades de pedidos serem respeitados na hora de preparar/organizar pedidos|
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -102,46 +111,47 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve apresentar na página principal menu dos produtos, novidades, promoções e valores, além de itens destaques do dia, informações gerais de Entrega, Sobre nós | ALTA | 
+|RF-002| O site deve permitir que os pedidos sejam ordenados por ordem de chegada, local de entrega e prioridade   | ALTA |
+|RF-003| O site deve permitir a chegada de uma notificação a cada pedido efetuado    | ALTA |
+|RF-004| O site deve oferecer destaque para informações e produtos das datas comemorativas   | ALTA |
+|RF-005| O site deve permitir que o cliente insira endereço de entrega, nome, telefone de contato   | ALTA |
+|RF-006| O site deve permitir diversas formas de pagamento como Pic Pay, Pix, cartão de débito e crédito   | ALTA |
+|RF-007| O site deve permitir a visualização da disponibilidade de produtos   | MÉDOA |
+|RF-008| O site deve permitir salvar as informações dos clientes respeitando a LGPD   | MÉDIA |
+|RF-009| O site deve permitir a descrição dos produtos   | MÉDIA |
+|RF-010| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário delimitar o produto e ingredientes   | BAIXA |
+|RF-011| O site deve permitir salvar os pedidos para fins gerenciais como relatórios de pedido do usuário, entrega – dashboard   | BAIXA |
+|RF-012| O site deve permitir que os usuários façam comentários e avaliações   | BAIXA |
+|RF-013| O site deve permitir que usuários possam alterar ingredientes pedidos   | BAIXA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku)  | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada  | ALTA | 
+|RNF-003| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge, Safari) |  ALTA | 
+|RNF-004| O site deve ter bom nível de contraste entre os elementos da tela em conformidade e utilizar a paleta de cores da marca |  MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir. 
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-001| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 07/12/2021|
+|RE-002| O aplicativo deve se restringir às tecnologias básicas da Web no Front-end
+|RE-003| A equipe não pode subcontratar o desenvolvimento do trabalho|
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
