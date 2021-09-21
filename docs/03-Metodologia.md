@@ -5,7 +5,9 @@
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
-## Controle de Versão
+## Gestão de código fonte / Controle de Versão
+
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature.
 
 A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
@@ -37,14 +39,33 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ## Gerenciamento de Projeto
 
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe está organizada da seguinte maneira: 
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- Scrum Master: Pedro Daniel Jardim
+
+- Product Owner: Renata Diniz Guimarães de Oliveira  
+
+- Equipe de Desenvolvimento 
+
+  - Cristiano Garcia Ridolfi 
+
+  - Luis Galdino de Almeida da Silva 
+
+  - Michelle Leal Rodrigues 
+
+  - Pedro Daniel Jardim 
+
+  - Renata Diniz Guimarães de Oliveira 
+
+  - Willian de Jesus Silva 
+
+- Equipe de Design 
+
+  - Michelle Leal Rodrigues  
 
 ### Processo
 
