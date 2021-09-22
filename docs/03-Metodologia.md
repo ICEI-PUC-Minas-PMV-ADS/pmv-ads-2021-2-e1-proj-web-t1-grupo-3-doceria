@@ -12,7 +12,7 @@ A gestão de código fonte ou controle de versões diz respeito ao monitoramento
 Com isso, para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow, um modelo de organização de branches, mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature. 
 
 A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+xx, sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
@@ -31,13 +31,6 @@ etiquetas:
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
