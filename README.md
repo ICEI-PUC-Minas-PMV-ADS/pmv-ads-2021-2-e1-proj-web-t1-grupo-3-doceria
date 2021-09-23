@@ -14,12 +14,12 @@ através de um aplicativo de mensagens, e-mail ou fale conosco.
 
 ## Integrantes
 
-* Cristiano Garcia Ridolfi
-* Luis Galdino de Almeida da Silva
-* Michelle Leal Rodrigues
-* Pedro Daniel Jardim 
-* Renata Diniz Guimarães de Oliveira
-* Willian de Jesus Silva
+- Cristiano Garcia Ridolfi
+- Luis Galdino de Almeida da Silva
+- Michelle Leal Rodrigues
+- Pedro Daniel Jardim 
+- Renata Diniz Guimarães de Oliveira
+- Willian de Jesus Silva
 
 ## Orientador
 
