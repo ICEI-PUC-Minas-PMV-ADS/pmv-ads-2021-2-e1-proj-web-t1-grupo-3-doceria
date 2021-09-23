@@ -15,13 +15,6 @@ Hoje, no Brasil, segundo o Instituto Brasileiro de Geografia e Estatística, 82,
 ## Problema
 O problema que se busca resolver com este projeto é o de expandir o canal de vendas de uma doceria de uma cidade do interior de Minas Gerais através da criação de uma página web, na qual os clientes possam acessar cardápio, valores, informações sobre pagamentos e entregas proporcionando confiabilidade, agilidade e qualidade para clientes e proprietário. 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 Geral
@@ -39,27 +32,13 @@ Como objetivos específicos, podemos ressaltar:
 •	Fidelizar clientes; 
 •	Aumentar alcance da proprietária com clientes. 
 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 O comércio eletrônico depois da pandemia Covid-19 passou a ser comum na vida das pessoas. O e-commerce brasileiro registrou um recorde em 2020, um crescimento de “68% comparando com 2019, elevando a participação do e-commerce no faturamento total do varejo” (ALVARENGA, 2021). 
  	Com isso, necessidades de disponibilizar uma loja virtual que direciona o público agregando conforto e agilidade nas escolhas além de criar uma relação de proximidade e fidelidade com os clientes passam a ser primordial no e-commerce. 
 A aplicação front-end é a interface de interação do usuário, ou seja, é o cartão de visita do e-commerce pois “é responsável por apresentar dados ao usuário, coletar dados deste – em várias formas – e processá-los” (MOLZ, 2019) garantindo que o usuário navegue de maneira tranquila, confiável, segura, intuitiva e agradável, elementos essenciais para captação e fidelização do cliente.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 O público-alvo são os moradores do Centro da cidade de Esmeraldas – MG e bairros com distância de até 8km, que possuem acesso à internet e realizam compras de comida on-line com frequência.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
