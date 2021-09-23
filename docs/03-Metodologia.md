@@ -55,30 +55,42 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 ### Divisão de Papéis
+A metodologia escolhida para gerenciamento de projeto pela equipe foi a metodologia ágil, tendo escolhido o Scrum como base para definição do processo de desenvolvimento e permitir um acompanhamento mais próximo do andamento do projeto.
 
 A equipe está organizada da seguinte maneira: 
-
 - Scrum Master: Pedro Daniel Jardim
-
 - Product Owner: Renata Diniz Guimarães de Oliveira  
-
 - Equipe de Desenvolvimento 
-
   - Cristiano Garcia Ridolfi 
-
   - Luis Galdino de Almeida da Silva 
-
   - Michelle Leal Rodrigues 
-
   - Pedro Daniel Jardim 
-
   - Renata Diniz Guimarães de Oliveira 
-
   - Willian de Jesus Silva 
-
 - Equipe de Design 
-
   - Michelle Leal Rodrigues  
+
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Projects (Ferramenta do próprio github) que se ultiliza-se de Quadro Kanban estruturado com as seguintes colunas: 
+
+- To Do: Nessa coluna, estão alocadas as tarefas que estão para fazer no sprint e ainda não foram iniciadas.
+- In progress: Quando uma tarefa tiver sido iniciada, ela sai da coluna de To Do para In Progress e é acompanhada rotineiramente nos ritos do processo ágil.
+- Waiting Deploy: Quando uma tarefa tiver sido iniciada e finalizada, é movida para a coluna de waiting deploy, para que o responsável revise o código feito e aprove para as branch de teste.
+- Test Return: Coluna para sinalizar tarefas que de alguma maneira não passaram no teste de qualidade e sendo necessário um retrabalho para passar no teste de qualidade.
+- Test: Tarefas após iniciada e finalizada, é passada por validações de negócio e de lógica, assim preservando um controle de qualidade e evitando que aconteça bugs inesperados.
+- Done: Tarefa que após ser aprovada no teste de qualidade, está pronta para ir para a branch principal.
+
+O quadro kanban do grupo no Github está disponível através dessa [URL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/projects/2) e é apresentado, no estado atual, na Figura 1.
+
+| ![QuadroKanban](img/docs9552292021.png) | 
+|:--:| 
+| *Quadro Kanban do Time no dia 22/09/2021* |
+
+
+A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+
+- Documentation (Documentação)
+- Bug 
+- Enhacement (Nova Feature/Pedido)
 
 ### Processo
 
