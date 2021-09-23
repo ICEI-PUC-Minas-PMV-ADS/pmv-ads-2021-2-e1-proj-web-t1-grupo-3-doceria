@@ -15,11 +15,23 @@ O Projeto de interface e wireframes foi desenvolvido através dos sites Canva e 
 
 A gestão de código fonte ou controle de versões diz respeito ao monitoramento e gerenciamento das alterações no código, de preferência com histórico de execuções de desenvolvimento e, também, auxilia na resolução de conflitos e reverte versões anteriores de um projeto, quando necessário. Esse componente é essencial para o processo de desenvolvimento do software. 
 
-Com isso, para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow, um modelo de organização de branches, mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature. 
+Com isso, para gestão do código fonte utilizaremos o Git Flow, um modelo de organização de branches, o qual dita que tipos de ramificações configurar e como fazer merge. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Main, Hotfix, Release, Develop e Feature, ou seja, um modelo de ramificação de manutenção que permite corrigir com rapidez lançamentos de produção mantendo uma linha de desenvolvimento dedicada para atualização de segurança, permitindo que a equipe trabalhe com problemas sem interromper o fluxo do trabalho ou esperar o próximo ciclo de lançamento. Segue figura 1: 
 
-A ferramenta de controle de versão adotada no projeto foi o
-xx, sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+ 
+
+ 
+
+Figura 1 - Fluxo de controle do código fonte no repositório github 
+
+# Main: branch principal, somente versão de produção; 
+
+Hotfix:  branch de correção: responsável pela realização de alguma correção crítica encontrada em produção; 
+
+Release: branch de lançamento: utilizada como ambiente de homologação e é removida após realizar os testes e do merge com a Main. Caso haja alguma alteração, ela também deve ser sincronizada com a Develop; 
+
+Develop: branch criada a partir da branch main, contém código em nível preparatório para o próximo deploy/versão. Ou seja, quando features são terminadas, elas são juntadas com a branch develop, testadas e somente depois as atualizações da branch develop passam por mais um processo para então ser juntadas com a branch main; 
+
+Feature: branch de melhorias: utiliza-se para o desenvolvimento de uma funcionalidade específica/nova, inicia-se com a palavra feature e são criadas sempre a partir da branch develop. Exemplo: feature/cadastro. 
 
 O projeto segue a seguinte convenção para o nome de branches:
 
