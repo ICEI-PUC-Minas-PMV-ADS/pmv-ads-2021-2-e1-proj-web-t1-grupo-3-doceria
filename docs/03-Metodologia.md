@@ -19,19 +19,17 @@ Com isso, para gestão do código fonte utilizaremos o Git Flow, um modelo de or
 
  
 
- 
-
 Figura 1 - Fluxo de controle do código fonte no repositório github 
 
-# Main: branch principal, somente versão de produção; 
+**Main**: branch principal, somente versão de produção; 
 
-Hotfix:  branch de correção: responsável pela realização de alguma correção crítica encontrada em produção; 
+**Hotfix**:  branch de correção: responsável pela realização de alguma correção crítica encontrada em produção; 
 
-Release: branch de lançamento: utilizada como ambiente de homologação e é removida após realizar os testes e do merge com a Main. Caso haja alguma alteração, ela também deve ser sincronizada com a Develop; 
+**Release**: branch de lançamento: utilizada como ambiente de homologação e é removida após realizar os testes e do merge com a Main. Caso haja alguma alteração, ela também deve ser sincronizada com a Develop; 
 
-Develop: branch criada a partir da branch main, contém código em nível preparatório para o próximo deploy/versão. Ou seja, quando features são terminadas, elas são juntadas com a branch develop, testadas e somente depois as atualizações da branch develop passam por mais um processo para então ser juntadas com a branch main; 
+**Develop**: branch criada a partir da branch main, contém código em nível preparatório para o próximo deploy/versão. Ou seja, quando features são terminadas, elas são juntadas com a branch develop, testadas e somente depois as atualizações da branch develop passam por mais um processo para então ser juntadas com a branch main; 
 
-Feature: branch de melhorias: utiliza-se para o desenvolvimento de uma funcionalidade específica/nova, inicia-se com a palavra feature e são criadas sempre a partir da branch develop. Exemplo: feature/cadastro. 
+**Feature**: branch de melhorias: utiliza-se para o desenvolvimento de uma funcionalidade específica/nova, inicia-se com a palavra feature e são criadas sempre a partir da branch develop. Exemplo: feature/cadastro. 
 
 O projeto segue a seguinte convenção para o nome de branches:
 
