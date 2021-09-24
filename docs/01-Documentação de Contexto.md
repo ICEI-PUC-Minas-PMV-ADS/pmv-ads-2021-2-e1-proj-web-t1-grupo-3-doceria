@@ -17,20 +17,20 @@ O problema que se busca resolver com este projeto é o de expandir o canal de ve
 
 ## Objetivos
 
-Geral
+**Geral**
 
 O objetivo geral deste trabalho é a criação de um website que possibilite a exibição de portfólio, o contato direto entre a proprietária da loja de doces e o cliente final, e assim, facilite o processo da venda on-line, tornando-o mais confortável e seguro. Sendo esta uma característica que aumentará o raio de alcance para captação de novos clientes e a colocará em outro patamar em relação ao modelo de venda convencional, abrindo assim diversas outras oportunidades de mercado. 
  
-Específicos
+**Específicos**
 
 Como objetivos específicos, podemos ressaltar: 
  
-•	Fornecer funcionalidades que permita que o cliente conheça os produtos produzidos, através de fotos, vídeos, catálogo de preços e que tenha facilidades para interagir com a proprietária para esclarecer dúvidas; 
-•	Integrar com WhatsApp web para contato com a proprietária; 
-•	Integrar com Instagram para contato com a proprietária; 
-•	Permitir a finalização do pedido, gerar dados de previsão de entrega, valor de frete e cupons de desconto, além de armazenar dados deste pedido, para no próximo ano disparar um e-mail oferecendo serviços semelhantes; 
-•	Fidelizar clientes; 
-•	Aumentar alcance da proprietária com clientes. 
+-	Fornecer funcionalidades que permita que o cliente conheça os produtos produzidos, através de fotos, vídeos, catálogo de preços e que tenha facilidades para interagir com a proprietária para esclarecer dúvidas; 
+-	Integrar com WhatsApp web para contato com a proprietária; 
+-	Integrar com Instagram para contato com a proprietária; 
+-	Permitir a finalização do pedido, gerar dados de previsão de entrega, valor de frete e cupons de desconto, além de armazenar dados deste pedido, para no próximo ano disparar um e-mail oferecendo serviços semelhantes; 
+-	Fidelizar clientes; 
+-	Aumentar alcance da proprietária com clientes. 
 
 ## Justificativa
 
