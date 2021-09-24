@@ -10,7 +10,8 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ##  Flávia (cliente) 
  
-Fonte: depositphotos (2013)
+ ![Cliente](https://user-images.githubusercontent.com/90404960/134687014-35700588-b007-4424-8248-7443c5ffe61f.png)
+ Fonte: depositphotos (2013)
 
 **Idade** : 32 
 
