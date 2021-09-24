@@ -11,6 +11,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 ##  Flávia (cliente) 
  
  ![Cliente](https://user-images.githubusercontent.com/90404960/134687014-35700588-b007-4424-8248-7443c5ffe61f.png)
+ 
  Fonte: depositphotos (2013)
 
 **Idade** : 32 
@@ -38,7 +39,9 @@ As personas levantadas durante o processo de entendimento do problema são apres
 -	Costuma usar as redes sociais com frequência. 
 
 ##  Ana Diniz (Proprietária) 
- 
+
+![Propr](https://user-images.githubusercontent.com/90404960/134686750-975e20f7-cbfd-4cce-b1fa-54dd9fccfbba.png)
+
 Fonte: Acervo Pessoal
 
 **Idade**: 43 
