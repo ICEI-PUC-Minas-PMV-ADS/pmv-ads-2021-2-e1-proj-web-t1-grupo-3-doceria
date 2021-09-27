@@ -1,14 +1,12 @@
 # Arquitetura da Solução
 
-A arquitetura de soluções é responsável por desenhar e implementar recursos e ferramentas de TI para atender as necessidades do cliente, ou seja, definir de forma estruturada quais são so componentes, propriedades e documentações necessárias para que um sistema seja desenvolvido, além de seu relacionamento com outros sistemas.
+A arquitetura de soluções constrói soluções com base nas necessidades da empresa, é responsável por desenhar e implementar recursos e ferramentas de TI para atender as necessidades do cliente, ou seja, definir de forma estruturada quais são so componentes, propriedades e documentações necessárias para que um sistema seja desenvolvido, além de seu relacionamento com outros sistemas.
 
 ## Diagrama de componentes
 
-Diagrama de componentes mostra o relacionamento entre os componentes de um sistema, identificando-os, estruturando-os e enftizando o comportamento do servilo quanto à interface, além de dar uma visão geral do sistema.
+Diagrama de componentes mostra o relacionamento entre os componentes de um sistema, identificando-os, estruturando-os e enfatizando o comportamento do serviço quanto à interface, além de dar uma visão geral do sistema.
 
-Exemplo: 
-
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+Os componentes que fazem parte da solução são apresentados na Figura abaixo.
 
 ![Diagrama de Componentes](img/componentes.png)
 <center>Figura XX - Arquitetura da Solução</center>
@@ -17,8 +15,8 @@ A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
+     - **Produtos** - cardápio com produtos.
+     - **Comentários** - registro de opiniões dos usuários sobre pedidos, produtos, serviço.
      - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
