@@ -4,7 +4,7 @@ A arquitetura de soluções é responsável por desenhar e implementar recursos 
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+Diagrama de componentes mostra o relacionamento entre os componentes de um sistema, identificando-os, estruturando-os e enftizando o comportamento do servilo quanto à interface, além de dar uma visão geral do sistema.
 
 Exemplo: 
 
