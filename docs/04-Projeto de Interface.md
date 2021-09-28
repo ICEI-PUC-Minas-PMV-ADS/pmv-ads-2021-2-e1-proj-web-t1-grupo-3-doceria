@@ -15,7 +15,7 @@ O user flow tem como objetivo mapear o fluxo de telas que o usuário pode percor
 
 ## Wireframes
 
-As telas do site são apresentadas em detalhes nos itens que se seguem e apresentam elementos fundamentais do layout. As telas apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles: 
+As telas do site são apresentadas em detalhes nos itens que se seguem e apresentam elementos fundamentais do layout. As telas apresentam uma estrutura comum que é apresentada abaixp. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles: 
 
 <b>Cabeçalho</b> - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu); 
 
