@@ -8,8 +8,8 @@ Diagrama de componentes mostra o relacionamento entre os componentes de um siste
 
 Os componentes que fazem parte da solução são apresentados na Figura abaixo.
 
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+![Diagrama de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/blob/main/docs/img/Arquitetura%20solu%C3%A7%C3%A3o.png)
+<center>Figura 2 - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
@@ -17,13 +17,10 @@ A solução implementada conta com os seguintes módulos:
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
      - **Produtos** - cardápio com produtos.
      - **Comentários** - registro de opiniões dos usuários sobre pedidos, produtos, serviço.
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+     - **Cadastro** - lista os clientes e seu cadastro - acesso restrito ao proprietário
+ - **API** - Integração do site com aplicativos como: WhatsApp, Instagram, Canva, sistema de pagamento.
+ - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador (Heroku). 
 
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
 
 Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
 
