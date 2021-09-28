@@ -9,7 +9,7 @@ Diagrama de componentes mostra o relacionamento entre os componentes de um siste
 Os componentes que fazem parte da solução são apresentados na Figura abaixo.
 
 ![Diagrama de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/blob/main/docs/img/Hospedagem%20-%20Heroku%20(1).png)
-<center>Figura 2 - Arquitetura da Solução</center>
+**Figura 2 - Arquitetura da Solução**</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
