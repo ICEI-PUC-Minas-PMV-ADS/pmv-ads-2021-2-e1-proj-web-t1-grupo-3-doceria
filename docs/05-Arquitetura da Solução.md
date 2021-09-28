@@ -2,6 +2,16 @@
 
 A arquitetura de soluções constrói soluções com base nas necessidades da empresa, é responsável por desenhar e implementar recursos e ferramentas de TI para atender as necessidades do cliente, ou seja, definir de forma estruturada quais são so componentes, propriedades e documentações necessárias para que um sistema seja desenvolvido, além de seu relacionamento com outros sistemas.
 
+A arquitetura para a solução em questão será basicamente a hospedagem da página web (HTML, CSS e JS) e integração da mesma com APIs públicas, a fim de agilizar o processo de contato entre cliente x loja, proporcionando maior possibilidade de negócios.  
+
+Toda codificação é armazenada no Github, o versionamento é controlado via Git Flow, para que todo o processo seja acompanhado e revertido, se preciso for. 
+
+ Como a página tem finalidade de exposição, para o projeto matriz não teremos integração com banco de dados, pois, não teremos a necessidade de armazenamento dos dados pessoais dos clientes. 
+
+ A hospedagem da página será feita no Heroku, a página contará com basicamente duas APIs, sendo, WhatsApp (https://wa.me/seunumero)  e Google Maps para exibir o endereço da loja fisica. 
+
+ A aplicação terá basicamente uma tela inicial, uma aba com link de produtos, uma aba “Quem somos”, uma aba fale conosco. 
+
 ## Diagrama de componentes
 
 Diagrama de componentes mostra o relacionamento entre os componentes de um sistema, identificando-os, estruturando-os e enfatizando o comportamento do serviço quanto à interface, além de dar uma visão geral do sistema.
