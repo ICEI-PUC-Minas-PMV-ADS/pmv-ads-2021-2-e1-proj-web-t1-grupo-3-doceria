@@ -63,7 +63,7 @@ para a Tela 2.
 
 ## Tecnologias Utilizadas
 
-Todos os dias usamos diferentes aplicativos, ferramentas e sistemas online, seja no desktop ou smartphones. O que muitos não sabem é que por trás de um aplicativo há uma grande estrutura desenvolvida pela arquitetura de solução.
+Todos os dias utilizamos diferentes tipos de  aplicativos, ferramentas e sistemas online, seja no desktop ou smartphones. O que muitos não sabem é que por trás de um aplicativo há uma grande estrutura desenvolvida pela arquitetura de solução.
 
 
 ## Hospedagem
