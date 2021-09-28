@@ -63,9 +63,7 @@ para a Tela 2.
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Todos os dias usamosdiferentes aplicativos, ferramentas e sistemas online, seja no desktop ou smartphones. O que muitos não sabem é que por trás de um aplicativo há uma grande estrutura desenvolvida pela arquitetura de solução.
 
 
 ## Hospedagem
