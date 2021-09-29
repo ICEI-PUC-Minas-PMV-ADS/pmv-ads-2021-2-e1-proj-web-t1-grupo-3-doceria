@@ -1,6 +1,8 @@
 
 # Metodologia
 
+A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
+
 Para controle do projeto, das pessoas e das tarefas, utilizaremos poucos ambientes de trabalho, afim de reduzir/anular as possibilidades de redundância ou ausência de informações em determinados ambientes, focando sempre nos nossos requisitos funcionais.  
 
 Nossa ferramenta principal para gerir os tópicos citados acima, será o GitHub, que utilizaremos na sua forma típica de repositório, armazenando toda manutenção dos códigos. Paralelo a esta modalidade de repositório, faremos uso do GitHub para os gerenciamentos de backlog do produto, bem como, das sprints individualizadas, este gerenciamento será feito através da aba “Project”.  
@@ -8,6 +10,14 @@ Nossa ferramenta principal para gerir os tópicos citados acima, será o GitHub,
 Para arquivos visuais e sonoros, bem como, formulários de pesquisas,  análises de requisitos, casos de uso, utilizaremos o Google Drive com acesso restrito para a equipe envolvida no desenvolvimento da aplicação, seja através da forma técnica ou gerencial.  
 
 O Projeto de interface e wireframes foi desenvolvido através dos sites Canva e Flowmapp, criado de forma que qualquer eventual alteração ou incrementação seja feita de forma pratica e elegante.
+
+## Relação de Ambientes de Trabalho 
+
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue: 
+
+
+
+
 
 ## Gestão de código fonte / Controle de Versão
 
