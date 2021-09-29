@@ -35,7 +35,9 @@ Como objetivos específicos, podemos ressaltar:
 ## Justificativa
 
 O comércio eletrônico depois da pandemia Covid-19 passou a ser comum na vida das pessoas. O e-commerce brasileiro registrou um recorde em 2020, um crescimento de “68% comparando com 2019, elevando a participação do e-commerce no faturamento total do varejo” (ALVARENGA, 2021). 
- 	Com isso, necessidades de disponibilizar uma loja virtual que direciona o público agregando conforto e agilidade nas escolhas além de criar uma relação de proximidade e fidelidade com os clientes passam a ser primordial no e-commerce. 
+ 
+Com isso, necessidades de disponibilizar uma loja virtual que direciona o público agregando conforto e agilidade nas escolhas além de criar uma relação de proximidade e fidelidade com os clientes passam a ser primordial no e-commerce. 
+
 A aplicação front-end é a interface de interação do usuário, ou seja, é o cartão de visita do e-commerce pois “é responsável por apresentar dados ao usuário, coletar dados deste – em várias formas – e processá-los” (MOLZ, 2019) garantindo que o usuário navegue de maneira tranquila, confiável, segura, intuitiva e agradável, elementos essenciais para captação e fidelização do cliente.
 
 ## Público-Alvo
