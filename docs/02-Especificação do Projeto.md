@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários através da entrevista com proprietário, atendente e cliente. Os detalhes levantados nesse processo estão consolidados na forma de personas e histórias de usuários e, as mudanças que possam ocorrer ao longo do caminho e do projeto devem adaptar-se de maneira organizada e segura para os envolvidos, acrescentando e retirando funcionalidades da lista, atribuindo novas prioridades e adicionando detalhes de acordo com o fornecimento dos feedbacks.
 
 ## Personas
@@ -57,6 +55,7 @@ Fonte: Acervo Pessoal
 
 **Motivações**
 -	Aumentar a clientela.
+-	Padronizar solicitações de pedidos.
 -	Organizar e mitigar as entregas. 
 -	Emissão de relatórios pra gerenciamento do negócio.
 
@@ -89,6 +88,7 @@ Fonte: depositphotos (2015)
 - Confiabilidade na empresa.
 - Assertividade nos pedidos.
 - Clareza nas informações.
+- Alerta de chegada do pedido.
 
 **Frustrações**
 - Quantidade elevada de pedidos.
@@ -96,7 +96,7 @@ Fonte: depositphotos (2015)
 - Ordem dos Pedidos. 
 	
 **Hobbies, História**
-•	Aventureiro, gosta de curtir a vida, pessoa ágil e bem resolvida. 
+•	Aventureira, gosta de curtir a vida, pessoa ágil e bem resolvida. 
 
 ## Histórias de Usuários
 
@@ -130,12 +130,12 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RF-004| O site deve oferecer destaque para informações e produtos das datas comemorativas   | ALTA |
 |RF-005| O site deve permitir que o cliente insira endereço de entrega, nome, telefone de contato   | ALTA |
 |RF-006| O site deve permitir diversas formas de pagamento como Pic Pay, Pix, cartão de débito e crédito   | ALTA |
-|RF-007| O site deve permitir a visualização da disponibilidade de produtos   | MÉDOA |
+|RF-007| O site deve permitir a visualização da disponibilidade de produtos   | MÉDIA |
 |RF-008| O site deve permitir a descrição dos produtos   | MÉDIA |
 |RF-009| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário delimitar o produto e ingredientes   | BAIXA |
 |RF-010| O site deve permitir salvar os pedidos para fins gerenciais como relatórios de pedido do usuário, entrega – dashboard   | BAIXA |
 |RF-011| O site deve permitir que os usuários façam comentários e avaliações   | BAIXA |
-|RF-012| O site deve permitir que usuários possam alterar ingredientes pedidos   | BAIXA |
+|RF-012| O site deve permitir que usuários possam alterar ingredientes produtos   | BAIXA |
 
 ### Requisitos não Funcionais
 
