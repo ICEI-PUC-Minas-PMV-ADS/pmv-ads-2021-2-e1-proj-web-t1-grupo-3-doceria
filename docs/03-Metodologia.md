@@ -15,8 +15,12 @@ O Projeto de interface e wireframes foi desenvolvido através dos sites Canva e 
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue: 
 
-
-
+|Ambiente| Plataforma |Link de Acesso                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Repositório de código fonte   |GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria                |
+|Documentos do projeto  | Google Drive | https://drive.google.com/drive/folders/1YY1RS0mlls9j5LWeV0uz-eTcIwJtIJmp?usp=sharing  |
+|Projeto de Interface e  Wireframes   | Canva e Flowmapp |  |
+|Gerenciamento do Projeto   | GitHub Project  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/projects/2 |
 
 
 ## Gestão de código fonte / Controle de Versão
