@@ -36,30 +36,10 @@ Inclua um diagrama da solução e descreva os módulos e as tecnologias que faze
 
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+(Tela 1) onde ele é confrontado com as opões Promoções, cardápio, Sobre nós
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
-
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
-
-![Exemplo de UserFlow](img/userflow.jpg)
-
+Caso ele não saiba o que quer, pode optar pelo caminho de explorar as promoções, o cardápio, sendo assim, ele escolhe a opção deseja e é direcionado para cardápio (Tela 2) ou Promoções (Tela 3) onde pode
+atualizar escolher o produto e solicitar seu pedido.  Ao selecionar seu produto e colocado o mesmo no carrinho de compra (Tela 4), o usuário tem a opção de continuar comprando ou finalizar a compra. Se o mesmo não estiver pronto para finalizar a compra 3 opções são apresentadas para ele: Gostaria de saber mais sobre a loja (Tela 5); Gostaria de saver sobre as políticas da loja (Tela 6); Gostaria de entrar em contato via WhahsApp pos possui dúvidas (Tela 7). Agora se o cliente optar em finalizar o pedido é solicitado o preenchimento de um formulário com dados pessoais e forma de entrega (Tela7), Selecionar a forma de pagamento (tela 8) e finalizar o pedido (tela 9). Ao finalizar se o pedido se der um erro a Tela 10 é apresentada para entrar em contato e, se a compra forma confirmada (tela 11) o cliente é direcionado para a opção de Avaliar o pedido (Tela 12). 
 
 ## Tecnologias Utilizadas
 
