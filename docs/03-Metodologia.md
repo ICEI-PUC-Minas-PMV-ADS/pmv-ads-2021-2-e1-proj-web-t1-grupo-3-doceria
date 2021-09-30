@@ -19,7 +19,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |--------------------|------------------------------------|----------------------------------------|
 |Repositório de código fonte   |GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria                |
 |Documentos do projeto  | Google Drive | https://drive.google.com/drive/folders/1YY1RS0mlls9j5LWeV0uz-eTcIwJtIJmp?usp=sharing  |
-|Projeto de Interface e  Wireframes   | Canva e Flowmapp |  |
+|Projeto de Interface e  Wireframes   | Canva | https://www.canva.com/design/DAEqmxi0SVc/d0ZA0JH-XzNjsNuZ5GmPdA/view?mode=prototype#home-page  |
 |Gerenciamento do Projeto   | GitHub Project  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/projects/2 |
 
 
