@@ -7,7 +7,7 @@ O projeto de interface oferece uma visão geral da interação do usuário no si
 
 ## User Flow
 
-O user flow tem como objetivo mapear o fluxo de telas que o usuário pode percorrer ao interagir com o site. Foi elaborado para atender aos requisitos funcionais, não funcionais e as histórias de usuário abordados na <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>. 
+O user flow tem como objetivo mapear o fluxo de telas que o usuário pode percorrer ao interagir com o site. Foi elaborado para atender aos requisitos funcionais, não funcionais e as histórias de usuário abordados na Documentação de Especificação. 
 
 ![UserFlow](img/wireframes/userflowdoceria.png)
 ![UserFlow2](img/wireframes/userflowtelas.png)
