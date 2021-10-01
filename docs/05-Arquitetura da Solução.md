@@ -19,7 +19,7 @@ Diagrama de componentes mostra o relacionamento entre os componentes de um siste
 Os componentes que fazem parte da solução são apresentados na Figura abaixo.
 
 ![Diagrama de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/blob/main/docs/img/Hospedagem%20-%20Heroku%20(2).png)
-**Figura 3 - Arquitetura da Solução**</center>
+**Figura 27 - Arquitetura da Solução**</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
@@ -43,7 +43,7 @@ atualizar escolher o produto e solicitar seu pedido.  Ao selecionar seu produto 
 
 ## Tecnologias Utilizadas
 
-Todos os dias utilizamos diferentes tipos de  aplicativos, ferramentas e sistemas online, seja no desktop ou smartphones. O que muitos não sabem é que por trás de um aplicativo há uma grande estrutura desenvolvida pela arquitetura de solução.
+Serão utilizadas tecnologias como ferramentas e sistemas online, seja no desktop ou smartphones, integração com aplicativos como WhatsApp, Instagram, Canva. 
 
 
 ## Hospedagem
