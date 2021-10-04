@@ -32,7 +32,7 @@ A solução implementada conta com os seguintes módulos:
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador (Heroku). 
 
 
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+![UserFlow2](img/wireframes/userflowtelas.png)
 
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
