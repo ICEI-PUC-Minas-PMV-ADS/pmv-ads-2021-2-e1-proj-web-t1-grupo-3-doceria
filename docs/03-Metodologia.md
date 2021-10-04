@@ -33,7 +33,7 @@ Com isso, para gestão do código fonte utilizaremos o Git Flow, um modelo de or
 <div align="center">
  <img src="https://user-images.githubusercontent.com/90404960/134491247-67b5f225-afb2-4de2-a698-ff9bf310af3d.png" width="700px" />
  
- Figura 1 - Fluxo de controle do código fonte no repositório github 
+ **Figura 1 - Fluxo de controle do código fonte no repositório github**  
 </div>    
                                                                                                                               
 
@@ -92,12 +92,11 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - Test: Tarefas após iniciada e finalizada, é passada por validações de negócio e de lógica, assim preservando um controle de qualidade e evitando que aconteça bugs inesperados.
 - Done: Tarefa que após ser aprovada no teste de qualidade, está pronta para ir para a branch principal.
 
-O quadro kanban do grupo no Github está disponível através dessa [URL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/projects/2) e é apresentado, no estado atual, na Figura 1.
+O quadro kanban do projeto no Github está disponível através dessa [URL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/projects/2) e é apresentado, no estado atual, na Figura 2.
 
 | ![QuadroKanban](img/docs9552292021.png) | 
 |:--:| 
-| *Quadro Kanban do Time no dia 22/09/2021* |
-
+| **Figura 2: Quadro Kanban do Time no dia 22/09/2021** |
 
 A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
 
