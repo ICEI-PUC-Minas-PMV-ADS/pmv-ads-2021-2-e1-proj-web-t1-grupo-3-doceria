@@ -32,10 +32,14 @@ A solução implementada conta com os seguintes módulos:
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador (Heroku). 
 
 
-![UserFlow2](img/wireframes/userflowtelas.png)
+## Diagrama do Usuário
 
-A imagem acima ilustra a o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, ele é apresentado à tela inicial
+A imagem abaixo ilustra a o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, ele é apresentado à tela inicial
 (Home Page) onde ele é apresentado as opções Promoções, cardápio, Sobre nós, Pesquisa por doce ou ingredientes.
+
+![UserFlow2](img/wireframes/userflowtelas.png)
+**Figura 29 - Fluxo de Usuário na aplicação**</center>
+
 
 O usuário/cliente pode optar pelo caminho de explorar as promoções, o cardápio ou realizar pesquisa por doce ou ingrediente, o que resulta na tela Resultado da Pesquisa e ao clicar no produto, o Cliente tem a descrição do mesmo com os ingredientes e opção de inserção no carrinho (Tela Descrição produto). 
 
@@ -45,8 +49,7 @@ E ao optar em finalizar o pedido é solicitado o preenchimento de um formulário
 
 ## Tecnologias Utilizadas
 
-Serão utilizadas tecnologias como ferramentas e sistemas on-line, seja no desktop ou smartphones com compatibilidade com os principais navegadores do mercado como Google Chrome, Microsoft Edge, Safari e Firefox além da integração com aplicativos como WhatsApp, Instagram, Canva. 
-
+As tecnologias que serão ultilizadas são HTML5, CSS3 e JavaScript. As quais são base do desenvolvimento web front-end moderno devido sua popularidade e sua versatilidade que permitem interações de usuário e de api externas.
 
 ## Hospedagem
 
