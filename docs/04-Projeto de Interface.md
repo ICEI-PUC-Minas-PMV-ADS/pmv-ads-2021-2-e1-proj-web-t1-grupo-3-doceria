@@ -43,11 +43,16 @@ Sendo a página inicial do site, a home-page, ou cardápio, com base na estrutur
 <center><img src=img/wireframes/homepage.png width=70%/>
  Figura 6 - Tela Inicial - Promoções e destaques 
  
+ <p></p>
+ 
 <img src=img/wireframes/homepage2.png width=70%/>
  Figura 7 - Tela Inicial - Cardápio 
  
+ <p></p>
+ 
 <img src=img/wireframes/homemobile.png width=70%/></center> 
 Figura 8 - Tela Inicial - Mobile 
+
 
 ## Tela - Sobre
 
