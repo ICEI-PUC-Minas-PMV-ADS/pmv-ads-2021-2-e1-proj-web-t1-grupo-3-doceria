@@ -34,12 +34,14 @@ A solução implementada conta com os seguintes módulos:
 
 ![UserFlow2](img/wireframes/userflowtelas.png)
 
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opções Promoções, cardápio, Sobre nós
+A imagem acima ilustra a o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, ele é apresentado à tela inicial
+(Home Page) onde ele é apresentado as opções Promoções, cardápio, Sobre nós, Pesquisa por doce ou ingredientes.
 
-Caso ele não saiba o que quer, pode optar pelo caminho de explorar as promoções, o cardápio, sendo assim, ele escolhe a opção deseja e é direcionado para cardápio (Tela 2) ou Promoções (Tela 3) onde pode
-atualizar escolher o produto e solicitar seu pedido.  Ao selecionar seu produto e colocado o mesmo no carrinho de compra (Tela 4), o usuário tem a opção de continuar comprando ou finalizar a compra. Se o mesmo não estiver pronto para finalizar a compra 3 opções são apresentadas para ele: Gostaria de saber mais sobre a loja (Tela 5); Gostaria de saver sobre as políticas da loja (Tela 6); Gostaria de entrar em contato via WhahsApp pos possui dúvidas (Tela 7). Agora se o cliente optar em finalizar o pedido é solicitado o preenchimento de um formulário com dados pessoais e forma de entrega (Tela7), Selecionar a forma de pagamento (tela 8) e finalizar o pedido (tela 9). Ao finalizar se o pedido se der um erro a Tela 10 é apresentada para entrar em contato e, se a compra forma confirmada (tela 11) o cliente é direcionado para a opção de Avaliar o pedido (Tela 12). 
+O usuário/cliente pode optar pelo caminho de explorar as promoções, o cardápio ou realizar pesquisa por doce ou ingrediente, o que resulta na tela Resultado da Pesquisa e ao clicar no produto, o Cliente tem a descrição do mesmo com os ingredientes e opção de inserção no carrinho (Tela Descrição produto). 
+
+Ao escolher o produto, o cliente seleciona o produto e o mesmo é inserido no carrinho de compra (Tela- Carrinho), o usuário/cliente tem a opção de continuar comprando ou finalizar a compra. Se o mesmo não estiver pronto para finalizar a compra, opções de interação com o cliente são apresentadas para ele: Gostaria de saber mais sobre a loja (Tela Sobre); Gostaria de saver sobre as políticas da loja (Tela Políticas da Empresa).
+
+E ao optar em finalizar o pedido é solicitado o preenchimento de um formulário com dados pessoais e forma de entrega (Tela Carrinho), além de ter que selecionar a forma de pagamento (Tela Carrinho) e finalizar o pedido (Tela Compra Confirmada). Ao finalizar, se o pedido der um erro a Tela Erro é apresentada para entrar em contato e, se a compra forma confirmada (tela Compra Confirmada) o cliente é direcionado para a opção de Avaliar o pedido (Tela Avaliar). 
 
 ## Tecnologias Utilizadas
 
