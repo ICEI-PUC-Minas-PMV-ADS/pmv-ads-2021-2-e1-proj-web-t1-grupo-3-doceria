@@ -83,6 +83,8 @@ A equipe está organizada da seguinte maneira:
 - Equipe de Design 
   - Michelle Leal Rodrigues  
 
+### Processo
+
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Projects (Ferramenta do próprio github) que se ultiliza-se de Quadro Kanban estruturado com as seguintes colunas: 
 
 - To Do: Nessa coluna, estão alocadas as tarefas que estão para fazer no sprint e ainda não foram iniciadas.
@@ -103,10 +105,6 @@ A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem
 - Documentation (Documentação)
 - Bug 
 - Enhacement (Nova Feature/Pedido)
-
-### Processo
-
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
 
 
 ### Ferramentas
