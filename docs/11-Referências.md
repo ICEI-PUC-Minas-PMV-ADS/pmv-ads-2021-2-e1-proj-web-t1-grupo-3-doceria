@@ -16,3 +16,4 @@ MOLZ, Rolf Fredi. Prefácio. In: LEDUR, Cleverson Lopes; SARAIVA, Maurício de O
 
 RAMOS, Roberto. **A era digital e a economia do século XXI**. 2018. Disponível em: https://www.brasildefatope.com.br/2018/09/19/artigo-or-a-era-digital-e-a-economia-do-seculo-xxi. Acesso em: 25 ago. 2021.
 
+REINEHR, Sheila. **Engenharia de requisitos**. Porto Alegre: SAGAH, 2020. E-Book.
