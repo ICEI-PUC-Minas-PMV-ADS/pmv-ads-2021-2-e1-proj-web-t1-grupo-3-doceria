@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ana Diniz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dbfake.js"></script>
+</head>
+
+<body>
+    <header>
+        
+        <nav class="menu-principal"> 
+        <img class="logo" src="logo.png" alt="logo">
+            <ul>
+                <li>Sobre</li>
+                <li>Cardápio</li>
+                <li>Promoções</li>
+                <li>Contato</li>             
+                <li>Carrinho</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Cardápio</h1>
+            <div id="lista-produtos">
+
+            </div>
+    </main>
+    <footer>
+        Copyright 2021 (c) Ana Diniz Doceira
+    </footer>
+
+    <script>
+        var prods = '';
+        for (i = 0; i < db.dados.length; i++) {
+            prods += `<p class="produto-item"> ${db.dados[i].titulo} <br> <img src="${db.dados[i].imagem}"> <br> ${db.dados[i].descricao} <br> R$: ${db.dados[i].preco} <br> </p>`;
+        }
+        document.getElementById('lista-produtos').innerHTML = prods;
+
+    </script>
+</body>
+
+</html>
