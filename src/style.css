@@ -61,9 +61,28 @@ main > h1 {
 
 footer {
     clear: both;
-    height: 80px;
+    height: 130px;
     color: white;
     background-color: #946362;
     text-align:center;
     padding-top: 1%;
+}
+
+
+footer-icons {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}       
+
+.logo-icon {
+    width: 35px;
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+
 }
