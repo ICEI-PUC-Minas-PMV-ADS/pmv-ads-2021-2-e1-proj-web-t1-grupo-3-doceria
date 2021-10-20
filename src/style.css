@@ -40,17 +40,17 @@ header {
 .compras img {
     height: 30px;
     width: 30px;
-    line-height: 8px;
-    display: block;
-    margin: 0 auto;
+    line-height: 2px;
+    display: inline-block;
+    padding-right: 30px;
 }
 
 .compras {
     color:#946362;
-    padding-right: 70px;
+    padding-right: 50px;
     text-align: right;
-    width: 210px;
-    height: 50px;
+    width: 200px;
+    height: 40px;
     position: relative;
     float: right;
     bottom: 20px;
@@ -60,18 +60,21 @@ header {
 .compras  ol  li {
     display: inline-block;
     color: #946362;
-    padding: 8px;
-    font-size: 17px;
+    padding: 0px;
+    font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     list-style-type: none;
    }
 
+.compras  ol  li:hover {
+    background-color: #7c3f47;
+    color:lightyellow;
+}
 .carrinho {
     position: relative;
     bottom: 7px;
 }
-
 /* Corpo do site */
 
 main > h1 {
