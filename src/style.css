@@ -32,11 +32,44 @@ header {
     font-size: 17px;  
 }
 
-
-
 .menu-principal > ul > li:hover {
     background-color: #7c3f47;
     color:lightyellow;
+}
+
+.compras img {
+    height: 30px;
+    width: 30px;
+    line-height: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.compras {
+    color:#946362;
+    padding-right: 70px;
+    text-align: right;
+    width: 210px;
+    height: 50px;
+    position: relative;
+    float: right;
+    bottom: 20px;
+    clear: right;
+}
+
+.compras  ol  li {
+    display: inline-block;
+    color: #946362;
+    padding: 8px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    list-style-type: none;
+   }
+
+.carrinho {
+    position: relative;
+    bottom: 7px;
 }
 
 /* Corpo do site */
