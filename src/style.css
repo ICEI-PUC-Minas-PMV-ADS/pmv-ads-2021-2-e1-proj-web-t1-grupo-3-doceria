@@ -75,6 +75,15 @@ header {
     position: relative;
     bottom: 7px;
 }
+
+.container img {
+    height: 150px;
+    width: 150px;
+    line-height: 2px;
+    display: inline-block;
+    padding-right: 30px;
+}
+
 /* Corpo do site */
 
 main > h1 {
