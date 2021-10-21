@@ -86,3 +86,12 @@ footer-icons {
     padding-bottom: 2px;
 
 }
+.ignore-sublime{
+    display: inline-block;
+    color: #946362;
+    padding: 0px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    list-style-type: none;
+}

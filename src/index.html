@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ana Diniz</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="sortcut icon" href="./jpg/favicon-16x16.png" type="image/x-icon"/>
     <script src="dbfake.js"></script>
 </head>
 
@@ -16,11 +17,22 @@
         <nav class="menu-principal">
             <img class="logo" src="logo.png" alt="logo">
             <ul>
-                <li>Sobre</li>
-                <li>Cardápio</li>
-                <li>Promoções</li>
-                <li>Contato</li>
-                <li>Carrinho</li>
+                <li>
+                    <a class="ignore-sublime" href='./components/sobre/index.html'>Sobre</a>
+                </li>
+
+                <li>
+                    <a class="ignore-sublime" href='index.html'>Cardápio</a>
+                </li>
+
+                <li>
+                    <a class="ignore-sublime" href='./components/promocoes/index.html'>Promoções</a>
+                </li>
+
+                <li>
+                    <a class="ignore-sublime" href='./components/carrinho/index.html'>Carrinho</a>
+                </li>
+
             </ul>
         </nav>
     </header>
@@ -51,6 +63,7 @@
             prods += `<p class="produto-item"> ${db.dados[i].titulo} <br> <img src="${db.dados[i].imagem}"> <br> ${db.dados[i].descricao} <br> R$: ${db.dados[i].preco} <br> </p>`;
         }
         document.getElementById('lista-produtos').innerHTML = prods;
+        
     </script>
 </body>
 
