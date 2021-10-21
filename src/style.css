@@ -32,11 +32,56 @@ header {
     font-size: 17px;  
 }
 
-
-
 .menu-principal > ul > li:hover {
     background-color: #7c3f47;
     color:lightyellow;
+}
+
+.compras img {
+    height: 30px;
+    width: 30px;
+    line-height: 2px;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.compras {
+    color:#946362;
+    padding-right: 50px;
+    text-align: right;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    float: right;
+    bottom: 20px;
+    clear: right;
+}
+
+.compras  ol  li {
+    display: inline-block;
+    color: #946362;
+    padding: 0px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    list-style-type: none;
+   }
+
+.compras  ol  li:hover {
+    background-color: #7c3f47;
+    color:lightyellow;
+}
+.carrinho {
+    position: relative;
+    bottom: 7px;
+}
+
+.container img {
+    height: 150px;
+    width: 150px;
+    line-height: 2px;
+    display: inline-block;
+    padding-right: 30px;
 }
 
 /* Corpo do site */
@@ -68,15 +113,6 @@ footer {
     padding-top: 1%;
 }
 
-
-footer-icons {
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px;
-}       
 
 .logo-icon {
     width: 35px;
