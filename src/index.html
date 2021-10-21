@@ -12,9 +12,9 @@
 
 <body>
     <header>
-        
-        <nav class="menu-principal"> 
-        <img class="logo" src="logo.png" alt="logo">
+
+        <nav class="menu-principal">
+            <img class="logo" src="logo.png" alt="logo">
             <ul>
                 <li>Sobre</li>
                 <li>Cardápio</li>
@@ -33,12 +33,24 @@
     </header>
     <main>
         <h1>Cardápio</h1>
-            <div id="lista-produtos">
+        <div id="lista-produtos">
 
-            </div>
+        </div>
     </main>
     <footer>
-        <span>© Copyright 2021 - Ana Diniz Doceria <br />Todos os direitos reservados</span>
+        <div class="align-item: itens">
+            <p> Contatos: </p>
+
+            <div style="align-items: flex-end; display: flex; justify-content: center;">
+                <a href='https://www.instagram.com/anadinizdoceria/'><img class="logo-icon" src="./jpg/174855.png" alt="new-logo"></a>
+                <a href='https://www.facebook.com/anadinizbrownies/'><img class="logo-icon" src="./jpg/124010.png" alt="new-logo"></a>
+                <a href='https://api.whatsapp.com/send?phone=5531998325314'><img class="logo-icon" src="./jpg/989997.png" alt="new-logo"></a>
+            </div>
+        </div>
+        <div class="corpyright-footer" style="padding-top: 10px;">
+            Copyright 2021 (c) Ana Diniz Doceira
+        </div>
+
     </footer>
 
     <script>
@@ -47,7 +59,6 @@
             prods += `<p class="produto-item"> ${db.dados[i].titulo} <br> <img src="${db.dados[i].imagem}"> <br> ${db.dados[i].descricao} <br> R$: ${db.dados[i].preco} <br> </p>`;
         }
         document.getElementById('lista-produtos').innerHTML = prods;
-
     </script>
 </body>
 
