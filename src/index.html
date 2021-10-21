@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ana Diniz</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="sortcut icon" href="./jpg/favicon-16x16.png" type="image/x-icon"/>
     <script src="dbfake.js"></script>
 </head>
 
@@ -16,18 +17,22 @@
         <nav class="menu-principal">
             <img class="logo" src="logo.png" alt="logo">
             <ul>
-                <li>Sobre</li>
-                <li>Cardápio</li>
-                <li>Promoções</li>
-                <li>Contato</li>             
-                <div class= "compras">
-                    <a href="">
-                        <ol>
-                            <li><img class="carrinho" src="carrinho.png"></li><br>
-                            <li>Meu Pedido</li>
-                        </ol>
-                    </a>
-                </div>
+                <li>
+                    <a class="ignore-sublime" href='./components/sobre/index.html'>Sobre</a>
+                </li>
+
+                <li>
+                    <a class="ignore-sublime" href='index.html'>Cardápio</a>
+                </li>
+
+                <li>
+                    <a class="ignore-sublime" href='./components/promocoes/index.html'>Promoções</a>
+                </li>
+
+                <li>
+                    <a class="ignore-sublime" href='./components/carrinho/index.html'>Carrinho</a>
+                </li>
+
             </ul>
         </nav>
     </header>
@@ -42,9 +47,9 @@
             <p> Contatos: </p>
 
             <div style="align-items: flex-end; display: flex; justify-content: center;">
-                <a href='https://www.instagram.com/anadinizdoceria/'><img class="logo-icon" src="./jpg/174855.png" alt="new-logo"></a>
-                <a href='https://www.facebook.com/anadinizbrownies/'><img class="logo-icon" src="./jpg/124010.png" alt="new-logo"></a>
-                <a href='https://api.whatsapp.com/send?phone=5531998325314'><img class="logo-icon" src="./jpg/989997.png" alt="new-logo"></a>
+                <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon" src="./jpg/174855.png" alt="new-logo"></a>
+                <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon" src="./jpg/124010.png" alt="new-logo"></a>
+                <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon" src="./jpg/989997.png" alt="new-logo"></a>
             </div>
         </div>
         <div class="corpyright-footer" style="padding-top: 10px;">
@@ -59,6 +64,7 @@
             prods += `<p class="produto-item"> ${db.dados[i].titulo} <br> <img src="${db.dados[i].imagem}"> <br> ${db.dados[i].descricao} <br> R$: ${db.dados[i].preco} <br> </p>`;
         }
         document.getElementById('lista-produtos').innerHTML = prods;
+        
     </script>
 </body>
 
