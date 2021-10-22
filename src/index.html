@@ -31,9 +31,13 @@
                     <a class="ignore-sublime" href='./components/promocoes/index.html'>Promoções</a>
                 </li>
 
-                <li>
-                    <a class="ignore-sublime" href='./components/carrinho/index.html'>Carrinho</a>
-                </li>
+                 <div class="compras">
+                    <a href='./components/carrinho/index.html' target="_blank">
+                        <ol>
+                            <li><img class="carrinho" src="images/carrinho.png"></li>
+                            <li>Meu Pedido</li>
+                        </ol>
+                </div
 
             </ul>
         </nav>
@@ -560,14 +564,6 @@
 
     </footer>
 
-    <script>
-        var prods = '';
-        for (i = 0; i < db.dados.length; i++) {
-            prods += `<p class="produto-item"> ${db.dados[i].titulo} <br> <img src="${db.dados[i].imagem}"> <br> ${db.dados[i].descricao} <br> R$: ${db.dados[i].preco} <br> </p>`;
-        }
-        document.getElementById('lista-produtos').innerHTML = prods;
-        
-    </script>
-</body>
+   </body>
 
 </html>
