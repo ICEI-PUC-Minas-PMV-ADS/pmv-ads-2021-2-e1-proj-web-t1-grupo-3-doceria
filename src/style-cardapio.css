@@ -1,0 +1,45 @@
+.titulocardapio {
+    color:#d29697;
+    
+    padding-left: 30px;
+}
+
+/*Botão adicionar ao carrinho*/
+.btn-danger {
+    background-color: #d29697;
+    border-color: #d29697;
+}
+
+.btn-danger:hover {
+    background-color: #946362;
+    border-color: #946362;
+}
+
+/*Botão opções sabores*/
+
+.sabores {
+    border-color: #d29697;
+    color: #d29697;
+}
+
+.sabores:hover {
+    background-color: #d29697;
+    border-color: #d29697;
+    color: white;
+}
+
+.sabores:focus {
+    box-shadow: none;
+    background-color: #d29697;
+    color:white;
+}
+
+.sabores .dropdown:active {
+    background-color: #d29697;
+}
+
+.dropdown-item:hover {
+    background-color: #d29697;
+    color: white;
+}
+
