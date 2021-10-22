@@ -3,13 +3,21 @@ body {
     padding: 0px;
 }
 
+
 /* Cabeçalho do site */
 
 .logo {
     width: 90px;
     display: block;
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 4px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 header {
@@ -17,102 +25,87 @@ header {
     box-shadow: 0 3px 3px -2px #989898;
 }
 
-
-.menu-principal > ul {
+.menu-principal ul {
     padding-inline-start: 10px;
     margin-block-start: 0px;
     margin-block-end: 0px;
 }
 
-.menu-principal > ul > li { 
+.menu-principal ul li {
     display: inline-block;
     color: #946362;
-    padding: 8px;
+    padding: 4px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;  
+    font-size: 17px;
 }
 
-.menu-principal > ul > li:hover {
+.menu-principal ul li:hover {
     background-color: #7c3f47;
-    color:lightyellow;
+    color: lightyellow;
 }
 
-.compras img {
+.carrinho {
     height: 30px;
     width: 30px;
     line-height: 2px;
-    display: inline-block;
-    padding-right: 30px;
+    display: inline-flex;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    color: #946362;
+    position: relative;
 }
 
 .compras {
-    color:#946362;
+    color: #946362;
     padding-right: 50px;
     text-align: right;
-    width: 200px;
-    height: 40px;
+    width: 215px;
+    height: 20px;
     position: relative;
     float: right;
-    bottom: 20px;
+    bottom: 0px;
     clear: right;
 }
 
-.compras  ol  li {
+.compras ol li {
     display: inline-block;
     color: #946362;
     padding: 0px;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    list-style-type: none;
-   }
+}
 
-.compras  ol  li:hover {
+.compras ol li:hover {
     background-color: #7c3f47;
-    color:lightyellow;
-}
-.carrinho {
-    position: relative;
-    bottom: 7px;
+    color: lightyellow;
 }
 
-.container img {
-    height: 150px;
-    width: 150px;
-    line-height: 2px;
-    display: inline-block;
-    padding-right: 30px;
-}
 
 /* Corpo do site */
 
-main > h1 {
+main>h1 {
     margin-top: 1%;
     text-align: center;
-    font-family:sans-serif;
+    font-family: sans-serif;
     color: #7c3f47;
 }
 
-.produto-item {
-    width: 220px;
-    float: left;
-    padding: 0 10px;
-}
-
-.produto-item > img {
-}
 
 /* Rodapé do site */
 
 footer {
     clear: both;
-    height: 130px;
+    height: 120px;
     color: white;
     background-color: #946362;
-    text-align:center;
+    text-align: center;
     padding-top: 1%;
+    position: fixed;
+    top: 81%;
+    width: 100%;
+    z-index: 10;
 }
-
 
 .logo-icon {
     width: 35px;
@@ -120,9 +113,9 @@ footer {
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 2px;
-
 }
-.ignore-sublime{
+
+.ignore-sublime {
     display: inline-block;
     color: #946362;
     padding: 0px;
