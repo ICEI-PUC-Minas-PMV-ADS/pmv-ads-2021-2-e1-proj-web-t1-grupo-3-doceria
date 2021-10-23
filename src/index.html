@@ -24,32 +24,42 @@
                 </li>
 
                 <li>
-                    <a class="ignore-sublime" href='index.html'>Cardápio</a>
+                    <a class="dropdown-toggle botaocardapio" data-toggle="dropdown" id="dropdown-cardapio" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cardápio</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#indispensaveis">Indispensáveis</a>
+                      <a class="dropdown-item" href="#coxinhasdoces">Coxinhas Doces</a>
+                      <a class="dropdown-item" href="#copoes">Copões</a>
+                      <a class="dropdown-item" href="#tortinhas">Tortinhas</a>
+                      <a class="dropdown-item" href="#salgados">Salgados</a>
+                      <a class="dropdown-item" href="#bebidas">Bebidas</a>
+                    </div>
+                        
                 </li>
 
                 <li>
                     <a class="ignore-sublime" href='./components/promocoes/index.html'>Promoções</a>
                 </li>
 
-                 <div class="compras">
-                    <a href='./components/carrinho/index.html' target="_blank">
-                        <ol>
-                            <li><img class="carrinho" src="images/carrinho.png"></li>
-                            <li>Meu Pedido</li>
-                        </ol>
-                </div
-
+                    <div class="compras">
+                        <a href='./components/carrinho/index.html' target="_blank">
+                            <ol>
+                                <li><img class="carrinho" src="images/carrinho.png"></li>
+                                <li>Meu Pedido</li>
+                            </ol>
+                    </div>
             </ul>
         </nav>
     </header>
-    <main>
+<main>
         
  
-<div class="container-fluid"> 
+<div class="container-fluid">
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+ 
     <div class="row justify-content-center">  
-      <div class="row justify-content-center ">
+      <div class="row justify-content-center">
   <!--Carrossel--> 
-        <div class="col-md-3,5 ml-0 mr-0 ">
+        <div class="col-md-3,5  ml-0 mr-0 ">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -83,7 +93,8 @@
                 <span class="sr-only">Next</span>
               </a>
             </div></div></div>      
-    <!--Produtos-->        
+    <!--Produtos--> 
+        <div id="indispensaveis"></div>
           <div class="col-md-12 mt-4 mb-3 titulocardapio"><h4>Indispensáveis</h4></div>
           <div class="col-md-3 col-sm-6 mb-3  d-flex justify-content-center">
             <div class="card" style="width: 15rem;">
@@ -216,8 +227,8 @@
                 <a href="#" class="btn btn-danger mt-1 d-flex justify-content-center">Adicionar ao carrinho</a>
               </div>
             </div>
-          </div>
-        <div class="col-md-12 mt-4 mb-3 titulocardapio"><h4>Coxinhas Doces</h4></div>
+          </div>           
+        <div class="col-md-12 mt-4 mb-3 titulocardapio" id="coxinhasdoces"><h4>Coxinhas Doces</h4></div>               
           <div class="col-md-3 col-sm-6 mb-3  d-flex justify-content-center">
             <div class="card" style="width: 15rem;">
               <img src="images/imgprodutos/coxinhasemnutela.PNG" class="card-img-top" alt="...">
@@ -259,7 +270,7 @@
               </div>
             </div>
           </div>
-        <div class="col-md-12 mt-4 mb-3 titulocardapio"><h4>Copões</h4></div>
+        <div class="col-md-12 mt-4 mb-3 titulocardapio" id="copoes"><h4>Copões</h4></div>
         <div class="col-md-3 col-sm-6 mb-3  d-flex justify-content-center">
           <div class="card" style="width: 15rem;">
             <img src="images/imgprodutos/copaoduo.PNG" class="card-img-top" alt="...">
@@ -304,7 +315,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-12 mt-4 mb-3 titulocardapio"><h4>Tortinhas</h4></div>
+        <div class="col-md-12 mt-4 mb-3 titulocardapio" id="tortinhas"><h4>Tortinhas</h4></div>
         <div class="col-md-3 col-sm-6 mb-3  d-flex justify-content-center">
           <div class="card" style="width: 15rem;">
             <img src="images/imgprodutos/tortinhamorango.PNG" class="card-img-top" alt="...">
@@ -393,7 +404,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-12 mt-4 mb-3 titulocardapio"><h4>Salgados</h4></div>
+        <div class="col-md-12 mt-4 mb-3 titulocardapio" id="salgados"><h4>Salgados</h4></div>
         <div class="col-md-3 col-sm-6 mb-3  d-flex justify-content-center">
           <div class="card" style="width: 15rem;">
             <img src="images/imgprodutos/empada.PNG" class="card-img-top" alt="...">
@@ -451,7 +462,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-12 mt-4 mb-3 titulocardapio"><h4>Bebidas</h4></div>
+        <div class="col-md-12 mt-4 mb-3 titulocardapio" id="bebidas"><h4>Bebidas</h4></div>
         <div class="col-md-3 col-sm-6 mb-3  d-flex justify-content-center">
           <div class="card" style="width: 15rem;">
             <img src="images/imgprodutos/refrilata.PNG" class="card-img-top" alt="...">
@@ -537,7 +548,8 @@
         </div>             
   
         </div>          
-      </div>
+    </div>
+    </div>
   </div>
   
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

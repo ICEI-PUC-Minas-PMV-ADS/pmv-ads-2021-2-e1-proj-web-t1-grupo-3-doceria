@@ -7,7 +7,7 @@ body {
 /* Cabeçalho do site */
 
 .logo {
-    width: 90px;
+    width: 80px;
     display: block;
     margin: 0 auto;
     padding-top: 4px;
@@ -43,6 +43,12 @@ header {
     background-color: #7c3f47;
     color: lightyellow;
 }
+
+.menu-principal a:hover {
+    color: lightyellow;
+    text-decoration: none;
+}
+
 
 .carrinho {
     height: 30px;
@@ -81,14 +87,27 @@ header {
     color: lightyellow;
 }
 
+#dropdown-cardapio {
+    color: #946362;
+}
+
+#dropdown-cardapio:hover {
+    color: lightyellow;
+}
+
+#dropdown-cardapio:focus {
+    color: lightyellow;
+}
+
+.botaocardapio {
+    font-size: 15px;
+}
+
 
 /* Corpo do site */
 
-main>h1 {
-    margin-top: 1%;
-    text-align: center;
-    font-family: sans-serif;
-    color: #7c3f47;
+main {
+    margin-top: 100px;
 }
 
 
