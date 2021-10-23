@@ -1,0 +1,17 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Brownie",
+      "vlr": "6.50",
+      "qtd": "1"
+    },
+    {
+      "id": "2",
+      "nome": "Pao de mel",
+      "vlr": "6.00",
+      "qtd": "3"
+    }
+  ]
+}
+
