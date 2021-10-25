@@ -2,7 +2,7 @@
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são  apresentadas na sequência. 
 
-Tela inicial (RF-01, RF-04 e RF-08) 
+## Tela inicial (RF-01, RF-04 e RF-08) 
 
 A tela principal do sistema apresenta o menu com cardápio, ...n. Um exemplo da tela é apresentada na Figura 34.  
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
