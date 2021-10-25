@@ -3,56 +3,18 @@ body {
     padding: 0px;
 }
 
-
 /* Cabeçalho do site */
 
 .logo {
-    width: 90px;
+    width: 155px;
     display: block;
     margin: 0 auto;
-    padding-top: 4px;
-}
-
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
+    padding-top: 5px;
 }
 
 header {
     background-color: #f2e9e4;
     box-shadow: 0 3px 3px -2px #989898;
-}
-
-.menu-principal ul {
-    padding-inline-start: 10px;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-}
-
-.menu-principal ul li {
-    display: inline-block;
-    color: #946362;
-    padding: 4px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
-}
-
-.menu-principal ul li:hover {
-    background-color: #7c3f47;
-    color: lightyellow;
-}
-
-.carrinho {
-    height: 30px;
-    width: 30px;
-    line-height: 2px;
-    display: inline-flex;
-    padding-right: 0px;
-    padding-bottom: 5px;
-    color: #946362;
-    position: relative;
 }
 
 .compras {
@@ -81,31 +43,72 @@ header {
     color: lightyellow;
 }
 
+.menu-principal > ul {
+    padding-inline-start: 10px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.menu-principal > ul > li { 
+    display: inline-block;
+    color: #946362;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;  
+}
+
+
+
+.menu-principal > ul > li:hover {
+    background-color: #7c3f47;
+    color:lightyellow;
+}
 
 /* Corpo do site */
 
-main>h1 {
+main > h1 {
     margin-top: 1%;
     text-align: center;
-    font-family: sans-serif;
+    font-family:sans-serif;
     color: #7c3f47;
 }
 
+main > p {
+    margin-top: 1%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7c3f47;
+}
+
+.produto-item {
+    width: 220px;
+    float: left;
+    padding: 0 10px;
+}
+
+.produto-item > img {
+}
 
 /* Rodapé do site */
 
 footer {
     clear: both;
-    height: 120px;
+    height: 130px;
     color: white;
     background-color: #946362;
-    text-align: center;
+    text-align:center;
     padding-top: 1%;
-    position: fixed;
-    top: 81%;
-    width: 100%;
-    z-index: 10;
 }
+
+
+footer-icons {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}       
 
 .logo-icon {
     width: 35px;
@@ -113,9 +116,9 @@ footer {
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 2px;
-}
 
-.ignore-sublime {
+}
+.ignore-sublime{
     display: inline-block;
     color: #946362;
     padding: 0px;
@@ -125,3 +128,9 @@ footer {
     list-style-type: none;
 }
 
+
+.destaque { 
+    font-size: x-large;
+    color: rgb(141, 76, 87);
+    font-family: serif;
+}
