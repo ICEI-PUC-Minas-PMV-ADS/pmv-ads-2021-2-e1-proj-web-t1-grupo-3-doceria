@@ -103,6 +103,13 @@ header {
     font-size: 15px;
 }
 
+.image-prop{
+    height: 20%;
+}
+
+.carrocel{
+    padding-top: 3% !important;
+}
 
 /* Corpo do site */
 
@@ -120,10 +127,6 @@ footer {
     background-color: #946362;
     text-align: center;
     padding-top: 1%;
-    position: fixed;
-    top: 81%;
-    width: 100%;
-    z-index: 10;
 }
 
 .logo-icon {
