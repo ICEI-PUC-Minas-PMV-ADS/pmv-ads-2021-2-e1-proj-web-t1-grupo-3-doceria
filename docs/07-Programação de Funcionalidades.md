@@ -1,10 +1,35 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são  apresentadas na sequência. 
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Tela inicial (RF-01, RF-04 e RF-08) 
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+A tela principal do sistema apresenta o menu com cardápio, ...n. Um exemplo da tela é apresentada na Figura 34.  
+Para cada requisito funcional, pode ser entregue um artefato desse tipo.
+
+Requisitos atendidos 
+
+  - RF-01 -  
+
+  - RF-04 -  
+
+  - RF-08- 
+
+ 
+
+Artefatos da funcionalidade 
+
+  - index.html 
+
+  - style.css 
+
+  - Logo.png 
+
+  - carrinho.png 
+
+Estrutura de Dados 
+
+Instruções de acesso 
 
 **Checklist dos requisitos:** 
 
