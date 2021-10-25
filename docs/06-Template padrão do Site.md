@@ -1,5 +1,6 @@
 # Template padrão do site
 
+
 O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme Figura 30. 
 
 <center><img src=img/wireframes/estruturapadrao.png width=70%/></center>
