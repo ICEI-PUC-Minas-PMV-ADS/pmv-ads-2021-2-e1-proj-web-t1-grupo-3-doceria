@@ -7,7 +7,7 @@ Tela inicial (RF-01, RF-04 e RF-08)
 A tela principal do sistema apresenta o menu com cardápio, ...n. Um exemplo da tela é apresentada na Figura 34.  
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
-Requisitos atendidos 
+__*Requisitos atendidos*__
 
   - RF-01 -  
 
@@ -17,7 +17,7 @@ Requisitos atendidos
 
  
 
-Artefatos da funcionalidade 
+__*Artefatos da funcionalidade*__
 
   - index.html 
 
@@ -27,13 +27,13 @@ Artefatos da funcionalidade
 
   - carrinho.png 
 
-Estrutura de Dados 
+__*Estrutura de Dados*__
 
-Instruções de acesso 
+__*Instruções de acesso*__
 
 **Checklist dos requisitos:** 
 
-Os requisitos serão revisados por pares, com objetivo de identificar erros/conflitos. Ou seja, um par com expertise igual ou superior avalia o artefato (resultado da atividade) objetivamente de acordo com o seguinte quadro: 
+Cada requisito será revisado por pares, com objetivo de identificar erros/conflitos. Ou seja, um par com expertise igual ou superior avalia o artefato (resultado da atividade) objetivamente de acordo com o seguinte quadro: 
 
 |   Atributo  |  Definição |    Sim    |  Não  | Não se aplica |
 | :---:         |     :---:      |          :---: |  :---:  | :---: |
@@ -48,10 +48,3 @@ Os requisitos serão revisados por pares, com objetivo de identificar erros/conf
 
 Quadro 2: Checklist de requisitos
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
