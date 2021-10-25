@@ -4,10 +4,26 @@ body {
 }
 
 
+#dropdown-cardapio {
+    color: #946362;
+}
+
+#dropdown-cardapio:hover {
+    color: lightyellow;
+}
+
+#dropdown-cardapio:focus {
+    color: lightyellow;
+}
+
+.botaocardapio {
+    font-size: 15px;
+}
+
 /* Cabeçalho do site */
 
 .logo {
-    width: 90px;
+    width: 80px;
     display: block;
     margin: 0 auto;
     padding-top: 4px;
@@ -18,6 +34,10 @@ header {
     top: 0;
     width: 100%;
     z-index: 10;
+}
+
+principal {
+    padding-top: 5%;
 }
 
 header {
