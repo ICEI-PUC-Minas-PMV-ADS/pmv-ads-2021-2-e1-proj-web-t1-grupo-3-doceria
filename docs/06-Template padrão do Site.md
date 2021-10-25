@@ -19,6 +19,9 @@ A responsividade segue o padrão do Bootstrap
 ## Tela Principal 
 Tela que abrange todas as visualizações iniciais do site, as opções Sobre, Cardápio, Promoções, Carrinho (Meu Pedido), Links para redes sociais como Facebook, Instagram e WhatsApp.
 
+<center><img src=img/wireframes/Telainicial.png width=70%/></center>
+Figura 31 - Template Tela inicial
+
 ## Tela Cardápio
 Layout com a exibição do cardápio com a divisão de categorias de produtos: Indispensáveis, Coxinhas Doces, Copões, Tortinhas, Salgados e Bebidas.
 
