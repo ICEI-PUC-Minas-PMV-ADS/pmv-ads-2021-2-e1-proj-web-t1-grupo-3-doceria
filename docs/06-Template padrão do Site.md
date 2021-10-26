@@ -25,6 +25,9 @@ Figura 31 - Template Tela inicial
 ## Tela Cardápio
 Layout com a exibição do cardápio com a divisão de categorias de produtos: Indispensáveis, Coxinhas Doces, Copões, Tortinhas, Salgados e Bebidas.
 
+<center><img src=img/wireframes/Cardapio.png width=70%/></center>
+Figura 32 - Template Tela inicial
+
 ## Tela Sobre
 Tela sobre a trajetória da loja
 
