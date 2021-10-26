@@ -32,7 +32,7 @@ __*Estrutura de Dados*__
 
 __*Instruções de acesso*__
 
-  1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto em no GitHub;
+  1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
   2. Descompacte o arquivo em uma pasta específica;
   3. Abra o Visual Studio Code e execute o Live Server;
   4. Ou, abra um navegador de internet e informe a URL: http://localhost:5500/index.html
