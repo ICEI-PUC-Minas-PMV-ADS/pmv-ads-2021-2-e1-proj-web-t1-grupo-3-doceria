@@ -2,9 +2,9 @@
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são  apresentadas na sequência. 
 
-## Tela inicial/Cardápio/Sobre (RF-01, RF-04 e RF-08) 
+## Tela inicial/Cardápio/Sobre (RF-01, RF-04, RF-08 e RNF-04) 
 
-A tela principal do sistema apresenta um cabeçalho que direciona para as telas sobre e carrinho, e um botão com as categorias do cardápio. Em seguida, no corpo da página, estão o carrossel e cardápio. Por fim, está o rodapé com as redes socias e formas de contato. Um exemplo da tela é apresentada na Figura 31.  
+A tela principal do sistema apresenta um cabeçalho que direciona para as telas sobre e carrinho, e um botão com as categorias do cardápio. Em seguida, no corpo da página, estão o carrossel e cardápio. Por fim, está o rodapé com as redes socias e formas de contato. Um exemplo da tela é apresentada na Figura 35.  
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 __*Requisitos atendidos*__
@@ -30,6 +30,10 @@ __*Artefatos da funcionalidade*__
   - style-cardapio.css
   - favicon-16x16.png
   - script.js
+  - .../src/images/imgcarrosel
+  - .../src/images/imgprodutos
+  - .../src/componentes/sobre
+  - .../src/componentes/carrinho
   
 
 __*Estrutura de Dados*__
@@ -40,6 +44,8 @@ __*Instruções de acesso*__
   2. Descompacte o arquivo em uma pasta específica;
   3. Abra o Visual Studio Code e execute o Live Server;
   4. Ou, abra um navegador de internet e informe a URL: http://localhost:5500/index.html
+
+## Tela inicial/Cardápio/Sobre (RF-01, RF-04 e RF-08) 
 
 **Checklist dos requisitos:** 
 
