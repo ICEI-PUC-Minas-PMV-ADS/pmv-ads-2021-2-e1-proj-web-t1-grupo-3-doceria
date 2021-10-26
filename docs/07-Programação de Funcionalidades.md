@@ -16,7 +16,7 @@ Figura 36 - Tela sobre <br>
 <img src=img/carrinhotemplate.png width=70%>
 Figura 37 - Tela Meu Pedido <br>
 
-
+<br>
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 __*Requisitos atendidos*__
