@@ -36,3 +36,7 @@ Tela sobre a trajetória da loja
  Figura 33 - Template Sobre 
  
  ## Tela Meu Pedido/Carrinho
+ Tela do pedido de compra, demonstra produtos, valores unitários, quantidade e valor total. Além da possibilidade de adicionar produtos.
+
+<center><img src=img/wireframes/Carrinho.png width=70%/></center>
+ Figura 34 - Template Carrinho/Meu Pedido 
