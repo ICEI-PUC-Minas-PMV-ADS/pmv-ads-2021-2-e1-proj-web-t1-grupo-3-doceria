@@ -3,7 +3,7 @@
 
 O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme Figura 30. 
 
-| ![QuadroKanban](img/wireframes/Telainicial.png) | 
+| ![QuadroKanban](img/wireframes/estruturapadrao.png) | 
 |:--:| 
 | **Figura 30: Template padrão do site** |
  
