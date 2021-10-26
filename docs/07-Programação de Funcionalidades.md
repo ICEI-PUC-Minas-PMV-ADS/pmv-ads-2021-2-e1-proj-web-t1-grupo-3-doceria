@@ -56,6 +56,13 @@ __*Artefatos da funcionalidade*__
 
 __*Estrutura de Dados*__
 
+A estrutura de dados completa está inserida na pasta src do repositório. 
+
+| ![QuadroKanban](img/estruturadecodigo.PNG) | 
+|:--:| 
+| **Figura 38: Estrutura de dados** |
+
+
 __*Instruções de acesso*__
 
   1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
