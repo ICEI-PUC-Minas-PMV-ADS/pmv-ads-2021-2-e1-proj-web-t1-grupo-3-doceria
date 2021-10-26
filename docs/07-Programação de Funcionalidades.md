@@ -28,6 +28,9 @@ __*Artefatos da funcionalidade*__
 
   - carrinho.png 
   - style-cardapio.css
+  - favicon-16x16.png
+  - script.js
+  
 
 __*Estrutura de Dados*__
 
