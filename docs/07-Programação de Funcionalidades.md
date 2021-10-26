@@ -4,8 +4,26 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 ## Tela inicial/Cardápio/Sobre/Carrinho (RF-01, RF-04, RF-08 e RNF-04) 
 
-A tela principal do sistema apresenta um cabeçalho que direciona para as telas sobre e carrinho, e um botão com as categorias do cardápio. Em seguida, no corpo da página, estão o carrossel e cardápio. Por fim, está o rodapé com as redes socias e formas de contato. Alguns exemplos das telas são apresentadas nas Figura 35,36,37 e 38.  
+A tela principal do sistema apresenta um cabeçalho que direciona para as telas sobre e carrinho, e um botão com as categorias do cardápio. Em seguida, no corpo da página, estão o carrossel e cardápio. Por fim, está o rodapé com as redes socias e formas de contato. Alguns exemplos das telas são apresentadas nas Figuras abaixo.
+
+
+| ![QuadroKanban](img/cardapiotemplate.png) | 
+|:--:| 
+| **Figura 35: Tela inicial/cardápio** |
+
+| ![QuadroKanban](img/sobretemplate.png) | 
+|:--:| 
+| **Figura 36: Tela sobre** |
+
+| ![QuadroKanban](img/carrinhotemplate.png) | 
+|:--:| 
+| **Figura 37: Tela meu pedido** |
+
+
+
+<br>
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
+<br>
 
 __*Requisitos atendidos*__
 
@@ -36,7 +54,14 @@ __*Artefatos da funcionalidade*__
   - .../src/componentes/carrinho
   
 
-__*Estrutura de Dados*__
+__*Estrutura do Documento*__
+
+A estrutura do documento completa está inserida na pasta src do repositório. 
+
+| ![QuadroKanban](img/estruturadecodigo.PNG) | 
+|:--:| 
+| **Figura 38: Estrutura do documento** |
+
 
 __*Instruções de acesso*__
 
