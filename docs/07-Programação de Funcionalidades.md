@@ -32,6 +32,9 @@ __*Estrutura de Dados*__
 
 __*Instruções de acesso*__
 
+  1. Abra um navegador e informe a URL: ...
+  2. A tela inicial será a primeira funcionalidade exibida.
+
 **Checklist dos requisitos:** 
 
 Cada requisito será revisado por pares, com objetivo de identificar erros/conflitos. Ou seja, um par com expertise igual ou superior avalia o artefato (resultado da atividade) objetivamente de acordo com o seguinte quadro: 
