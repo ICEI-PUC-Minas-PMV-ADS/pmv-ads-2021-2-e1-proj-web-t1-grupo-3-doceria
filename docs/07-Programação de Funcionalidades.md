@@ -7,14 +7,19 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 A tela principal do sistema apresenta um cabeçalho que direciona para as telas sobre e carrinho, e um botão com as categorias do cardápio. Em seguida, no corpo da página, estão o carrossel e cardápio. Por fim, está o rodapé com as redes socias e formas de contato. Alguns exemplos das telas são apresentadas nas Figuras abaixo.
 
 
-<img src=img/cardapiotemplate.png width=70%>
-Figura 35 - Tela inicial/cardápio <br>
+| ![QuadroKanban](img/cardapiotemplate.png) | 
+|:--:| 
+| **Figura 35: Tela inicial/cardápio** |
 
-<img src=img/sobretemplate.png width=70%>
-Figura 36 - Tela sobre <br>
+| ![QuadroKanban](img/sobretemplate.png) | 
+|:--:| 
+| **Figura 36: Tela sobre** |
 
-<img src=img/carrinhotemplate.png width=70%>
-Figura 37 - Tela Meu Pedido <br>
+| ![QuadroKanban](img/carrinhotemplate.png) | 
+|:--:| 
+| **Figura 37: Tela meu pedido** |
+
+
 
 <br>
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
