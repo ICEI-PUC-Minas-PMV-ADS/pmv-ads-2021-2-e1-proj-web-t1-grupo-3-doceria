@@ -6,7 +6,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 <center><img src=img/wireframes/estruturapadrao.png width=70%/></center>
  Figura 30 - Template padrão do site 
  
-O template está disponível no site https://www.canva.com/shared-with-you e é composto pelos seguintes layouts:  
+O template está disponível no site https://www.canva.com/design/DAEsGDEYoM8/share/preview?token=neXWVcScDJBUGIZeIg39zA&role=EDITOR&utm_content=DAEsGDEYoM8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton e é composto pelos seguintes layouts:  
 
 - Tela principal 
 
