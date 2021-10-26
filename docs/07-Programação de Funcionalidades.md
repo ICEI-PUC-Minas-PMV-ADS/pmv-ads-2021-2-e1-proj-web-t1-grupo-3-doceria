@@ -54,13 +54,13 @@ __*Artefatos da funcionalidade*__
   - .../src/componentes/carrinho
   
 
-__*Estrutura de Dados*__
+__*Estrutura do Documento*__
 
-A estrutura de dados completa está inserida na pasta src do repositório. 
+A estrutura do documento completa está inserida na pasta src do repositório. 
 
 | ![QuadroKanban](img/estruturadecodigo.PNG) | 
 |:--:| 
-| **Figura 38: Estrutura de dados** |
+| **Figura 38: Estrutura do documento** |
 
 
 __*Instruções de acesso*__
