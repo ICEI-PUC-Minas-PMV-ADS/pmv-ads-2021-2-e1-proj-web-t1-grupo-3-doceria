@@ -13,6 +13,7 @@ O template está disponível no site https://www.canva.com/shared-with-you e é 
 - Tela Cardápio 
 
 - Tela Sobre 
+- Tela Meu pedido/carrinho
 
 A responsividade segue o padrão do Bootstrap 
 
@@ -26,10 +27,12 @@ Figura 31 - Template Tela inicial
 Layout com a exibição do cardápio com a divisão de categorias de produtos: Indispensáveis, Coxinhas Doces, Copões, Tortinhas, Salgados e Bebidas.
 
 <center><img src=img/wireframes/Cardapio.png width=70%/></center>
-Figura 32 - Template Tela inicial
+Figura 32 - Template Tela Cardápio
 
 ## Tela Sobre
 Tela sobre a trajetória da loja
 
 <center><img src=img/wireframes/Sobre.png width=70%/></center>
- Figura 33 - Template padrão do site 
+ Figura 33 - Template Sobre 
+ 
+ ## Tela Meu Pedido/Carrinho
