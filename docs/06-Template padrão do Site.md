@@ -27,3 +27,6 @@ Layout com a exibição do cardápio com a divisão de categorias de produtos: I
 
 ## Tela Sobre
 Tela sobre a trajetória da loja
+
+<center><img src=img/wireframes/Sobre.png width=70%/></center>
+ Figura 33 - Template padrão do site 
