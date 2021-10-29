@@ -121,19 +121,15 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Produto <span id="edit-prod-id"></span></h5>
+                    <h5 class="modal-title">Meu Pedido <span id="edit-prod-id"></span></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <form id="produto-form" method="post" action="">
-                        <div class="form-group">
-                            <label for="produto-id" class="col-form-label">Código:</label>
-                            <input type="number" class="form-control" id="produto-id" min="1" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="produto-nome" class="col-form-label">Descrição:</label>
+                       <div class="form-group">
+                            <label for="produto-nome" class="col-form-label">Produtos:</label>
                             <input type="text" class="form-control" id="produto-nome" required>
                         </div>
                         <div class="form-group">
@@ -143,6 +139,43 @@
                         <div class="form-group">
                             <label for="produto-qtd" class="col-form-label">Quantidade:</label>
                             <input type="number" class="form-control" id="produto-qtd" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nome" class="col-form-label">Nome:</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone" class="col-form-label">Telefone:</label>
+                            <input type="number" class="form-control" id="Número de Telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="entrega" class="col-form-label">Entrega/Retirada:</label>
+                            <label>
+                                <input type="radio" name="Entrega" value="retirada">Retirada
+                            </label>
+                                <label>
+                                <input type="radio" name="Entrega" value="entrega" checked>Entrega
+                            </label>
+                            </div>
+                        <div class="form-group">
+                            <label for="endereco" class="col-form-label">Endereço para entrega:</label>
+                            <input type="text" class="form-control" id="endereco" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="taxaentrega" class="col-form-label">Taxa de Entrega:</label>
+                            <input type="number" step="0.01" class="form-control" id="taxa-vlr" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pagamento"><strong>Formas de Pagamento:</strong></label>
+                            <label>
+                            <input type="radio" name="pagamento" value="credito" checked>Cartão de Crédito
+                            </label>
+                            <label>
+                            <input type="radio" name="pagamento" value="debito">Cartão de Débito
+                            </label>
+                            <label>
+                            <input type="radio" name="pagamento" value="dinheiro">Dinheiro
+                            </label>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
