@@ -118,6 +118,8 @@ produtoForm.addEventListener('submit', (e) => {
     }      
 })
 //=================================================================================================
+//API CEP
+
 const cep = document.querySelector("#cep")
 
 const showData = (result)=>{
