@@ -126,7 +126,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
+                   <div class="modal-body">
                     <form id="produto-form" method="post" action="">
                        <div class="form-group">
                             <label for="produto-nome" class="col-form-label">Produtos:</label>
@@ -134,7 +134,7 @@
                         </div>
                         <div class="form-group">
                             <label for="produto-vlr" class="col-form-label">Valor:</label>
-                            <input type="number" step="0.01" class="form-control" id="produto-vlr" required>
+                            <input type="text" class="form-control" id="produto-vlr" required>
                         </div>
                         <div class="form-group">
                             <label for="produto-qtd" class="col-form-label">Quantidade:</label>
@@ -146,7 +146,7 @@
                         </div>
                         <div class="form-group">
                             <label for="telefone" class="col-form-label">Telefone:</label>
-                            <input type="number" class="form-control" id="Número de Telefone" required>
+                            <input type="tel" name="usertel" class="form-control" id="Número de Telefone" required>
                         </div>
                         <div class="form-group">
                             <label for="entrega" class="col-form-label">Entrega/Retirada:</label>
@@ -158,12 +158,33 @@
                             </label>
                             </div>
                         <div class="form-group">
-                            <label for="endereco" class="col-form-label">Endereço para entrega:</label>
-                            <input type="text" class="form-control" id="endereco" required>
-                        </div>
+                                    <label for="cep">CEP</label>
+                                    <input type="text" class="form-control" maxlength="9" id="cep"  required>
+                                    <small>00000-000</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="endereco" class="col-form-label">Endereço para entrega:</label>
+                                    <input type="text" class="form-control" id="logradouro" >
+                                    <small>Av., Rua, Número, casa ...</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="bairro" class="col-form-label">Bairro</label>
+                                    <input type="text" class="form-control" id="bairro" >
+                                    <small>Bairro</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="localidade" class="col-form-label">Localidade</label>
+                                    <input type="text" class="form-control" id="localidade">
+                                    <small>Cidade</small>
+                                </div>
+                        <div class="form-group">
+                            <label for="uf" class="col-form-label">UF</label>
+                            <input type="text" class="form-control" id="uf">
+                            <small>Estado</small>
                         <div class="form-group">
                             <label for="taxaentrega" class="col-form-label">Taxa de Entrega:</label>
-                            <input type="number" step="0.01" class="form-control" id="taxa-vlr" required>
+                            <input type="number" step="0.01" class="form-control" id="taxa-vlr" >
+                            <small>Bairros: Santa Quitéria, Castelo Branco: R$1,00</small>
                         </div>
                         <div class="form-group">
                             <label for="pagamento"><strong>Formas de Pagamento:</strong></label>
@@ -178,18 +199,20 @@
                             </label>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                            <button type="submit" class="btn btn-primary">Salvar</button>
-                            <a href="/index.html" class="btn btn-outline-success btn-lg">Continuar Comprando</a>
-                        <button class="btn btn-danger btn-lg">Finalizar Compra</button>
+                            <a href="https://wipsites.com.br"><button style="background: #ac5453; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Cancelar</button></a>
+                            <button type="submit" class style="background: #6bc080; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Salvar</button>
+                            <a href="/index.html" class style="background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Continuar Comprando</a>
+                        <button class style="background: #a08686; border-radius: 6px; padding: 12px; cursor: pointer; color: #fff; border: none; font-size: 13px">Finalizar Compra</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
     <script src="main.js"></script>
+    // Associar salvamento ao botao
+        document.getElementById ('btn_salvar').addEventListener ('click', salvaLogin);        
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
