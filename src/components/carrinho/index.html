@@ -200,9 +200,12 @@
                             <p></p>
                         <div class="form-group">
                             <label for="taxaentrega" class="col-form-label"><strong>Taxa de Entrega:</strong></label>
-                            <input type="number" step="0.01" class="form-control" id="taxa-vlr" >
-                            <br>
-                            <small>Bairros: Santa Quitéria, Castelo Branco: R$1,00</small>
+                              <select id="taxaentrega" required>
+                                  <option selected disabled value="">Selecione o valor da taxa de entrega:</option>
+                                  <option>R$ 1,50 </option><small>Bairros: Castelo Branco, Fernão Dias</small>
+                                  <option>R$ 5,00 - Bairro: Dumaville</option>
+                                  <option>R$ 3,00 - Bairro: Fernão Dias</option>
+                                </select>
                         </div>
                         <p></p>
                         <div class="form-group">
