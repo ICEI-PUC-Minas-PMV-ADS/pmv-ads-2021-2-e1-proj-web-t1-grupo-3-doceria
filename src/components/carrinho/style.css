@@ -121,6 +121,10 @@ footer {
     background-color: #946362;
     text-align: center;
     padding-top: 1%;
+     position: fixed;
+    bottom: 0px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .logo-icon {
