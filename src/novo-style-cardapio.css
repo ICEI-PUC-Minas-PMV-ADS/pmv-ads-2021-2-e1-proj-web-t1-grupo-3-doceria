@@ -1,0 +1,509 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0.9fr 0.9fr 1.1fr 0.9fr 1.1fr 0.9fr 1.1fr 0.9fr;
+    grid-template-rows: 0.6fr 0.5fr 1fr 1fr 1fr 0.5fr 1fr 0.5fr 1fr 1fr 0.5fr 1fr 1fr 1.0fr 0.5fr 1fr 1.0fr 0.5fr 1fr 1fr 0.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header header header header header header"
+      ". indispensaveis indispensaveis indispensaveis indispensaveis indispensaveis indispensaveis ."
+      ". produto1 produto1 produto2 produto2 produto3 produto3 ."
+      ". produto4 produto4 produto5 produto5 produto6 produto6 ."
+      ". produto7 produto7 produto8 produto8 . . ."
+      ". coxinhasdoces coxinhasdoces coxinhasdoces coxinhasdoces coxinhasdoces coxinhasdoces ."
+      ". produto9 produto9 produto10 produto10 . . ."
+      ". copoes copoes copoes copoes copoes copoes ."
+      ". produto11 produto11 produto12 produto12 produto13 produto13 ."
+      ". produto14 produto14 . . . . ."
+      ". tortinhas tortinhas tortinhas tortinhas tortinhas tortinhas ."
+      ". produto15 produto15 produto16 produto16 produto17 produto17 ."
+      ". produto18 produto18 produto19 produto19 produto20 produto20 ."
+      ". produto21 produto21 produto22 produto22 . . ."
+      ". salgados salgados salgados salgados salgados salgados ."
+      ". produto23 produto23 produto24 produto24 produto25 produto25 ."
+      ". produto26 produto26 . . . . ."
+      ". bebidas bebidas bebidas bebidas bebidas bebidas ."
+      ". produto27 produto27 produto28 produto28 produto29 produto29 ."
+      ". produto30 produto30 produto31 produto31 . . ."
+      "footer footer footer footer footer footer footer footer";
+  }
+  
+  .header { grid-area: header; }
+  
+  .indispensaveis { grid-area: indispensaveis; }
+  
+  .coxinhasdoces { grid-area: coxinhasdoces; }
+  
+  .copoes { grid-area: copoes; }
+  
+  .tortinhas { grid-area: tortinhas; }
+  
+  .salgados { grid-area: salgados; }
+  
+  .bebidas { grid-area: bebidas; }
+  
+  .footer { grid-area: footer; }
+  
+  .produto1 { grid-area: produto1; }
+  
+  .produto2 { grid-area: produto2; }
+  
+  .produto3 { grid-area: produto3; }
+  
+  .produto4 { grid-area: produto4; }
+  
+  .produto5 { grid-area: produto5; }
+  
+  .produto6 { grid-area: produto6; }
+  
+  .produto7 { grid-area: produto7; }
+  
+  .produto8 { grid-area: produto8; }
+  
+  .produto9 { grid-area: produto9; }
+  
+  .produto10 { grid-area: produto10; }
+  
+  .produto11 { grid-area: produto11; }
+  
+  .produto12 { grid-area: produto12; }
+  
+  .produto13 { grid-area: produto13; }
+  
+  .produto14 { grid-area: produto14; }
+  
+  .produto15 { grid-area: produto15; }
+  
+  .produto16 { grid-area: produto16; }
+  
+  .produto17 { grid-area: produto17; }
+  
+  .produto18 { grid-area: produto18; }
+  
+  .produto19 { grid-area: produto19; }
+  
+  .produto20 { grid-area: produto20; }
+  
+  .produto21 { grid-area: produto21; }
+  
+  .produto22 { grid-area: produto22; }
+  
+  .produto23 { grid-area: produto23; }
+  
+  .produto24 { grid-area: produto24; }
+  
+  .produto25 { grid-area: produto25; }
+  
+  .produto26 { grid-area: produto26; }
+  
+  .produto27 { grid-area: produto27; }
+  
+  .produto28 { grid-area: produto28; }
+  
+  .produto29 { grid-area: produto29; }
+  
+  .produto30 { grid-area: produto30; }
+  
+  .produto31 { grid-area: produto31; }
+  
+  
+  /*Cabeçalho site*/
+.header { 
+    position: sticky;   
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+	width: 100%;
+	margin: 0 auto;
+	background: #f1e7e3;
+    box-shadow: 0 3px 3px -2px #989898;
+}
+
+.logo {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tabela-menu td {
+    width: 33%;
+}
+
+.menu-principal ul li {
+    display: inline-block;
+    text-align: left;
+    color: #946362;
+    padding-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+/*.menu-principal ul li:hover */
+
+.menu-principal ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.menu-principal a:hover {
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none !important;
+    color: #946362; 
+
+}
+
+.compras {
+    float: right;
+    margin-right: 40px;
+
+}
+
+.compras:hover {
+    background: none !important;
+    color: #946362 !important;
+}
+
+.compras a:hover {
+    color: #946362;
+}
+
+.carrinho {
+    
+    margin-right: 5px;
+    vertical-align:middle;
+}
+
+/*dropdown menu*/
+
+.dropbtn {
+    background-color: transparent;
+    color: #946362;
+    font-size: 16px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* posição <div> do conteudo dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Conteudo oculto Dropdown */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links dropdown */
+  .dropdown-content a{
+    color: #946362;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+  }
+  
+  /* dropdown menu hover */
+  .dropdown-content a:hover {
+      background: #f4d9d0;
+      
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+/*conteudo cardapio*/
+
+.indispensaveis, .coxinhasdoces, .copoes, .tortinhas, .salgados, .bebidas {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #946362;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.indispensaveis {
+    margin-bottom: 10px !important;
+}
+.icone {
+    vertical-align: middle;
+}
+
+p {
+margin-block-start: 0;
+margin-block-end: 0;    
+}
+
+.imagem-produto img {
+    display: block;
+}
+
+table td {
+    padding: 0px; margin: 0px;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.titulo {
+    display: block;
+    text-align: center;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color:#946362;
+    
+}
+
+.valor {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:#946362;
+}
+
+.descricao {
+    display: block;
+    margin: 0 0 7px 6px;
+    color: rgb(151, 131, 131);
+}
+
+.sabores {
+    border: 0.5px solid #946362;
+    background: white;
+    color: #946362;
+    padding: 0 6px;
+    border-radius: 2px;
+}
+
+.carrinho-botao {
+    vertical-align: top;
+}
+
+.sabores, .comprar {
+    margin: 0 4.5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.comprar {
+    background: #946362;
+    border: 0.5px solid #946362;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 2px;
+    cursor: pointer;     
+    float: right;
+}
+
+/*botão comprar para produtos com um sabor*/
+.umaopcao {
+    background: #946362;
+    border: 0.5px solid #946362;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 2px;     
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+/*dropdown sabores*/
+
+.dropbtnsabores {
+    background-color: transparent;
+    color: #946362;
+    font-size: 15px;
+    border: 0.5px solid #946362;
+    border-radius: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+  }
+  
+  /* posição <div> do conteudo dropdown */
+  .dropdownsabores {
+    position:static;
+    display: inline-block;
+    overflow: visible;
+  }
+  
+  /* Conteudo oculto Dropdown */
+  .dropdown-contentsabores {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links dropdown */
+  .dropdown-contentsabores a {
+    color: #946362;
+    padding: 5px 3px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+  }
+  
+  /* dropdown menu hover */
+  .dropdown-contentsabores a:hover {
+      background: #f4d9d0;
+      
+  }
+  
+  .dropdownsabores:hover .dropdown-contentsabores {
+    display: block;
+  }
+  
+
+.produto1, .produto2, .produto3, .produto4, .produto5, .produto6, .produto7, .produto8,
+.produto9, .produto10, .produto11, .produto12, .produto13, .produto14, .produto15, 
+.produto16, .produto17, .produto18, .produto19, .produto20, .produto21, .produto22,
+.produto23, .produto24, .produto25, .produto26, .produto27, .produto28, .produto29, 
+.produto30, .produto31 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 8px;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    min-width: 330px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* menu flutuante*/
+.fab{
+    position: fixed;
+    bottom:30px;
+    right:40px;
+  }
+  
+  .fab button{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+      
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+  }
+  
+  .fab button:focus{
+    outline: none;
+  }
+  
+  .fab button.main{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #f1e7e3;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+  }
+  
+  .fab button.main:before{
+    content: url("iconebotao.png");
+  }
+  
+  .fab ul{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    padding:0;
+    padding-right:10px;
+    margin:0;
+    list-style:none;
+    z-index:10;
+    
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+  }
+  
+  .fab ul li{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: -10%;
+    opacity: 0;
+    
+    -webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    transition: .3s ease-out;
+  }
+  
+  .fab.show button.main,
+  .fab.show button.main{
+    outline: none;
+    background-color: #f1e7e3;
+    box-shadow: 0 3px 8px rgba(0,0,0,.5);
+   }
+   
+  .fab.show button.main:before,
+  .fab.show button.main:before{
+    content: '↑';
+    color: #946362;
+    font-size: 24px;
+  }
+  
+  .fab.show button.main + ul,
+  .fab.show button.main + ul{
+    bottom: 70px;
+  }
+  
+  .fab.show button.main + ul li,
+  .fab.show button.main + ul li{
+    margin-bottom: 10px;
+    opacity: 1;
+  }
+
+  .fab.show button.main {
+    opacity: 1;
+  }
+
+
+/* Rodapé do site */
+
+.footer {
+    clear: both;
+    color: white;
+    background-color: #946362;
+    text-align: center;
+    padding-top: 1%;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.logo-icon {
+    width: 30px;
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}

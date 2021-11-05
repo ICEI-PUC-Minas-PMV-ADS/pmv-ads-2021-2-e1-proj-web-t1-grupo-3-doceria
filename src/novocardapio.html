@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="sortcut icon" href="./images/favicon-16x16.png" type="image/x-icon" />
+  <title>Ana Diniz Doceria</title>
+  <link rel="stylesheet" href="novo-style-cardapio.css">
+  <script type="text/javascript" src="script.js"></script>
+
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <nav class="menu-principal">
+        <table class="tabela-menu" width=100%>
+          <tr>
+            <td>
+              <ul>
+                <li>
+                  <a class="ignore-sublime" style="text-decoration: none;"
+                    href='./components/sobre/index.html'>Sobre</a>
+                </li>
+
+                <li>
+                  <div class="dropdown">
+                    <button class="dropbtn">Cardápio ▾</button>
+
+                    <div class="dropdown-content">
+                      <a href="#page1">Indispensáveis</a>
+                      <a href="#page2">Coxinhas doces</a>
+                      <a href="#page3">Copões</a>
+                      <a href="#page4">Tortinhas</a>
+                      <a href="#page5">Salgados</a>
+                      <a href="#page6">Bebidas</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="ignore-sublime">Promoções</a>
+                </li>
+              </ul>
+            </td>
+            <td style="text-align: center;">
+              <img class="logo" src="logo.png" width="80px" alt="logo">
+
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li class="compras">
+                  <a href='./components/carrinho/index.html' style="text-decoration: none;" target="_blank">
+                    <img class="carrinho" src="carrinho.png" width="30px">Meu Pedido</a>
+              </ul>
+              </li>
+
+            </td>
+          </tr>
+        </table>
+
+        <!--
+                <li>
+                    <a class="ignore-sublime" href='./components/promocoes/index.html'>Promoções</a>
+                </li>
+                -->
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Títulos -->
+
+    <div class="indispensaveis" id="page1">
+      <img class="icone" src="images/iconescardapio/indispensveis.png" width="70px">
+      Indispensáveis
+    </div>
+    <div class="coxinhasdoces" id="page2">
+      <img class="icone" src="images/iconescardapio/coxinha.png" width="60px">
+      Coxinhas Doces
+    </div>
+    <div class="copoes" id="page3">
+      <img class="icone" src="images/iconescardapio/copao.png" width="60px">
+      Copões
+    </div>
+    <div class="tortinhas" id="page4">
+      <img class="icone" src="images/iconescardapio/tortinha.png" width="60px">
+      Tortinhas
+    </div>
+    <div class="salgados" id="page5">
+      <img class="icone" src="images/iconescardapio/salgado.png" width="60px">
+      Salgados
+    </div>
+    <div class="bebidas" id="page6">
+      <img class="icone" src="images/iconescardapio/bebidas.png" width="60px">
+      Bebidas
+    </div>
+
+    <!--Produtos-->
+    <div class="produto1">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/brownie.png">
+          </td>
+          <td>
+            <p class="titulo">Brownie Recheado</p>
+            <p class="descricao">Saboroso quadrado de brownie recheado.</p>
+            <p class="valor">R$6,50</p>
+            <div class="dropdownsabores">
+              <button class="dropbtnsabores">Sabores ▾</button>
+              <div class="dropdown-contentsabores">
+                <a href="#">Brigadeiro de Ninho</a>
+                <a href="#">Ninho com nutella</a>
+                <a href="#">Brigadeiro preto</a>
+                <a href="#">Brigadeiro preto com nutella</a>
+                <a href="#">Brigadeiro de ovomaltine</a>
+                <a href="#">Brigadeiro duo(ninho/preto)</a>
+                <a href="#">Doce de leite</a>
+              </div>
+            </div><button class="comprar">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto2">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/paodemel.png">
+          </td>
+
+          <td>
+            <p class="titulo">Pão de Mel</p>
+            <p class="descricao">Recheio de doce de leite e cobertura de chocolate.</p>
+            <p class="valor">R$6,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto3">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/cone.png">
+          </td>
+          <td>
+            <p class="titulo">Cone Trufado</p>
+            <p class="descricao">Com chocolate e deliciosos recheios.</p>
+            <p class="valor">R$8,00</p>
+            <div class="dropdownsabores">
+              <button class="dropbtnsabores">Sabores ▾</button>
+              <div class="dropdown-contentsabores">
+                <a href="#">Brigadeiro de Ninho</a>
+                <a href="#">Ninho com nutella e amendoin</a>
+                <a href="#">Ninho</a>
+                <a href="#">50% Cacau</a>
+                <a href="#">Duo(ninho com 50% cacau)</a>
+              </div>
+            </div><button class="comprar">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto4">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/dadinho.png">
+          </td>
+          <td>
+            <p class="titulo">Dadinhos de Brownie</p>
+            <p class="descricao">140g de pedaços de brownie cobertos com chocolate.</p>
+            <p class="valor">R$8,00</p>
+            <div class="dropdownsabores">
+              <button class="dropbtnsabores">Sabores ▾</button>
+              <div class="dropdown-contentsabores">
+                <a href="#">Chocolate Preto</a>
+                <a href="#">Chocolate Branco</a>
+              </div>
+            </div><button class="comprar">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto5">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/palha.png">
+          </td>
+          <td>
+            <p class="titulo">Palha Italiana</p>
+            <p class="descricao">Com brigadeiro 50% cacau ou de leite ninho e biscoitos.</p>
+            <p class="valor">R$7,00</p>
+            <div class="dropdownsabores">
+              <button class="dropbtnsabores">Sabores ▾</button>
+              <div class="dropdown-contentsabores">
+                <a href="#">Ninho</a>
+                <a href="#">50% Cacau</a>
+              </div>
+            </div><button class="comprar">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto6">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/pote duo.png">
+          </td>
+          <td>
+            <p class="titulo">Pote duo morango</p>
+            <p class="descricao">Com brigadeiro 50% cacau, brownies, morango e ninho.</p>
+            <p class="valor">R$8,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto7">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/mousselimao.png">
+          </td>
+          <td>
+            <p class="titulo">Mousse de limão</p>
+            <p class="descricao">Coberto com ganache de chocolate branco.</p>
+            <p class="valor">R$8,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto8">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/moussemaracuja.png">
+          </td>
+          <td>
+            <p class="titulo">Mousse de Maracujá</p>
+            <p class="descricao">Coberto com geléia caseira de maracujá.</p>
+            <p class="valor">R$8,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto9">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/coxinhamorango.png">
+          </td>
+          <td>
+            <p class="titulo">Coxinha com morango</p>
+            <p class="descricao">Brigadeiro incrível envolvendo um morango fresco.</p>
+            <p class="valor">R$7,00</p>
+            <div class="dropdownsabores">
+              <button class="dropbtnsabores">Sabores ▾</button>
+              <div class="dropdown-contentsabores">
+                <a href="#">Brigadeiro de ninho</a>
+                <a href="#">Brigadeiro preto com granulado</a>
+                <a href="#">Brigadeiro preto com amendoim</a>
+              </div>
+            </div><button class="comprar">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto10">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/coxinhanutella.png">
+          </td>
+          <td>
+            <p class="titulo">Coxinha morango/nutella</p>
+            <p class="descricao">Deliciosa coxinha de morango com cobertura de nutella.</p>
+            <p class="valor">R$8,00</p>
+            <div class="dropdownsabores">
+              <button class="dropbtnsabores">Sabores ▾</button>
+              <div class="dropdown-contentsabores">
+                <a href="#">Brigadeiro de ninho com nutella</a>
+                <a href="#">Brigadeiro preto com amendoim e nutella</a>
+              </div>
+            </div><button class="comprar">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto11">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/copaoouro.png">
+          </td>
+          <td>
+            <p class="titulo">Duo/ouro-branco</p>
+            <p class="descricao">Ninho, ouro-branco, brownies, chocolate e chantininho.</p>
+            <p class="valor">R$17,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto12">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/copaomorango.png">
+          </td>
+          <td>
+            <p class="titulo">Copão Ninho/morango</p>
+            <p class="descricao">Ninho, morangos, brownie e chantininho.</p>
+            <p class="valor">R$17,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto13">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/copaonutella.png">
+          </td>
+          <td>
+            <p class="titulo">Copão Nutella</p>
+            <p class="descricao">Chocolate, amendoim, brownie e nutella.</p>
+            <p class="valor">R$20,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto14">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/copaooreo.png">
+          </td>
+          <td>
+            <p class="titulo">Copão brownie/oreo</p>
+            <p class="descricao">Chocolate, brownie, mousse de Oreo, ninho e chantininho.</p>
+            <p class="valor">R$18,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto15">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/tortinhamorango.png">
+          </td>
+          <td>
+            <p class="titulo">Tortinha de morango</p>
+            <p class="descricao">Ninho com morangos e biscoito maltado.</p>
+            <p class="valor">R$13,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto16">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/bombomuva.png">
+          </td>
+          <td>
+            <p class="titulo">Bombom aberto de uva</p>
+            <p class="descricao">Ninho com uvas verdes e ganache de chocolate.</p>
+            <p class="valor">R$13,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto17">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/tortinhaninhonutella.png">
+          </td>
+          <td>
+            <p class="titulo">Mousse de nutella/ninho</p>
+            <p class="descricao"> Mousse de nutella com ninho, amendoim e nutella.</p>
+            <p class="valor">R$14,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto18">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/sochocolate.png">
+          </td>
+          <td>
+            <p class="titulo">Tortinha só chocolate</p>
+            <p class="descricao">bolo, mousse, pedaços e creme de chocolate.</p>
+            <p class="valor">R$13,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto19">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/tortinhaprestigio.png">
+          </td>
+          <td>
+            <p class="titulo">Tortinha Prestígio</p>
+            <p class="descricao">Bolo de chocolate, creme de côco e ganache de chocolate.</p>
+            <p class="valor">R$13,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto20">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/tortinhachurros.png">
+          </td>
+          <td>
+            <p class="titulo">Tortinha de churros</p>
+            <p class="descricao">Ninho, doce de leite, bolo de baunilha e canela.</p>
+            <p class="valor">R$12,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto21">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/cumbuca.png">
+          </td>
+          <td>
+            <p class="titulo">Cumbuca abacaxi/morango</p>
+            <p class="descricao">Bolo, creme de abacaxi, morangos, ninho e côco.</p>
+            <p class="valor">R$12,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto22">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/kinderbueno.png">
+          </td>
+          <td>
+            <p class="titulo">Mousse Kinder Bueno</p>
+            <p class="descricao">Kinder Bueno, chocolate branco e preto, chantininho.</p>
+            <p class="valor">R$15,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto23">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/empada.png">
+          </td>
+          <td>
+            <p class="titulo">Empada</p>
+            <p class="descricao">Deliciosa empada com diversos sabores.</p>
+            <p class="valor">R$3,50</p>
+            <div class="dropdownsabores">
+              <button class="dropbtnsabores">Sabores ▾</button>
+              <div class="dropdown-contentsabores">
+                <a href="#">Frango com bacon</a>
+                <a href="#">Frango com cheddar</a>
+                <a href="#">Frango com catupiry</a>
+                <a href="#">Frango com palmito</a>
+                <a href="#">Pizza</a>
+                <a href="#">Queijo</a>
+              </div>
+            </div><button class="comprar">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto24">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/enrolado.png">
+          </td>
+          <td>
+            <p class="titulo">Enrolado Assado</p>
+            <p class="descricao">Com recheio de presunto e mussarela.</p>
+            <p class="valor">R$4,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto25">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/pastel.png">
+          </td>
+          <td>
+            <p class="titulo">Pastel Assado</p>
+            <p class="descricao">Pastel assado de frango. Contém milho.</p>
+            <p class="valor">R$4,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto26">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/tortafrango.png">
+          </td>
+          <td>
+            <p class="titulo">Tortinha de Frango</p>
+            <p class="descricao">Tortinha de frango com catupiry.</p>
+            <p class="valor">R$4,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto27">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/latarefri.png">
+          </td>
+          <td>
+            <p class="titulo">Refrigerante Lata</p>
+            <p class="descricao">Lata de refrigerante 350ml gelado.</p>
+            <p class="valor">R$4,00</p>
+            <div class="dropdownsabores">
+              <button class="dropbtnsabores">Sabores ▾</button>
+              <div class="dropdown-contentsabores">
+                <a href="#">Coca-cola</a>
+                <a href="#">Fanta</a>
+                <a href="#">Pepsi</a>
+                <a href="#">Guaraná</a>
+              </div>
+            </div><button class="comprar">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto28">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/refrigarrafa.png">
+          </td>
+          <td>
+            <p class="titulo">Refrigerante Garrafa</p>
+            <p class="descricao">Garrafinha de refrigerante 200ml.</p>
+            <p class="valor">R$2,00</p>
+            <div class="dropdownsabores">
+              <button class="dropbtnsabores">Sabores ▾</button>
+              <div class="dropdown-contentsabores">
+                <a href="#">Coca-cola</a>
+                <a href="#">Coca zero</a>
+                <a href="#">Fanta</a>
+                <a href="#">Pepsi</a>
+                <a href="#">Guaraná</a>
+              </div>
+            </div><button class="comprar">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto29">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/suco.png">
+          </td>
+          <td>
+            <p class="titulo">Suco Lata</p>
+            <p class="descricao">Lata de suco 350ml. Consulte os sabores disponíveis.</p>
+            <p class="valor">R$4,00</p>
+            <div class="dropdownsabores">
+              <button class="dropbtnsabores">Sabores ▾</button>
+              <div class="dropdown-contentsabores">
+                <a href="#">Uva</a>
+                <a href="#">Pêssego</a>
+                <a href="#">Goiaba</a>
+              </div>
+            </div><button class="comprar">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto30">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/aguagas.png">
+          </td>
+          <td>
+            <p class="titulo">Água com gás</p>
+            <p class="descricao">Água mineral gasosa São Lourenço.</p>
+            <p class="valor">R$3,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="produto31">
+      <table>
+        <tr>
+          <td class="imagem-produto">
+            <img src="images/imgprodutos/agua.png">
+          </td>
+          <td>
+            <p class="titulo">Água Natural</p>
+            <p class="descricao">Refrescante água mineral natural gelada.</p>
+            <p class="valor">R$2,00</p>
+            <button class="umaopcao">Adicionar <img class="carrinho-botao" src="carrinho2.png"></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  
+  <!-- menu flutuante-->
+    <div class="fab">
+      <button class="main">
+      </button>
+      <ul>
+        <li>
+
+          <button id="opcao1">
+            <img src="images/contato/Instagram.png" style="vertical-align: middle;" width="45px">
+          </button>
+        </li>
+        <li>
+
+          <button id="opcao2">
+            <img src="images/contato/facebook.png" style="vertical-align: middle;" width="45px">
+          </button>
+        </li>
+        <li>
+
+          <button id="opcao3">
+            <img src="images/contato/whatsapp.png" style="vertical-align: middle;" width="45px">
+          </button>
+        </li>
+      </ul>
+    </div>
+    <script>
+      function toggleFAB(fab) {
+        if (document.querySelector(fab).classList.contains('show')) {
+          document.querySelector(fab).classList.remove('show');
+        } else {
+          document.querySelector(fab).classList.add('show');
+        }
+      }
+
+      document.querySelector('.fab .main').addEventListener('click', function () {
+        toggleFAB('.fab');
+      });
+
+      document.querySelectorAll('.fab ul li button').forEach((item) => {
+        item.addEventListener('click', function () {
+          toggleFAB('.fab');
+        });
+      });
+    </script>
+
+
+    <!--Rodapé-->
+    <div class="footer">
+      <footer>
+        <div class="align-item: itens">
+          <p> Contatos: </p>
+
+          <div style="align-items: flex-end; display: flex; justify-content: center; padding-top: 10px;">
+            <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
+                src="./images/174855.png" alt="new-logo"></a>
+            <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
+                src="./images/124010.png" alt="new-logo"></a>
+            <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
+                src="./images/989997.png" alt="new-logo"></a>
+          </div>
+        </div>
+        <div class="corpyright-footer" style="padding-top: 10px;">
+          Copyright 2021 © Ana Diniz Doceira
+        </div>
+
+      </footer>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
