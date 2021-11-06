@@ -66,9 +66,9 @@
         <br />
         <h2>
             Meu Pedido
-            <a onclick="getProduto(0)" class="btn btn-success btn-sm" style="float:right" data-toggle="modal"
+            <a onclick="getProduto(0)" style="float:right" data-toggle="modal"
                 data-target="#produto-modal">
-                <i class="fa fa-plus"></i> Adicionar
+                <button class style="background: #a08686; border-radius: 6px; padding: 12px; cursor: pointer; color: #fff; border: none; font-size: 13px">Adicionar</button>
             </a>
         </h2>
         <hr />
@@ -121,40 +121,123 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Produto <span id="edit-prod-id"></span></h5>
+                    <h5 class="modal-title">Meu Pedido <span id="edit-prod-id"></span></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
+                   <div class="modal-body">
                     <form id="produto-form" method="post" action="">
-                        <div class="form-group">
-                            <label for="produto-id" class="col-form-label">Código:</label>
-                            <input type="number" class="form-control" id="produto-id" min="1" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="produto-nome" class="col-form-label">Descrição:</label>
+                       <div class="form-group">
+                           <label for="produto-nome" class="col-form-label"><strong>Produto:</strong></label>
                             <input type="text" class="form-control" id="produto-nome" required>
                         </div>
+                        <p></p>
                         <div class="form-group">
-                            <label for="produto-vlr" class="col-form-label">Valor:</label>
-                            <input type="number" step="0.01" class="form-control" id="produto-vlr" required>
+                            <label for="produto-vlr" class="col-form-label"><strong>Valor:</strong></label>
+                            <input type="text" class="form-control" id="produto-vlr" required>
                         </div>
+                        <p></p>
                         <div class="form-group">
-                            <label for="produto-qtd" class="col-form-label">Quantidade:</label>
+                            <label for="produto-qtd" class="col-form-label"><strong>Quantidade:</strong></label>
                             <input type="number" class="form-control" id="produto-qtd" required>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                            <button type="submit" class="btn btn-primary">Salvar</button>
+                        <p></p>
+                        <div class="form-group">
+                            <label for="nome" class="col-form-label"><strong>Nome:</strong></label>
+                            <input type="text" class="form-control" id="nome" required>
                         </div>
+                        <p></p>
+                        <div class="form-group">
+                            <label for="telefone" class="col-form-label"><strong>Telefone:</strong></label>
+                            <input type="tel" name="phone" class="form-control" id="Número de Telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"required>
+                        </div>
+                        <p></p>
+                        <div class="form-group">
+                            <label for="entrega" class="col-form-label"><strong>Entrega/Retirada:</strong></label>
+                            <label>
+                                <input type="radio" name="Entrega" value="retirada">Retirada
+                            </label>
+                                <label>
+                                <input type="radio" name="Entrega" value="entrega" checked>Entrega
+                            </label>
+                            <br>
+                            <small>Se a escolha for entrega, preencha os dados de endereço abaixo</small>
+                            </div>
+                            <p></p>
+                        <div class="form-group">
+                                    <label for="cep"><strong>CEP</strong></label>
+                                    <input type="text" class="form-control" maxlength="9" id="cep"  required>
+                                    <br>
+                                    <small>00000-000</small>
+                                </div>
+                                <p></p>
+                                <div class="form-group">
+                                    <label for="endereco" class="col-form-label"><strong>Endereço para entrega:</strong></label>
+                                    <input type="text" class="form-control" id="logradouro" >
+                                    <br>
+                                    <small>Av., Rua, Número, casa ...</small>
+                                </div>
+                                <p></p>
+                                <div class="form-group">
+                                    <label for="bairro" class="col-form-label"><strong>Bairro:</strong></label>
+                                    <input type="text" class="form-control" id="bairro" >
+                                    
+                                </div>
+                                <p></p>
+                                <div class="form-group">
+                                    <label for="localidade" class="col-form-label"><strong>Localidade:</strong></label>
+                                    <input type="text" class="form-control" id="localidade">
+                                    <br>
+                                    <small>Cidade</small>
+                                </div>
+                                <p></p>
+                        <div class="form-group">
+                            <label for="uf" class="col-form-label"><strong>UF:</strong></label>
+                            <input type="text" class="form-control" id="uf">
+                            <br>
+                            <small>Estado</small>
+                            <p></p>
+                        <div class="form-group">
+                            <label for="taxaentrega" class="col-form-label"><strong>Taxa de Entrega:</strong></label>
+                              <select id="taxaentrega" required>
+                                  <option selected disabled value="">Selecione o valor da taxa de entrega:</option>
+                                  <option>R$ 1,50 </option><small>Bairros: Castelo Branco, Fernão Dias</small>
+                                  <option>R$ 5,00 - Bairro: Dumaville</option>
+                                  <option>R$ 3,00 - Bairro: Fernão Dias</option>
+                                </select>
+                        </div>
+                        <p></p>
+                        <div class="form-group">
+                            <label for="pagamento"><strong>Formas de Pagamento:</strong></label>
+                            <label>
+                            <input type="radio" name="pagamento" value="credito" checked>Cartão de Crédito
+                            </label>
+                            <label>
+                            <input type="radio" name="pagamento" value="debito">Cartão de Débito
+                            </label>
+                            <label>
+                            <input type="radio" name="pagamento" value="dinheiro">Dinheiro
+                            </label>
+                        </div>
+                        <p></p>
+                        <div class="modal-footer">
+                            <a href="https://wipsites.com.br"><button style="background: #ac5453; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Cancelar</button></a>
+                            <button type="submit" class style="background: #6bc080; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Salvar</button>
+                            <a href="/index.html" target="_blank"><class style="background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Continuar Comprando</a>
+                        <button class style="background: #a08686; border-radius: 6px; padding: 12px; cursor: pointer; color: #fff; border: none; font-size: 13px">Finalizar Compra</button>
+                        </div>
+                    </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
     <script src="main.js"></script>
+         <!-- // Associar salvamento ao botao
+-->
+      <script> document.getElementById ('btn_salvar').addEventListener ('click', salvaLogin);        
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
