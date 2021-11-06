@@ -2,8 +2,7 @@
     "root": "src",
     "clean_urls": true,
     "https_only": true,
-    "error_page": "error.html",
-
+    "error_page": "./src/error.html",
     "headers": {
         "/**": {
             "Access-Control-Allow-Origin": "*"
