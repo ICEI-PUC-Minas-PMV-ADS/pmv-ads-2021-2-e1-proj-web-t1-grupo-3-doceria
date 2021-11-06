@@ -5,6 +5,36 @@ URL = 'http://localhost:3000/produtos'
 
 const produtoList = document.getElementById('produto-list');
 
+function findAll(){
+    let produtos = localStorage.getItem("cart") != null ? JSON.parse(localStorage.getItem("cart")) : [];
+    let lista_produtos = '';
+    for (let i = 0; i < produtos.length; i++) {
+        vlt_total = produtos[i].qnt * produtos[i].vlr;
+        lista_produtos += `
+        <tr>
+            <th>${produtos[i].id}</th>
+            <td>${produtos[i].nome}</td>
+            <td>R$${(parseFloat(produtos[i].vlr)).toFixed(2)}</td>
+            <td>${produtos[i].qnt}</td>
+            <td>R$${parseFloat(vlt_total).toFixed(2)}</td>
+            <td>
+                <a onclick="getProduto(${produtos[i].id});" 
+                class="btn btn-warning btn-sm" 
+                data-toggle="modal" data-target="#produto-modal">
+                <i class="fa fa-edit"></i>  Editar
+                </a>
+                <a onclick="$('#id-prod').text(${produtos[i].id});" class="btn btn-danger btn-sm" 
+                data-toggle="modal" data-target="#modal-delete">
+                <i class="fa fa-trash"></i> Remover
+                </a>
+            </td>
+        </tr>
+        `;
+        produtoList.innerHTML = lista_produtos;
+    }
+}
+
+
 fetch(URL)
     .then(res => res.json())
     .then(produtos => {
