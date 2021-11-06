@@ -689,6 +689,7 @@
         localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
         cart.find(e => e.id === product.id) != undefined ? cart.filter(e => e.id ===  product.id).map(e => e.qnt++) : cart.push(product);
         localStorage.setItem("cart", JSON.stringify(cart));
+        
       }
 
       document.querySelector('.fab .main').addEventListener('click', function () {
