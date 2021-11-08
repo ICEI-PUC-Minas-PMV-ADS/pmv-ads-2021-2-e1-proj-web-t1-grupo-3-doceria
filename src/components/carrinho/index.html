@@ -68,7 +68,7 @@
             Meu Pedido
             <a onclick="getProduto(0)" style="float:right" data-toggle="modal"
                 data-target="#produto-modal">
-                <button class style="background: #a08686; border-radius: 6px; padding: 12px; cursor: pointer; color: #fff; border: none; font-size: 13px">Adicionar</button>
+                <i class style="background: #a08686; border-radius: 6px; padding: 12px; cursor: pointer; color: #fff; border: none; font-size: 13px">Editar</i>
             </a>
         </h2>
         <hr />
@@ -126,11 +126,12 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+                <fieldset>
                    <div class="modal-body">
                     <form id="produto-form" method="post" action="">
                        <div class="form-group">
                            <label for="produto-nome" class="col-form-label"><strong>Produto:</strong></label>
-                            <input type="text" class="form-control" id="produto-nome" required>
+                            <input type="text" class="form-control" id="produto-nome" placeholder="Selecione o produto" required>
                         </div>
                         <p></p>
                         <div class="form-group">
@@ -143,16 +144,22 @@
                             <input type="number" class="form-control" id="produto-qtd" required>
                         </div>
                         <p></p>
+                    </fieldset>
+                    <fieldset>
+                        <div class="modal-body">
                         <div class="form-group">
                             <label for="nome" class="col-form-label"><strong>Nome:</strong></label>
-                            <input type="text" class="form-control" id="nome" required>
+                            <input type="text" class="form-control" id="nome" size="20" maxlenght="30" placeholder=" Nome Completo" required>
                         </div>
                         <p></p>
                         <div class="form-group">
                             <label for="telefone" class="col-form-label"><strong>Telefone:</strong></label>
-                            <input type="tel" name="phone" class="form-control" id="Número de Telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"required>
+                            <input type="tel" name="phone" class="form-control" id="Número de Telefone" size="11" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="(DDD) + nº telefone"required>
                         </div>
-                        <p></p>
+                    </div>
+                        </fieldset>
+                    <fieldset>
+                        <div class="modal-body">
                         <div class="form-group">
                             <label for="entrega" class="col-form-label"><strong>Entrega/Retirada:</strong></label>
                             <label>
@@ -164,20 +171,18 @@
                             <br>
                             <small>Se a escolha for entrega, preencha os dados de endereço abaixo</small>
                             </div>
-                            <p></p>
-                        <div class="form-group">
+                         <div class="form-group">
                                     <label for="cep"><strong>CEP</strong></label>
-                                    <input type="text" class="form-control" maxlength="9" id="cep"  required>
+                                    <input type="text" class="form-control" maxlength="9" id="cep" placeholder="00000-000" required>
                                     <br>
-                                    <small>00000-000</small>
-                                </div>
+                                  </div>
                                 <p></p>
                                 <div class="form-group">
                                     <label for="endereco" class="col-form-label"><strong>Endereço para entrega:</strong></label>
-                                    <input type="text" class="form-control" id="logradouro" >
-                                    <br>
-                                    <small>Av., Rua, Número, casa ...</small>
-                                </div>
+                                    <input type="text" class="form-control" id="logradouro" placeholder="Av., Rua...." >
+                                    <p><label for="numero"><strong>Número:</strong></label></p>
+                                    <input type="number" class="form-control" id="numero" min="0" max="99999">
+                                    </div>
                                 <p></p>
                                 <div class="form-group">
                                     <label for="bairro" class="col-form-label"><strong>Bairro:</strong></label>
@@ -187,17 +192,19 @@
                                 <p></p>
                                 <div class="form-group">
                                     <label for="localidade" class="col-form-label"><strong>Localidade:</strong></label>
-                                    <input type="text" class="form-control" id="localidade">
+                                    <input type="text" class="form-control" id="localidade" placeholder="Cidade">
                                     <br>
-                                    <small>Cidade</small>
-                                </div>
+                                    </div>
                                 <p></p>
                         <div class="form-group">
                             <label for="uf" class="col-form-label"><strong>UF:</strong></label>
-                            <input type="text" class="form-control" id="uf">
+                            <input type="text" class="form-control" id="uf" placeholder="Estado">
                             <br>
-                            <small>Estado</small>
-                            <p></p>
+                           </div>
+                        </div>
+                        </fieldset>
+                        <fieldset>
+                        <div class="modal-body">
                         <div class="form-group">
                             <label for="taxaentrega" class="col-form-label"><strong>Taxa de Entrega:</strong></label>
                               <select id="taxaentrega" required>
@@ -219,13 +226,27 @@
                             <label>
                             <input type="radio" name="pagamento" value="dinheiro">Dinheiro
                             </label>
+                            <label>
+                            <input type="radio" name="pagamento" value="pix">PIX
+                            </label>
                         </div>
-                        <p></p>
-                        <div class="modal-footer">
-                            <a href="https://wipsites.com.br"><button style="background: #ac5453; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Cancelar</button></a>
-                            <button type="submit" class style="background: #6bc080; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Salvar</button>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="modal-body">
+                        <div class="form-group">
+                        <p><label for="msg"><strong>Mensagem do Cliente:</strong></label>
+                            <textarea name="tMsg" id="mensagem" cols="45"></textarea></p>
+                        </div>
+                        </div>
+                    </fieldset>
+
+                    
+                    <div class="modal-footer">
+                            <input type="reset"  value="Limpar" button style="background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;" >
+                            <button type="submit" class style= "background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Salvar</button>
                             <a href="/index.html" target="_blank"><class style="background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Continuar Comprando</a>
-                        <button class style="background: #a08686; border-radius: 6px; padding: 12px; cursor: pointer; color: #fff; border: none; font-size: 13px">Finalizar Compra</button>
+                        <button type="submit" class style="background: #a08686; border-radius: 6px; padding: 12px; cursor: pointer; color: #fff; border: none; font-size: 13px">Finalizar Compra</button>
                         </div>
                     </div>
                     </form>
@@ -236,14 +257,10 @@
     <script src="main.js"></script>
          <!-- // Associar salvamento ao botao
 -->
-      <script> document.getElementById ('btn_salvar').addEventListener ('click', salvaLogin);        
+      <script> document.getElementById ('submit').addEventListener ('click', salvaLogin);        
     </script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
+    
+  
 </body>
 <footer>
     <div class="align-item: itens">
