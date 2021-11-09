@@ -16,6 +16,7 @@ function removeProduct(){
 
     let count = 0;
 
+    
     cart.forEach(element => {
         console.log(cart);
         console.log(parseInt(element.qnt) > 0);
