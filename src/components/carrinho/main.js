@@ -5,6 +5,44 @@ URL = 'http://localhost:3000/produtos'
 
 const produtoList = document.getElementById('produto-list');
 
+function removeProduct(){
+    let id = $('#id-prod').text();
+
+    console.log(id);
+
+    let cart = [];
+
+    localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
+
+    let count = 0;
+
+    cart.forEach(element => {
+        console.log(cart);
+        console.log(parseInt(element.qnt) > 0);
+
+        if(element.id == id){
+            let qnt = 0;
+            qnt = parseInt(element.qnt)
+
+            qnt >= 1 ? element.qnt = ( qnt -= 1).toString() : cart = cart.filter(element => element.id != id);
+        
+            if(qnt == 0){
+                cart = cart.filter(element => element.id != id);
+            }
+        }
+
+        count++;
+    });
+    
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+
+    findAll();
+
+    $('#modal-delete').modal('hide');
+}
+
+
 function findAll(){
     let produtos = localStorage.getItem("cart") != null ? JSON.parse(localStorage.getItem("cart")) : [];
     let lista_produtos = '';
@@ -70,14 +108,6 @@ fetch(URL)
 const produtoDelete = document.getElementById('btn-delete');
 
 produtoDelete.addEventListener('click', (e) => {
-
-    let id = $('#id-prod').text();
-
-    fetch(`${URL}/${id}`, {
-        method: 'DELETE',
-    })
-    .then(res => res.json())
-    .then(() => location.reload());
 
 })
 //=================================================================================================
