@@ -117,9 +117,9 @@ body{
     position: sticky;   
     position: -webkit-sticky; /* Safari */
     top: 0;
-	width: 100%;
-	margin: 0 auto;
-	background: #f1e7e3;
+	  width: 100%;
+	  margin: 0 auto;
+	  background: #f1e7e3;
     box-shadow: 0 3px 3px -2px #989898;
 }
 
@@ -129,7 +129,7 @@ body{
 }
 
 .tabela-menu td {
-    width: 33%;
+    width: 33.333%;
 }
 
 .menu-principal ul li {
@@ -163,6 +163,10 @@ nav a:visited {
     float: right;
     margin-right: 40px;
 
+}
+
+.compras img {
+  width: 30px;
 }
 
 .compras:hover {
@@ -225,6 +229,12 @@ nav a:visited {
     display: block;
   }
   
+
+/*menu mobile*/
+
+#menu-mobile {
+  display: none;
+}
 
 /*conteudo cardapio*/
 
@@ -506,4 +516,204 @@ table {
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 2px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #menu-desktop {
+    display: none;
+  }
+
+
+  /*menu mobile*/
+  #menu-mobile {
+    display: block;
+  }
+  
+  .menu-principal ul li {
+    padding: 0;
+  }
+
+  .compras img {
+    width: 35px;
+  }
+
+  .compras span {
+    display: none;
+  }
+  #menuToggle {
+  display: block;
+  position: relative;
+  margin-left: 45%;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a {
+  text-decoration: none;
+  color: #946362;
+  transition: color 0.3s ease;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the icon */
+  
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #946362;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #946362;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu {
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -75px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menu .dropdown-content a {
+  font-size: 20px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul {
+  transform: none;
+}
+ 
+/* Posições no documento */
+  .header {
+    order: 1;
+
+  }
+
+  .indispensaveis {
+    order: 2;
+  }
+  .produto1, .produto2, .produto3, .produto4, .produto5, .produto6, .produto7, .produto8 {
+    order: 3;
+  }
+
+  .coxinhasdoces {
+    order: 4;
+  }
+
+ .produto9, .produto10 {
+   order: 5;
+ }
+
+ .copoes {
+   order: 6;
+ }
+
+.produto11, .produto12, .produto13, .produto14  {
+  order: 7;
+}
+
+.tortinhas {
+  order: 8;
+}
+
+.produto15, .produto16, .produto17, .produto18,
+.produto19, .produto20, .produto21, .produto22 {
+  order: 9;
+}
+
+.salgados {
+  order: 10;
+}
+
+.produto23, .produto24, .produto25, .produto26 {
+  order: 11;
+} 
+
+.bebidas {
+  order: 12;
+}
+
+.produto27, .produto28, .produto29, 
+.produto30, .produto31 {
+  order: 13;
+}
+
+.footer {
+  order: 14;
+}
+
 }
