@@ -10,6 +10,16 @@ body{
     gap: 0px 0px;
     grid-auto-flow: row;
   }
+
+  .grid {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+
+  .grid-template-columns {
+    grid-template-columns: 200px 200px;
+  }
   
   .header { grid-area: 1 / 1 / 2 / 6; }
   
@@ -278,6 +288,7 @@ nav a:visited {
     border-radius: 10px;
     max-width: 300px;
 }
+
 .itema p, .itemb p, .itemc p, .itemd p, .iteme p, .itemf p{
     margin-block-start: 5px;
     margin-block-end: 0;
@@ -598,6 +609,16 @@ nav a:visited {
 .itemd, .iteme, .itemf {
   min-width:35%; 
     
+}
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.grid {
+	display: grid;
 }
 
   

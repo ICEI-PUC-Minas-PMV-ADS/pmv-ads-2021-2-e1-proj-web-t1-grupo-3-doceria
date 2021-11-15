@@ -95,3 +95,235 @@ footer-icons {
     text-align: center;
     list-style-type: none;
 }
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Cabeçalho do site */
+
+.logo {
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+header {
+  background-color: #f2e9e4;
+  box-shadow: 0 3px 3px -2px #989898;
+}
+
+.menu-principal ul {
+  padding-inline-start: 10px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.menu-principal ul li {
+  display: inline-block;
+  color: #946362;
+  padding: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+}
+
+.menu-principal ul li:hover {
+  background-color: #7c3f47;
+  color: lightyellow;
+}
+
+.menu-principal a:hover {
+  color: lightyellow;
+  text-decoration: none;
+}
+
+
+.carrinho {
+  height: 30px;
+  width: 30px;
+  line-height: 2px;
+  display: inline-flex;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  color: #946362;
+  position: relative;
+}
+
+.compras {
+  color: #946362;
+  padding-right: 50px;
+  text-align: right;
+  width: 215px;
+  height: 20px;
+  position: relative;
+  float: right;
+  bottom: 0px;
+  clear: right;
+}
+
+.compras ol li {
+  display: inline-block;
+  color: #946362;
+  padding: 0px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.compras ol li:hover {
+  background-color: #7c3f47;
+  color: lightyellow;
+}
+/* Corpo do site */
+
+.div-sobre{
+  padding-top: 4%;
+}
+
+.sobre{
+  margin-top: 1%;
+  text-align: center;
+  font-family:sans-serif;
+  color: #7c3f47;
+}
+
+main > .sobre > p {
+  margin-top: 1%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7c3f47;
+}
+
+.produto-item {
+  width: 220px;
+  float: left;
+  padding: 0 10px;
+}
+
+.produto-item > img {
+}
+
+/* Rodapé do site */
+
+.compras ol li:hover {
+  background-color: #7c3f47;
+  color: lightyellow;
+}
+
+#dropdown-cardapio {
+  color: #946362;
+}
+
+#dropdown-cardapio:hover {
+  color: lightyellow;
+}
+
+#dropdown-cardapio:focus {
+  color: lightyellow;
+}
+
+.botaocardapio {
+  font-size: 15px;
+}
+
+.image-prop{
+  height: 20%;
+}
+
+main {
+  margin-top: 100px;
+}
+
+footer {
+  clear: both;
+  height: 130px;
+  color: white;
+  background-color: #946362;
+  text-align:center;
+  padding-top: 1%;
+}
+
+
+footer-icons {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}       
+
+.logo-icon {
+  width: 35px;
+  display: block;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+
+}
+.ignore-sublime{
+  display: inline-block;
+  color: #946362;
+  padding: 0px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  list-style-type: none;
+}
+
+
+.destaque { 
+  font-size: x-large;
+  color: rgb(141, 76, 87);
+  font-family: serif;
+}
