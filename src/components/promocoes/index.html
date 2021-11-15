@@ -16,24 +16,41 @@
 <body>
     <header>
         <nav class="menu-principal">
-            <img class="logo" src="../../logo.png" alt="logo" />
+            <img class="logo" src="../../logo.png" alt="logo">
             <ul>
                 <li>
-                    <a class="ignore-sublime" href="../sobre/index.html">Sobre</a>
+                    <a class="ignore-sublime" href='../sobre/index.html'>Sobre</a>
                 </li>
 
                 <li>
-                    <a class="ignore-sublime" href="../../index.html">Cardápio</a>
+                    <a class="dropdown-toggle botaocardapio" data-toggle="dropdown" id="dropdown-cardapio" href="#"
+                        role="button" aria-haspopup="true" aria-expanded="false">Cardápio</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../../index.html#indispensaveis"
+                            target="_blank">Indispensáveis</a>
+                        <a class="dropdown-item" href="../../index.html#coxinhasdoces">Coxinhas Doces</a>
+                        <a class="dropdown-item" href="../../index.html#copoes">Copões</a>
+                        <a class="dropdown-item" href="../../index.html#tortinhas">Tortinhas</a>
+                        <a class="dropdown-item" href="../../index.html#salgados">Salgados</a>
+                        <a class="dropdown-item" href="../../index.html#bebidas">Bebidas</a>
+                </li>
+                <li>
+                    <a class="ignore-sublime" href='../promocoes/index.html'>Promoções</a>
                 </li>
 
-                <li>
-                    <a class="ignore-sublime" href="index.html">Promoções</a>
-                </li>
+                <div class="compras">
+                    <a href='../carrinho/index.html' target="_blank">
+                        <ol>
+                            <li><img class="carrinho" src="../../images/carrinho.png"></li>
+                            <li>Meu Pedido</li>
+                        </ol>
+                    </a>
+                </div>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
+        <div style="padding-top: 20px;">
             <div style="padding: 10px 10px 10px 10px; display: inline-block;">
                 <div style="display: inline-block;">
                     <h4 style="align-self: center; color: #946362; align-content: center; text-align: center;">
@@ -107,15 +124,15 @@
                     </h4>
                     <div class="slideshow-container">
                         <div class="mySlide4">
+                            <img src="../../images/promocoes/pais/a3.jpeg" style="width:500px; height: 444px;">
+                        </div>
+
+                        <div class="mySlide4">
                             <img src="../../images/promocoes/pais/a2.jpeg" style="width:500px; height: 444px;">
                         </div>
 
                         <div class="mySlide4">
                             <img src="../../images/promocoes/pais/a1.jpeg" style="width:500px; height: 444px;">
-                        </div>
-
-                        <div class="mySlide4">
-                            <img src="../../images/promocoes/pais/a3.jpeg" style="width:500px; height: 444px;">
                         </div>
 
                         <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
@@ -143,7 +160,7 @@
                     </h4>
                     <div class="slideshow-container">
                         <div class="mySlide5">
-                            <img src="../../images/promocoes/natal/a1.jpeg" style="width:500px; height: 444px;">
+                            <img src="../../images/promocoes/natal/a3.jpeg" style="width:500px; height: 444px;">
                         </div>
 
                         <div class="mySlide5">
@@ -151,7 +168,7 @@
                         </div>
 
                         <div class="mySlide5">
-                            <img src="../../images/promocoes/natal/a3.jpeg" style="width:500px; height: 444px;">
+                            <img src="../../images/promocoes/natal/a1.jpeg" style="width:500px; height: 444px;">
                         </div>
 
                         <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
@@ -190,6 +207,32 @@
             x[slideIndex[no] - 1].style.display = "block";
         }
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+        
+    <footer style="padding-top: 20px;">
+        <div class="align-item: itens">
+            <p> Contatos: </p>
+
+            <div style="align-items: flex-end; display: flex; justify-content: center;">
+                <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
+                        src="../../images/174855.png" alt="new-logo"></a>
+                <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
+                        src="../../images/124010.png" alt="new-logo"></a>
+                <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
+                        src="../../images/989997.png" alt="new-logo"></a>
+            </div>
+        </div>
+        <div class="corpyright-footer" style="padding-top: 10px;">
+            Copyright 2021 (c) Ana Diniz Doceira
+        </div>
+    </footer>
+
 </body>
 
 </html>
