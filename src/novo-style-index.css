@@ -337,6 +337,7 @@ nav a:visited {
   right: 0;
   bottom: 0;
   z-index: 20;
+  box-shadow: 0 3px 4px rgba(0,0,0,.5);
 }
 
 .fab button.main:before{
@@ -428,6 +429,12 @@ nav a:visited {
     justify-content: center;
   }
 
+  .fab{
+    position: fixed;
+    bottom:30px;
+    right:20px;
+  }
+
   .footer {
     width: 100%;
   }
@@ -446,13 +453,10 @@ nav a:visited {
     display: block;
   }
 
-  .compras img {
-    width: 35px;
-  }
-
   .compras span {
     display: none;
   }
+
   #menuToggle {
   display: block;
   position: relative;
@@ -468,6 +472,7 @@ nav a:visited {
   text-decoration: none;
   color: #946362;
   transition: color 0.3s ease;
+  
 }
 
 #menuToggle input {
@@ -493,7 +498,7 @@ nav a:visited {
   margin-bottom: 5px;
   position: relative;
   
-  background: #946362;
+  background: #d29697;
   border-radius: 3px;
   
   z-index: 1;
@@ -537,6 +542,7 @@ nav a:visited {
   margin: -100px 0 0 -75px;
   padding: 50px;
   padding-top: 125px;
+  padding-bottom: 10px;
   
   background: #ededed;
   list-style-type: none;
@@ -579,6 +585,7 @@ nav a:visited {
   margin-top: -270px;
   display: flex;
   justify-content: center;
+  z-index: 5;
 }
 
 .manual-btn{

@@ -243,12 +243,19 @@ nav a:visited {
     font-weight: bold;
     font-size: 24px; 
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     color: #946362;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .indispensaveis {
-    margin-bottom: 10px !important;
+    margin-bottom: 3px !important;
+}
+.copoes {
+  margin-left: 0 !important;
+}
+.bebidas {
+  margin-bottom: 13px !important;
 }
 .icone {
     vertical-align: middle;
@@ -434,6 +441,7 @@ table {
     right: 0;
     bottom: 0;
     z-index: 20;
+    box-shadow: 0 3px 4px rgba(0,0,0,.5);
   }
   
   .fab button.main:before{
@@ -528,6 +536,11 @@ table {
     display: none;
   }
 
+  .fab{
+    position: fixed;
+    bottom:30px;
+    right:20px;
+  }
 
   /*menu mobile*/
   #menu-mobile {
@@ -536,10 +549,6 @@ table {
   
   .menu-principal ul li {
     padding: 0;
-  }
-
-  .compras img {
-    width: 35px;
   }
 
   .compras span {
@@ -586,7 +595,7 @@ table {
   margin-bottom: 5px;
   position: relative;
   
-  background: #946362;
+  background: #d29697;
   border-radius: 3px;
   
   z-index: 1;
@@ -657,6 +666,13 @@ table {
   transform: none;
 }
  
+.indispensaveis, .coxinhasdoces, .copoes, .tortinhas, .salgados, .bebidas {
+  margin-left: 0;
+  padding-left: 10px;
+}
+.copoes {
+  padding-left: 0 !important;
+}
 /* Posições no documento */
   .header {
     order: 1;
