@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sortcut icon" href="./images/favicon-16x16.png" type="image/x-icon"/>
+    <title>Ana Diniz Doceria | Novo Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <nav class="menu-principal">
+                <table class="tabela-menu" width=100%>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li>
+                            <a class="ignore-sublime" style="text-decoration: none"
+                              href='../sobre/index.html'>Sobre</a>
+                          </li>
+          
+                          <li>
+                            <div class="dropdown">
+                              <button class="dropbtn">Cardápio ▾</button>
+          
+                              <div class="dropdown-content">
+                                <a href="../../novocardapio.html#page6">Bebidas</a>
+                                <a href="../../novocardapio.html#page3">Copões</a>
+                                <a href="../../novocardapio.html#page2">Coxinhas doces</a>
+                                <a href="../../novocardapio.html#page1">Indispensáveis</a>
+                                <a href="../../novocardapio.html#page5">Salgados</a>                              
+                                <a href="../../novocardapio.html#page4">Tortinhas</a>
+                                
+                               
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <a class="ignore-sublime">Promoções</a>
+                          </li>
+                        </ul>
+                      </td>
+                      <td style="text-align: center;">
+                        <img class="logo" src="../../images/logo.png" width="80px" alt="logo">
+          
+                        </ul>
+                      </td>
+                      <td>
+                        <ul>
+                          <li class="compras">
+                            <a href='../carrinho/index.html' style="text-decoration: none;" target="_blank">
+                              <img class="carrinho" src="../../images/carrinho.png" width="30px">Meu Pedido</a>
+                        </ul>
+                        </li>
+          
+                      </td>
+                    </tr>
+                  </table>
+
+                    <!--
+                <li>
+                    <a class="ignore-sublime" href='./components/promocoes/index.html'>Promoções</a>
+                </li>
+                -->
+                </ul>
+            </nav>
+
+        </div>
+
+      
+
+<!--Menu Flutuante-->
+<div class="fab">
+    <button class="main">
+    </button>
+    <ul>
+      <li>
+
+        <button id="opcao1">       
+            <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"> 
+               <img src="../../images/contato/Instagram.png" style="vertical-align: middle;" width="45px">
+            </a>
+        </button>
+      </li>
+      
+      <li>
+
+        <button id="opcao2">          
+            <a href='https://www.facebook.com/anadinizbrownies/' target="_blank">
+             <img src="../../images/contato/facebook.png" style="vertical-align: middle;" width="45px">
+            </a>
+        </button>
+      </li>
+      <li>
+
+        <button id="opcao3">
+          <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank">
+            <img src="../../images/contato/whatsapp.png" style="vertical-align: middle;" width="45px">
+        </a>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <script>
+    function toggleFAB(fab) {
+      if (document.querySelector(fab).classList.contains('show')) {
+        document.querySelector(fab).classList.remove('show');
+      } else {
+        document.querySelector(fab).classList.add('show');
+      }
+    }
+
+    document.querySelector('.fab .main').addEventListener('click', function () {
+      toggleFAB('.fab');
+    });
+
+    document.querySelectorAll('.fab ul li button').forEach((item) => {
+      item.addEventListener('click', function () {
+        toggleFAB('.fab');
+      });
+    });
+  </script>
+
+<!-- FORMULARIO CADASTRO-->
+<main > 
+  <h1>Crie sua conta</h1> <br>
+  <div class="alternativa">
+      <span>OU</span> <BR>
+      <span>UTILIZE AS REDES SOCIAIS:</span>
+  </div>
+
+  <div class="social-media">
+    <a href="#">
+        <img src="../../images/logoGoogle.png" alt="Google">
+    </a>
+    <a href="#">
+        <img src="../../images/logoFacebook.png" alt="Facebook">
+    </a>           
+</div>
+
+<form action="">
+  <label for="nome">
+      <span>Nome</span>
+      <input type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+  </label>
+  
+  <label for="email">
+    <span>E-mail</span>
+    <input type="email" id="email" name="email" placeholder="Melhor e-mail" required> 
+</label>
+
+<label for="ddd">
+  <span>DDD</span>
+  <input type="text" id="ddd" name="ddd" placeholder="Código de área" required>
+</label>
+
+<label for="telefone">
+  <span>Telefone</span>
+  <input type="text" id="telefone" name="telefone" placeholder="Telefone" required>
+</label>
+
+<label for="cep">
+  <span>CEP</span>
+  <input type="text" id="cep" name="cep" placeholder="CEP" required>
+</label>
+
+<label for="rua">
+  <span>Rua</span>
+  <input type="text" id="rua" name="rua" placeholder="Rua" required>
+</label>
+
+<label for="numero">
+  <span>Nº</span>
+  <input type="text" id="numero" name="numero" placeholder="Número"required>
+</label>
+
+<label for="complemento">
+  <span>Complemento</span>
+  <input type="text" id="complemento" name="complemento" placeholder="Complemento/ Ponto de referência">
+</label>
+
+<label for="cidade">
+  <span>Cidade</span>
+  <input type="text" id="cidade" name="cidade" placeholder="Cidade" required>
+</label>
+
+<label for="estado">
+  <span>Estado</span>
+  <input type="text" id="estado" name="estado" placeholder="Estado/ UF" required>
+</label>
+
+<label for="senha">
+  <span>Senha</span>
+  <input type="password" id="senha" name="senha" placeholder="Escolha sua senha" required>
+</label>
+
+<label for="confsenha">
+  <span>Confirme sua Senha</span>
+  <input type="password" id="confsenha" name="confsenha" placeholder="Confirme a senha por favor." required>
+</label>
+
+<input type="submit" value="Confirmar" required>
+</form>
+</main>
+<section class="images">
+<img src="../../images/copoOreo.jpg" id="copoOreo" alt="Copão Oreo">
+</section>
+</main>
+
+
+<!--FIM FORMULARIO-->
+
+<!--rodapé-->
+        <div class="footer">
+            <footer>
+                <div class="align-item: itens">
+                    <p> Contatos: </p>
+
+                    <div style="align-items: flex-end; display: flex; justify-content: center; padding-top: 10px;">
+                        <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
+                            src="../../images/174855.png" alt="new-logo"></a>
+                        <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
+                            src="../../images/124010.png" alt="new-logo"></a>
+                        <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
+                            src="../../images/989997.png" alt="new-logo"></a>
+                      </div>
+                    </div>
+                <div class="corpyright-footer" style="padding-top: 10px;">
+                    Copyright 2021 © Ana Diniz Doceira
+                </div>
+
+            </footer>
+        </div>
+
+    </div>
+</body>
+
+</html>
