@@ -72,7 +72,13 @@ body{
   margin-top: 6px;
 }
 
-/*.menu-principal ul li:hover */
+.menu-principal ul li a {
+  text-decoration: none;
+}
+
+.menu-principal ul li:hover {
+  text-decoration: none;
+}
 
 .menu-principal ul {
   margin-block-start: 0;
@@ -453,6 +459,10 @@ nav a:visited {
     display: block;
   }
 
+  #menu .dropdown-content {
+    font-family: sans-serif;
+  }
+  
   .compras span {
     display: none;
   }

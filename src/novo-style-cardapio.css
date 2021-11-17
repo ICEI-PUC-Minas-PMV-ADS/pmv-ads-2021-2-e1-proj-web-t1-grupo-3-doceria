@@ -121,6 +121,7 @@ body{
 	  margin: 0 auto;
 	  background: #f1e7e3;
     box-shadow: 0 3px 3px -2px #989898;
+    padding-top: 5px;
 }
 
 .logo {
@@ -142,7 +143,9 @@ body{
     margin-top: 6px;
 }
 
-/*.menu-principal ul li:hover */
+.menu-principal ul li a {
+  text-decoration: none;
+}
 
 .menu-principal ul {
     margin-block-start: 0;
@@ -648,6 +651,10 @@ table {
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu .dropdown-content {
+  font-family: sans-serif;
 }
 
 #menu li {
