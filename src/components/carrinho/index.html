@@ -1,279 +1,363 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ana Diniz</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="sortcut icon" href="../../images/favicon-16x16.png" type="image/x-icon" />
+    <html lang="en">
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="sortcut icon" href="./images/favicon-16x16.png" type="image/x-icon" />
+      <title>Ana Diniz Doceria</title>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="novo-style-index.css">
+      <link rel="sortcut icon" href="../../images/favicon-16x16.png" type="image/x-icon" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
-
-<body>
-  <div class="container">
-    <div class="header">
-      <nav class="menu-principal">
-        <table class="tabela-menu" width=100%>
-          <tr>
-            <td>
-              <div id="menu-mobile">
-                <nav role="navigation">
-                  <div id="menuToggle">
-                    <input type="checkbox" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul id="menu">
-                      <a href='../../components/sobre/index.html'>
-                        <li>Sobre</li>
-                      </a><br>
-                      <div class="dropdown">
-                        <button class="dropbtn" style="padding: 0;">
-                          <li>Cardápio ▾</li>
-                        </button>
-                        <div class="dropdown-content">
-                          <a href="../../novocardapio.html#page1">Indispensáveis</a>
-                          <a href="../../novocardapio.html#page2">Coxinhas doces</a>
-                          <a href="../../novocardapio.html#page3">Copões</a>
-                          <a href="../../novocardapio.html#page4">Tortinhas</a>
-                          <a href="../../novocardapio.html#page5">Salgados</a>
-                          <a href="../../novocardapio.html#page6">Bebidas</a>
-                        </div>
+         
+    
+    </head>
+    
+    <body onload="findAll()">
+      <div class="container">
+        <div class="header">
+          <nav class="menu-principal">
+            <table class="tabela-menu" width=100%>
+              <tr>
+                <td>
+                  <div id="menu-mobile">
+                    <nav role="navigation">
+                      <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                          <a href='../../components/sobre/index.html'>
+                            <li>Sobre</li>
+                          </a><br>
+                          <div class="dropdown">
+                            <button class="dropbtn" style="padding: 0;">
+                              <li>Cardápio ▾</li>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="../../novocardapio.html#page1">Indispensáveis</a>
+                              <a href="../../novocardapio.html#page2">Coxinhas doces</a>
+                              <a href="../../novocardapio.html#page3">Copões</a>
+                              <a href="../../novocardapio.html#page4">Tortinhas</a>
+                              <a href="../../novocardapio.html#page5">Salgados</a>
+                              <a href="../../novocardapio.html#page6">Bebidas</a>
+                            </div>
+                          </div>
+                          <br>
+                          <li><a href="../../components/promocoes/index.html">Promoções</a></li>
+                        </ul>
                       </div>
-                      <br>
-                      <li><a href="../../components/promocoes/index.html">Promoções</a></li>
-                    </ul>
+                    </nav>
                   </div>
-                </nav>
-              </div>
-              <div id="menu-desktop">
-                <ul>
-                  <li>
-                    <a href='../../components/sobre/index.html'>Sobre</a>
+                  <div id="menu-desktop">
+                    <ul>
+                      <li>
+                        <a href='../../components/sobre/index.html'>Sobre</a>
+                      </li>
+                      <li>
+                        <div class="dropdown">
+                          <button class="dropbtn">Cardápio ▾</button>
+                          <div class="dropdown-content">
+                            <a href="../../novocardapio.html#page1">Indispensáveis</a>
+                            <a href="../../novocardapio.html#page2">Coxinhas doces</a>
+                            <a href="../../novocardapio.html#page3">Copões</a>
+                            <a href="../../novocardapio.html#page4">Tortinhas</a>
+                            <a href="../../novocardapio.html#page5">Salgados</a>
+                            <a href="../../novocardapio.html#page6">Bebidas</a>
+    
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <a href='../../components/promocoes/index.html'>Promoções</a>
+                      </li>
+                    </ul>
+                </td>
+                <td style="text-align: center;">
+                  <a href="../../index.html">
+                    <img class="logo" src="../../logo.png" width="80px" alt="logo">
+                  </a>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li class="compras">
+                      <a href='../../components/carrinho/index.html' style="text-decoration: none;" target="_blank">
+                        <img class="carrinho" src="../../carrinho.png" width="30px"><span>Meu Pedido</span></a>
+                  </ul>
                   </li>
-                  <li>
-                    <div class="dropdown">
-                      <button class="dropbtn">Cardápio ▾</button>
-                      <div class="dropdown-content">
-                        <a href="../../novocardapio.html#page1">Indispensáveis</a>
-                        <a href="../../novocardapio.html#page2">Coxinhas doces</a>
-                        <a href="../../novocardapio.html#page3">Copões</a>
-                        <a href="../../novocardapio.html#page4">Tortinhas</a>
-                        <a href="../../novocardapio.html#page5">Salgados</a>
-                        <a href="../../novocardapio.html#page6">Bebidas</a>
-
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <a href='../../components/promocoes/index.html'>Promoções</a>
-                  </li>
-                </ul>
-            </td>
-            <td style="text-align: center;">
-              <a href="../../index.html">
-                <img class="logo" src="../../logo.png" width="80px" alt="logo">
-              </a>
-              </ul>
-            </td>
-            <td>
-              <ul>
-                <li class="compras">
-                  <a href='../../components/carrinho/index.html' style="text-decoration: none;" target="_blank">
-                    <img class="carrinho" src="../../carrinho.png" width="30px"><span>Meu Pedido</span></a>
-              </ul>
-              </li>
-            </td>
-          </tr>
-        </table>
-        </ul>
-      </nav>
-
-    </div>
-    <h2>Carrinho</h2>
-    <div class="row">
-      <div class="col-50">
-        <div class="container">
-          <form action="/action_page.php">
-
+                </td>
+              </tr>
+            </table>
+            </ul>
+          </nav>
+    
+        </div>
+        <main>
+          <h1>Carrinho</h1>
+    
+        </main>
+              <h2>
+              Seu Pedido
+             </h2>
+            <hr />
             <div class="row">
               <div class="col-50">
-
-                <h2>
-                  Meu Pedido
-                </h2>
                 <table class="table">
                   <thead>
                     <tr>
                       <th width=5%>#</th>
                       <th width=30%>Produto</th>
-                      <th width=20%>Valor (Un.)</th>
+                      <th width=15%>Valor (Un.)</th>
                       <th width=15%>Quantidade</th>
                       <th width=15%>Valor Total</th>
                       <th width=20%></th>
                       <th>
-                        <a onclick="getProduto(${produtos[i].id});" class style="background: #a08686; border-radius: 6px; padding: 11px; cursor: pointer; color: #fff; border: none; font-size: 13px" <i class="fa fa-edit"></i> Editar</a>
-                      </th>
-                      <th>
-                        <a onclick="$('#id-prod').text(${produtos[i].id});" class style="background: #a08686; border-radius: 6px; padding: 11px; cursor: pointer; color: #fff; border: none; font-size: 13px" <i class="fa fa-trash"></i> Remover </a>
-                      </th>
-                    </tr>
+                       </th>
+                     </tr>
                   </thead>
                   <tbody id='produto-list'>
                   </tbody>
-                </table>
-                <hr />
-                <p></p>
-
-                <input type="reset" value="Limpar" button style="background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">
-
-                <button type="submit" class style="background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Salvar</button>
-
-                <a href="/index.html" style="text-decoration: none;" target="_blank">
-                  <class style="background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Continuar Comprando
-                </a>
+                  </table>
               </div>
             </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-50">
-          <div class="container">
-            <h3>Dados Pessoais</h3>
-            <label for="nome"><i class="fa fa-user"></i> Nome </label>
-            <input type="text" id="nome" size="20" placeholder="Nome Completo" required>
-            <label for="telefone"><i class="fa fa-phone"></i>Telefone</label>
-            <input type="tel" id="phone" name="phone" size="11" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="(DDD) + nº telefone" required>
-          </div>
-        </div>
-        <p>
-          </ <div class="row">
-        <div class="col-50">
-          <div class="container">
-            <h3>Entrega</h3>
-            <div class="form-group">
-              <label for="entrega" class="col-form-label"><strong>Entrega/Retirada:</strong></label>
-              <label>
-                <input type="radio" name="Entrega" value="retirada">Retirada na loja
-              </label>
-              <label>
-                <input type="radio" name="Entrega" value="entrega" checked>Entrega
-              </label>
-              <label for="cep"><i class="fa fa-map-marker"></i>CEP</label>
-              <input type="text" id="cep" name="cep" size="10" maxlength="9" placeholder="00000-000" required">
-              <label for="endereco"><i class="fa fa-address-card-o"></i>Endereço </label>
-              <input type="text" id="logradouro" name="endereco" placeholder="Av., Rua....">
-              <label for="numero"><i class="fa fa-address-card-o"></i>Número</label>
-              <input type="text" id="numero" min="0" max="99999" placeholder="Número, Complemento (apto, casa, lote)">
-              <label for="bairro"><i class="fa fa-institution"></i> Bairro</label>
-              <input type="text" id="bairro" name="bairro" placeholder="Centro">
-              <label for="localidade"><i class="fa fa-institution"></i> Localidade</label>
-              <input type="text" id="localidade" name="cidade" placeholder="Cidade">
-              <label for="uf">UF</label>
-              <input type="text" id="localidade" name="estado" placeholder="Estado">
-
-              <h3>Taxa de Entrega</h3>
-              <select id="taxaentrega" required>
-                <option selected disabled value="">Selecione o valor da taxa de entrega:</option>
-                <option>R$ 1,50 </option><small>Bairros: Castelo Branco, Fernão Dias</small>
-                <option>R$ 5,00 - Bairro: Dumaville</option>
-                <option>R$ 3,00 - Bairro: Fernão Dias</option>
-              </select>
             </div>
-          </div>
-
-          <div class="row">
-            <div class="col-50">
-              <div class="container">
-                <h3>Forma de Pagamento</h3> <label class="checkbox-inline"><input type="checkbox" name="pagamento" value="credito">Cartão de Crédito</label>
-                <label class="checkbox-inline">
-                  <input type="checkbox" name="pagamento" value="debito">Cartão de Débito
-                </label>
-                <label class="checkbox-inline">
-                  <input type="checkbox" name="pagamento" value="dinheiro">Dinheiro
-                </label>
-                <label class="checkbox-inline">
-                  <input type="checkbox" name="pagamento" value="pix" checked>PIX
-                </label>
+            <hr />
+            <!--  Modal apresentada para solicitar os dados para preenchimento do formulário -->
+            <div class="w3-container">
+              <button onclick="document.getElementById('id01').style.display='inline'" class="btn">Finalizar pedido</button>
+            
+              <div id="id01" class="w3-modal">
+                <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:100%">
+            
+                  <div class="w3-center"><br>
+                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                  </div>
+            
+                  <form class="w3-container" action="/action_page.php">
+                    <div class="w3-section">
+                      <h3>
+                          Finalize seu pedido</h3>
+                  <fieldset>
+                     <div class="modal-body">
+                      <form id="produto-form" method="post" action="">
+                         <div class="form-group">
+                          <h4 class="text-center">Descrição do Produto</h4>
+                             <label for="produto-nome" class="col-form-label"><strong>Produto:</strong></label>
+                              <input type="text" class="form-control" id="produto-nome" placeholder="Selecione o produto" required>
+                          </div>
+                          <p></p>
+                          <div class="form-group">
+                              <label for="produto-vlr" class="col-form-label"><strong>Valor:</strong></label>
+                              <input type="text" class="form-control" id="produto-vlr" required>
+                          </div>
+                          <p></p>
+                          <div class="form-group">
+                              <label for="produt-qnt" class="col-form-label"><strong>Quantidade:</strong></label>
+                              <input type="number" class="form-control" id="produt-qnt" required>
+                          </div>
+                          <p></p>
+                      </fieldset>
+                      <fieldset>
+                          <div class="modal-body">
+                          <div class="form-group">
+                            <h3>Dados</h3>
+                              <label for="nome" class="col-form-label"><strong>Nome:</strong></label>
+                              <input type="text" class="form-control" name= "Name" id="name" size="20" maxlenght="30" placeholder=" Nome Completo" required>
+                          </div>
+                          <p></p>
+                          <div class="form-group">
+                              <label for="telefone" class="col-form-label"><strong>Telefone:</strong></label>
+                              <input type="tel" name="Phone" class="form-control" id="phone" size="11" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="(DDD) + nº telefone"required>
+                          </div>
+                      </div>
+                          </fieldset>
+                      <fieldset>
+                          <div class="modal-body">
+                          <div class="form-group">
+                            <h3>Dados para Entrega</h3>
+                              <label for="entrega" class="col-form-label"><strong>Entrega/Retirada:</strong></label>
+                              <label>
+                                  <input type="radio" name="Entrega" id="entrega" value="retirada">Retirada
+                              </label>
+                                  <label>
+                                  <input type="radio" name="Entrega" id="entrega" value="entrega" checked>Entrega
+                              </label>
+                              <br>
+                              <small>Se a escolha for entrega, preencha os dados de endereço abaixo</small>
+                              </div>
+                           <div class="form-group">
+                                      <label for="cep"><strong>CEP</strong></label>
+                                      <input type="text" class="form-control" maxlength="9" id="cep" placeholder="00000-000" required>
+                                      <br>
+                                    </div>
+                                  <p></p>
+                                  <div class="form-group">
+                                      <label for="endereco" class="col-form-label"><strong>Endereço para entrega:</strong></label>
+                                      <input type="text" class="form-control" id="logradouro" placeholder="Av., Rua...." >
+                                      <p><label for="numero"><strong>Número:</strong></label></p>
+                                      <input type="number" class="form-control" id="numero" min="0" max="99999">
+                                      </div>
+                                  <p></p>
+                                  <div class="form-group">
+                                      <label for="bairro" class="col-form-label"><strong>Bairro:</strong></label>
+                                      <input type="text" class="form-control" name="Bairro" id="bairro" >
+                                      
+                                  </div>
+                                  <p></p>
+                                  <div class="form-group">
+                                      <label for="localidade" class="col-form-label"><strong>Localidade:</strong></label>
+                                      <input type="text" class="form-control" name="Localidade" id="localidade" placeholder="Cidade">
+                                      <br>
+                                      </div>
+                                  <p></p>
+                          <div class="form-group">
+                              <label for="uf" class="col-form-label"><strong>UF:</strong></label>
+                              <input type="text" class="form-control" name="UF" id="uf" placeholder="Estado">
+                              <br>
+                             </div>
+                          </div>
+                          </fieldset>
+                          <fieldset>
+                          <div class="modal-body">
+                          <div class="form-group">
+                              <label for="taxaentrega" class="col-form-label"><strong>Taxa de Entrega:</strong></label>
+                                <select id="taxaentrega" required>
+                                    <option selected disabled value="">Selecione o valor da taxa de entrega:</option>
+                                    <option>R$ 1,50 </option><small>Bairros: Castelo Branco, Fernão Dias</small>
+                                    <option>R$ 5,00 - Bairro: Dumaville</option>
+                                    <option>R$ 3,00 - Bairro: Fernão Dias</option>
+                                  </select>
+                          </div>
+                          <p></p>
+                          <div class="form-group">
+                              <label for="pagamento"><strong>Formas de Pagamento:</strong></label>
+                              <label>
+                              <input type="radio" name="Pagamento" id="pagamento" value="credito" checked>Cartão de Crédito
+                              </label>
+                              <label>
+                              <input type="radio" name="Pagamento" id="pagamento" value="debito">Cartão de Débito
+                              </label>
+                              <label>
+                              <input type="radio" name="Pagamento" id="pagamento" value="dinheiro">Dinheiro
+                              </label>
+                              <label>
+                              <input type="radio" name="Pagamento"  id="pagamento" value="pix">PIX
+                              </label>
+                          </div>
+                          </div>
+                      </fieldset>
+                      <fieldset>
+                          <div class="modal-body">
+                          <div class="form-group">
+                          <p><label for="msg"><strong>Mensagem do Cliente:</strong></label>
+                              <textarea name="tMsg" id="mensagem" cols="45"></textarea></p>
+                          </div>
+                          </div>
+                      </fieldset>
+                          <p></p>
+                        <div class="modal-footer">
+                          <div class="w3-container w3-center">
+                            <div class="w3-bar">
+                              <input type="reset"  value="Limpar" button style="background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;" >
+                                <button type="submit" class style= "background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Salvar</button>
+                              <a href="/index.html" target="_blank"><class style="background: #946362; border-radius: 6px; padding: 12px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Continuar Comprando</a>
+                            </div>
+                            </div>
+                                                       <button onclick="gotowhatsapp()" type="submit" name="submit" value="Submit" class="btn">Enviar Pedido</button>
+                            
+                  </div>
               </div>
-            </div>
+              </form>
           </div>
-
-        </div>
       </div>
-      </form>
-      <input type="submit" value="Finalizar Pedido" class="btn">
-    </div>
   </div>
-  <div class="footer">
+</div>
+
+<script src="main.js"></script>
+         <!-- // Associar salvamento ao botao
+-->
+      <script> document.getElementById ('btn_salvar').addEventListener ('click', salvaLogin);        
+    </script>
+
+    <!--// Associar envio whatsapp -->
+ 
+  <script>
+    function gotowhatsapp() {
+    var name = document.getElementById("name").value;
+    var phone = document.getElementById("phone").value;
+    var entrega = document.getElementById("entrega").value;
+    var cep = document.getElementById("cep").value;
+    var logradouro =  document.getElementById("logradouro").value;
+    var numero = document.getElementById("numero").value;
+    var bairro = document.getElementById("bairro").value;
+    var localidade = document.getElementById("localidade").value;
+    var uf = document.getElementById("uf").value;
+    var taxaentrega = document.getElementById("taxaentrega").value;
+    var pagamento = document.getElementById("pagamento").value;
+    var mensagem = document.getElementById("mensagem").value;
+    
+    var url = "https://wa.me/5531998325314?text="
+    + "Name: " + name + "%0a"
+    + "Phone: " + phone + "%0a"
+    + "Entrega: " + entrega + "%0a"
+    + "Cep: " + cep + "%0a"
+    + "Logradouro: " + logradouro + "%0a"
+    + "Bairro: " + bairro + "%0a"
+    + "Localidade: " + localidade + "%0a"
+    + "UF: " + uf + "%0a"
+    + "Taxaentrega: " + taxaentrega + "%0a"
+    + "Pagamento: " + pagamento + "%0a"
+    + "tMsg: " + mensagem + "%0a"
+    window.open(url, '_blank').focus();
+  }
+</script>
+
+<script>
+  function toggleFAB(fab) {
+    if (document.querySelector(fab).classList.contains('show')) {
+      document.querySelector(fab).classList.remove('show');
+    } else {
+      document.querySelector(fab).classList.add('show');
+    }
+  }
+  document.querySelector('.fab .main').addEventListener('click', function() {
+    toggleFAB('.fab');
+  });
+  document.querySelectorAll('.fab ul li button').forEach((item) => {
+    item.addEventListener('click', function() {
+      toggleFAB('.fab');
+    });
+  });
+</script>
+</body>
+ <!--Rodapé-->
+ <div class="footer">
     <footer>
       <div class="align-item: itens">
         <p> Contatos: </p>
+
         <div style="align-items: flex-end; display: flex; justify-content: center; padding-top: 10px;">
-          <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon" src="../../images/174855.png" alt="new-logo"></a>
-          <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon" src="../../images/124010.png" alt="new-logo"></a>
-          <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon" src="../../images/989997.png" alt="new-logo"></a>
+          <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
+              src="./images/174855.png" alt="new-logo"></a>
+          <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
+              src="./images/124010.png" alt="new-logo"></a>
+          <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
+              src="./images/989997.png" alt="new-logo"></a>
         </div>
       </div>
-      <div class="corpyright-footer" style="padding-top: 10px; padding-bottom: 3px;">
+      <div class="corpyright-footer" style="padding-top: 10px;">
         Copyright 2021 © Ana Diniz Doceira
       </div>
+
     </footer>
   </div>
-  </div>
-
-  <!--Botão Flutuante-->
-
-  <div class="fab">
-    <button class="main">
-    </button>
-    <ul>
-      <li>
-        <button id="opcao1">
-          <a href='https://www.instagram.com/anadinizdoceria/' target="_blank">
-            <img src="../../images/contato/Instagram.png" style="vertical-align: middle;" width="45px">
-          </a>
-        </button>
-      </li>
-      <li>
-        <button id="opcao2">
-          <a href='https://www.facebook.com/anadinizbrownies/' target="_blank">
-            <img src="../../images/contato/facebook.png" style="vertical-align: middle;" width="45px">
-          </a>
-        </button>
-      </li>
-      <li>
-        <button id="opcao3">
-          <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank">
-            <img src="../../images/contato/whatsapp.png" style="vertical-align: middle;" width="45px">
-          </a>
-        </button>
-      </li>
-    </ul>
-  </div>
-  <script>
-    function toggleFAB(fab) {
-      if (document.querySelector(fab).classList.contains('show')) {
-        document.querySelector(fab).classList.remove('show');
-      } else {
-        document.querySelector(fab).classList.add('show');
-      }
-    }
-    document.querySelector('.fab .main').addEventListener('click', function() {
-      toggleFAB('.fab');
-    });
-    document.querySelectorAll('.fab ul li button').forEach((item) => {
-      item.addEventListener('click', function() {
-        toggleFAB('.fab');
-      });
-    });
-  </script>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</div>
+</div>
 
 </body>
 
