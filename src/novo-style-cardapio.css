@@ -113,15 +113,18 @@ body{
   
   
   /*Cabeçalho site*/
-.header { 
-    position: sticky;   
-    position: -webkit-sticky; /* Safari */
-    top: 0;
+
+.header {
+  position: sticky;   
+  position: -webkit-sticky; /* Safari */ 
+  top: 0;
+}
+
+.menu-principal {  
 	  width: 100%;
 	  margin: 0 auto;
 	  background: #f1e7e3;
     box-shadow: 0 3px 3px -2px #989898;
-    padding-top: 5px;
 }
 
 .logo {
@@ -155,6 +158,8 @@ body{
 .menu-principal a:hover {
     text-decoration: none;
 }
+
+
 
 nav a:visited {
     text-decoration: none !important;
@@ -232,6 +237,7 @@ nav a:visited {
     display: block;
   }
   
+
 
 /*menu mobile*/
 

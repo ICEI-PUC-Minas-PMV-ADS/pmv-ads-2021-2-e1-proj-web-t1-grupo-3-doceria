@@ -23,6 +23,14 @@ body {
     width: 33.333%;
   }
 
+  table td {
+    padding: 0px; margin: 0px;
+  }
+
+  table {
+    border-spacing: 0px;
+  }
+
   .menu-principal ul li {
     display: inline-block;
     text-align: left;

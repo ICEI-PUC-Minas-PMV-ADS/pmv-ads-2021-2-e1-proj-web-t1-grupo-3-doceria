@@ -43,79 +43,91 @@ body{
 
 
 /*Cabeçalho site*/
-.header { 
+.header {
   position: sticky;   
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky; /* Safari */ 
   top: 0;
-  width: 100%;
-  margin: 0 auto;
-  background: #f1e7e3;
-  box-shadow: 0 3px 3px -2px #989898;
+}
+.menu-principal {   
+	  width: 100%;
+	  margin: 0 auto;
+	  background: #f1e7e3;
+    box-shadow: 0 3px 3px -2px #989898;
 }
 
+
 .logo {
-  vertical-align: middle;
-  text-align: center;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .tabela-menu td {
-  width: 33.333%;
+    width: 33.333%;
+}
+
+table td {
+  padding: 0px; margin: 0px;
+}
+
+table {
+  border-spacing: 0px;
 }
 
 .menu-principal ul li {
-  display: inline-block;
-  text-align: left;
-  color: #946362;
-  padding-right: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-  margin-top: 6px;
+    display: inline-block;
+    text-align: left;
+    color: #946362;
+    padding-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-top: 6px;
 }
 
 .menu-principal ul li a {
   text-decoration: none;
 }
 
-.menu-principal ul li:hover {
-  text-decoration: none;
-}
-
 .menu-principal ul {
-  margin-block-start: 0;
-  margin-block-end: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .menu-principal a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
+
+
 nav a:visited {
-  text-decoration: none !important;
-  color: #946362; 
+    text-decoration: none !important;
+    color: #946362; 
 
 }
 
 .compras {
-  float: right;
-  margin-right: 40px;
+    float: right;
+    margin-right: 40px;
 
+}
+
+.compras img {
+  width: 30px;
 }
 
 .compras:hover {
-  background: none !important;
-  color: #946362 !important;
+    background: none !important;
+    color: #946362 !important;
 }
 
 .compras a:hover {
-  color: #946362;
+    color: #946362;
 }
 
 .carrinho {
-  
-  margin-right: 5px;
-  vertical-align:middle;
+    
+    margin-right: 5px;
+    vertical-align:middle;
 }
-
 /*dropdown menu*/
 
 .dropbtn {
@@ -164,7 +176,7 @@ nav a:visited {
 /*menu mobile*/
 
 #menu-mobile {
-  display: none;
+display: none;
 }
 
 
@@ -442,6 +454,10 @@ nav a:visited {
   }
 
   .footer {
+    width: 100%;
+  }
+
+  .header {
     width: 100%;
   }
 

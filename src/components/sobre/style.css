@@ -8,6 +8,8 @@ body {
     position: sticky;   
     position: -webkit-sticky; /* Safari */
     top: 0;
+}
+.menu-principal {
     width: 100%;
     margin: 0 auto;
     background: #f1e7e3;
@@ -21,6 +23,14 @@ body {
   
   .tabela-menu td {
     width: 33.333%;
+  }
+
+  table td {
+    padding: 0px; margin: 0px;
+  }
+
+  table {
+    border-spacing: 0px;
   }
 
   .menu-principal ul li {
