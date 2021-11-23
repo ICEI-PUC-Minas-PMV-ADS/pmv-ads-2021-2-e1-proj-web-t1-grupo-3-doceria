@@ -154,6 +154,10 @@ body {
     display: none;
   }
 
+  .compras img {
+    padding-bottom: 11px;
+  }
+
   #menuToggle {
   display: block;
   position: relative;

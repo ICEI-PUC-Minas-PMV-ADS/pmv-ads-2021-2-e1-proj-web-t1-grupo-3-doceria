@@ -15,39 +15,84 @@
 
 <body>
     <header>
+    <div class="header">
         <nav class="menu-principal">
-            <img class="logo" src="../../logo.png" alt="logo">
-            <ul>
-                <li>
-                    <a class="ignore-sublime" href='../sobre/index.html'>Sobre</a>
-                </li>
-
-                <li>
-                    <a class="dropdown-toggle botaocardapio" data-toggle="dropdown" id="dropdown-cardapio" href="#"
-                        role="button" aria-haspopup="true" aria-expanded="false">Cardápio</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="../../index.html#indispensaveis"
-                            target="_blank">Indispensáveis</a>
-                        <a class="dropdown-item" href="../../index.html#coxinhasdoces">Coxinhas Doces</a>
-                        <a class="dropdown-item" href="../../index.html#copoes">Copões</a>
-                        <a class="dropdown-item" href="../../index.html#tortinhas">Tortinhas</a>
-                        <a class="dropdown-item" href="../../index.html#salgados">Salgados</a>
-                        <a class="dropdown-item" href="../../index.html#bebidas">Bebidas</a>
-                </li>
-                <li>
-                    <a class="ignore-sublime" href='../promocoes/index.html'>Promoções</a>
-                </li>
-
-                <div class="compras">
-                    <a href='../carrinho/index.html' target="_blank">
-                        <ol>
-                            <li><img class="carrinho" src="../../images/carrinho.png"></li>
-                            <li>Meu Pedido</li>
-                        </ol>
-                    </a>
+          <table class="tabela-menu" width=100%>
+            <tr>
+              <td>
+                <div id="menu-mobile">
+                  <nav role="navigation">
+                    <div id="menuToggle" style="text-align: center;" >
+                      <input type="checkbox"/>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <ul id="menu" style="text-align: left; padding-left:90px;">
+                        <a href='../../components/sobre/index.html'>
+                          <li>Sobre</li>
+                        </a><br>
+                        <div class="dropdown">
+                          <button class="dropbtn" style="padding: 0;">
+                            <li>Cardápio ▾</li>
+                          </button>
+                          <div class="dropdown-content">
+                            <a href="../../novocardapio.html#page1">Indispensáveis</a>
+                            <a href="../../novocardapio.html#page2">Coxinhas doces</a>
+                            <a href="../../novocardapio.html#page3">Copões</a>
+                            <a href="../../novocardapio.html#page4">Tortinhas</a>
+                            <a href="../../novocardapio.html#page5">Salgados</a>
+                            <a href="../../novocardapio.html#page6">Bebidas</a>
+                          </div>
+                        </div>
+                        <br>
+                        <li><a href="../../components/promocoes/index.html">Promoções</a></li>
+                      </ul>
+                    </div>
+                  </nav>
                 </div>
-            </ul>
+                <div id="menu-desktop">
+                  <ul>
+                    <li>
+                      <a href='../../components/sobre/index.html'>Sobre</a>
+                    </li>
+                    <li>
+                      <div class="dropdown">
+                        <button class="dropbtn">Cardápio ▾</button>
+                        <div class="dropdown-content">
+                          <a href="../../novocardapio.html#page1">Indispensáveis</a>
+                          <a href="../../novocardapio.html#page2">Coxinhas doces</a>
+                          <a href="../../novocardapio.html#page3">Copões</a>
+                          <a href="../../novocardapio.html#page4">Tortinhas</a>
+                          <a href="../../novocardapio.html#page5">Salgados</a>
+                          <a href="../../novocardapio.html#page6">Bebidas</a>
+  
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href='../../components/promocoes/index.html'>Promoções</a>
+                    </li>
+                  </ul>
+              </td>
+              <td style="text-align: center;">
+                <a href="../../index.html">
+                  <img class="logo" src="../../logo.png" width="80px" alt="logo">
+                </a>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li class="compras">
+                    <a href='../../components/carrinho/index.html' style="text-decoration: none;" target="_blank">
+                      <img class="carrinho" src="../../carrinho.png" width="30px"><span>Meu Pedido</span></a>
+                </ul>
+                </li>
+              </td>
+            </tr>
+          </table>
+          </ul>
         </nav>
+      </div>
     </header>
     <main>
         <div style="padding-top: 20px;">
@@ -215,24 +260,28 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
         
-    <footer style="padding-top: 20px;">
-        <div class="align-item: itens">
-            <p> Contatos: </p>
-
-            <div style="align-items: flex-end; display: flex; justify-content: center;">
-                <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
-                        src="../../images/174855.png" alt="new-logo"></a>
-                <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
-                        src="../../images/124010.png" alt="new-logo"></a>
-                <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
-                        src="../../images/989997.png" alt="new-logo"></a>
-            </div>
+<!--Rodapé-->
+<footer>
+<div class="footer">
+    
+      <div class="align-item: itens">
+        <p> Contatos: </p>
+  
+        <div style="align-items: flex-end; display: flex; justify-content: center; padding-top: 10px;">
+          <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
+              src="../../images/174855.png" alt="new-logo"></a>
+          <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
+              src="../../images/124010.png" alt="new-logo"></a>
+          <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
+              src="../../images/989997.png" alt="new-logo"></a>
         </div>
-        <div class="corpyright-footer" style="padding-top: 10px;">
-            Copyright 2021 (c) Ana Diniz Doceira
-        </div>
-    </footer>
-
+      </div>
+      <div class="corpyright-footer" style="padding-top: 10px;">
+        Copyright 2021 © Ana Diniz Doceira
+      </div>
+    
+  </div>
+</footer>
 </body>
 
 </html>

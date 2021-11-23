@@ -545,6 +545,10 @@ table {
     display: none;
   }
 
+  .compras img {
+    padding-bottom: 11px;
+  }
+
   .fab{
     position: fixed;
     bottom:30px;
@@ -686,6 +690,8 @@ table {
 .copoes {
   padding-left: 0 !important;
 }
+
+
 /* Posições no documento */
   .header {
     order: 1;

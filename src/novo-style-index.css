@@ -457,6 +457,10 @@ display: none;
     width: 100%;
   }
 
+  .compras img {
+    padding-bottom: 11px;
+  }
+
   .header {
     width: 100%;
   }
