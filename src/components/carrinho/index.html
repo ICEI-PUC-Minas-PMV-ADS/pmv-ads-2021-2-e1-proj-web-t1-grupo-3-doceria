@@ -25,12 +25,12 @@
                 <td>
                   <div id="menu-mobile">
                     <nav role="navigation">
-                      <div id="menuToggle">
-                        <input type="checkbox" />
+                      <div id="menuToggle" style="text-align: center;" >
+                        <input type="checkbox"/>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <ul id="menu">
+                        <ul id="menu" style="text-align: left; padding-left:90px;">
                           <a href='../../components/sobre/index.html'>
                             <li>Sobre</li>
                           </a><br>
@@ -97,27 +97,24 @@
           </nav>
     
         </div>
+        <div class="titulo">
+          <img src="../../carrinho.png" style="vertical-align: middle;">
+          <h1 style="display: inline;">Carrinho</h1>
+        </div>
         <main>
-          <h1>Carrinho</h1>
-    
-        </main>
-              <h2>
-              Seu Pedido
-             </h2>
-            <hr />
+          
+            <h2>Seu Pedido</h2>  
             <div class="row">
               <div class="col-50">
-                <table class="table">
+                <table class="table" id="table">
                   <thead>
                     <tr>
-                      <th width=5%>#</th>
-                      <th width=30%>Produto</th>
-                      <th width=15%>Valor (Un.)</th>
-                      <th width=15%>Quantidade</th>
-                      <th width=15%>Valor Total</th>
-                      <th width=20%></th>
-                      <th>
-                       </th>
+                      <th scope="col" class="codigo">#</th>
+                      <th scope="col" class="produto">Produto</th>
+                      <th scope="col" class="valor">Valor (Un.)</th>
+                      <th scope="col" class="quantidade">Quantidade</th>
+                      <th scope="col" class="valortotal">Valor Total</th>
+                      <th scope="col" class="botoes"></th>
                      </tr>
                   </thead>
                   <tbody id='produto-list'>
@@ -126,10 +123,10 @@
               </div>
             </div>
             </div>
-            <hr />
+          </main>
             <!--  Modal apresentada para solicitar os dados para preenchimento do formulário -->
             <div class="w3-container">
-              <button onclick="document.getElementById('id01').style.display='inline'" class="btn">Finalizar pedido</button>
+              <button onclick="document.getElementById('id01').style.display='block'" class="btn2">Finalizar pedido</button>
             
               <div id="id01" class="w3-modal">
                 <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:100%">
@@ -227,7 +224,7 @@
                           <div class="form-group">
                               <label for="taxaentrega" class="col-form-label"><strong>Taxa de Entrega:</strong></label>
                                 <select id="taxaentrega" required>
-                                    <option selected disabled value="">Selecione o valor da taxa de entrega:</option>
+                                    <option selected disabled value="">Selecione a taxa de entrega:</option>
                                     <option>R$ 1,50 </option><small>Bairros: Castelo Branco, Fernão Dias</small>
                                     <option>R$ 5,00 - Bairro: Dumaville</option>
                                     <option>R$ 3,00 - Bairro: Fernão Dias</option>
@@ -268,7 +265,7 @@
                               <a href="/index.html" target="_blank"><class style="background: #946362; border-radius: 6px; padding: 12px; cursor: pointer; color: #fff; border: none; font-size: 12px;">Continuar Comprando</a>
                             </div>
                             </div>
-                                                       <button onclick="gotowhatsapp()" type="submit" name="submit" value="Submit" class="btn">Enviar Pedido</button>
+                                                       <button onclick="gotowhatsapp()" type="submit" name="submit" value="Submit" class="btn" id="btn3">Enviar Pedido</button>
                             
                   </div>
               </div>
@@ -317,6 +314,38 @@
   }
 </script>
 
+
+<!--botão Flutuante-->
+<div class="fab">
+  <button class="main">
+  </button>
+  <ul>
+    <li>
+
+      <button id="opcao1">
+        <a href='https://www.instagram.com/anadinizdoceria/' target="_blank">
+          <img src="../../images/contato/Instagram.png" style="vertical-align: middle;" width="45px">
+        </a>
+      </button>
+    </li>
+    <li>
+
+      <button id="opcao2">
+        <a href='https://www.facebook.com/anadinizbrownies/' target="_blank">
+          <img src="../../images/contato/facebook.png" style="vertical-align: middle;" width="45px">
+        </a>
+      </button>
+    </li>
+    <li>
+
+      <button id="opcao3">
+        <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank">
+          <img src="../../images/contato/whatsapp.png" style="vertical-align: middle;" width="45px">
+        </a>
+      </button>
+    </li>
+  </ul>
+</div>
 <script>
   function toggleFAB(fab) {
     if (document.querySelector(fab).classList.contains('show')) {
@@ -325,38 +354,39 @@
       document.querySelector(fab).classList.add('show');
     }
   }
-  document.querySelector('.fab .main').addEventListener('click', function() {
+
+  document.querySelector('.fab .main').addEventListener('click', function () {
     toggleFAB('.fab');
   });
+
   document.querySelectorAll('.fab ul li button').forEach((item) => {
-    item.addEventListener('click', function() {
+    item.addEventListener('click', function () {
       toggleFAB('.fab');
     });
   });
 </script>
-</body>
- <!--Rodapé-->
- <div class="footer">
-    <footer>
-      <div class="align-item: itens">
-        <p> Contatos: </p>
-
-        <div style="align-items: flex-end; display: flex; justify-content: center; padding-top: 10px;">
-          <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
-              src="./images/174855.png" alt="new-logo"></a>
-          <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
-              src="./images/124010.png" alt="new-logo"></a>
-          <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
-              src="./images/989997.png" alt="new-logo"></a>
-        </div>
-      </div>
-      <div class="corpyright-footer" style="padding-top: 10px;">
-        Copyright 2021 © Ana Diniz Doceira
-      </div>
-
-    </footer>
-  </div>
 </div>
+</div>
+
+<!--Rodapé-->
+<div class="footer">
+  <footer>
+    <div class="align-item: itens">
+      <p> Contatos: </p>
+
+      <div style="align-items: flex-end; display: flex; justify-content: center; padding-top: 10px;">
+        <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
+            src="../../images/174855.png" alt="new-logo"></a>
+        <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
+            src="../../images/124010.png" alt="new-logo"></a>
+        <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
+            src="../../images/989997.png" alt="new-logo"></a>
+      </div>
+    </div>
+    <div class="corpyright-footer" style="padding-top: 10px;">
+      Copyright 2021 © Ana Diniz Doceira
+    </div>
+  </footer>
 </div>
 
 </body>

@@ -7,7 +7,11 @@ body {
 .header { 
   position: sticky;   
   position: -webkit-sticky; /* Safari */
-  top: 0;
+  top: 0;  
+  z-index: 10;
+}
+
+.menu-principal {
   width: 100%;
   margin: 0 auto;
   background: #f1e7e3;
@@ -21,6 +25,14 @@ body {
 
 .tabela-menu td {
   width: 33.333%;
+}
+
+table td {
+  padding: 0px; margin: 0px;
+}
+
+table {
+  border-spacing: 0px;
 }
 
 .menu-principal ul li {
@@ -119,7 +131,7 @@ nav a:visited {
 
 /*CABEÇALHO MOBILE*/  
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
 .footer {
   width: 100%;
 }
@@ -214,7 +226,7 @@ transform: rotate(-45deg) translate(0, -1px);
 #menu {
 position: absolute;
 width: 300px;
-margin: -100px 0 0 -75px;
+margin: -100px 0 0 -120px;
 padding: 50px;
 padding-top: 125px;
 padding-bottom: 10px;
@@ -275,6 +287,7 @@ transform: none;
   bottom: 0;
   z-index: 20;
   box-shadow: 0 3px 4px rgba(0,0,0,.5);
+  padding-top: 5px;
 }
 
 .fab button.main:before{
@@ -340,7 +353,7 @@ transform: none;
   .fab{
       position: fixed;
       bottom:30px;
-      right:20px;
+      right:25px;
     }
 }
 
@@ -355,6 +368,9 @@ transform: none;
   font-family: sans-serif;
   font-size: 14px;
   margin-top: 10px;
+  margin-top: 5%;
+  bottom: 0;
+  width: 100%;
 }
 
 .logo-icon {
@@ -376,34 +392,13 @@ transform: none;
 
 /* Corpo do site */
 
-.div-sobre{
-  padding-top: 4%;
-}
 
-.sobre{
-  margin-top: 1%;
-  text-align: center;
-  font-family:sans-serif;
-  color: #7c3f47;
-}
-
-main > .sobre > p {
-  margin-top: 1%;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #7c3f47;
-}
-
-.destaque { 
-  font-size: x-large;
-  color: rgb(141, 76, 87);
-  font-family: serif;
-}
 body {
   font-family: Arial;
   font-size: 17px;
-  padding: 8px;
+  padding: 0;
 }
+
 
 * {
   box-sizing: border-box;
@@ -414,7 +409,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  margin: 0 -16px;
 }
 
 .col-50 {
@@ -426,11 +420,78 @@ body {
   padding: 0 16px;
 }
 
-.container {
-  background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
+.col-50 table {
+  margin: 0;
+  width: 100%;
+}
+
+.codigo {
+  width: 5%;
+  text-align: center;
+}
+
+.produto {
+  width: 30%;
+}
+
+.valor {
+  width: 15%;
+}
+
+.quantidade {
+  width: 15%;
+}
+
+.valortotal {
+  width: 15%;
+}
+
+.botoes {
+  width: 20%;
+}
+
+main {
+ background-color: #f2f2f2;
+ margin: 1% 10%;  
+ border: 1px solid lightgrey;
+ border-radius: 3px;
+ padding-bottom: 20px;
+}
+
+.titulo {
+  margin-top: 2%;
+  margin-left: 10%;
+  display: inline-block;
+  background: #f1e7e3;
+  padding-top: 5px;
+  padding-right: 13px;
+  padding-left: 13px;
+  border-radius: 10px;
+  
+}
+
+.titulo img {
+  width: 45px;
+  padding-bottom: 12px;
+  
+}
+
+.titulo h1 {
+  color: #946362;
+  font-size: 37px;
+  font-family: sans-serif;
+  padding-left: 5px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+main h2 {
+  padding-left: 25px;
+  font-size: 24px;
+}
+
+thead {
+  text-align: left;
 }
 
 input[type=text] {
@@ -455,10 +516,20 @@ label {
 .btn {
   background-color: #a08686;
   color: white;
-  padding: 12px;
-  margin: 10px 0;
+  padding: 3px;
+  margin: 3px;
   border: none;
-  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn2 {
+  margin: 2% 44%;
+  background-color: #a08686;
+  color: white;
+  padding: 16px;
+  border: none;
   border-radius: 3px;
   cursor: pointer;
   font-size: 17px;
@@ -468,75 +539,139 @@ label {
   background-color: #946362;
 }
 
-a {
-  color: #2196F3;
+.btn2:hover {
+  background-color: #946362;
 }
 
-hr {
-  border: 1px solid lightgrey;
+a {
+  text-decoration: none;
 }
+
 
 span.preco{
   float: right;
   color: grey;
 }
 
+#btn3 {
+  display: block;
+  margin: 4px auto;
+  padding: 10px;
+}
+
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
+  .header, .menu-principal {
+    width: 100%;
+  }
   .row {
         flex-direction: column-reverse;
   }
- 
-.col-50{
-  padding: 0 16px;
-}
+  .table table,.table thead,.table tbody,.table th,.table td,.table tr {
+    display: block;
+  }
 
-
-input[type=text] {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-label {
-  margin-bottom: 10px;
-  display: block;
-}
-
-.icon-container {
-  margin-bottom: 20px;
-  padding: 7px 0;
-  font-size: 24px;
-}
-
-.btn {
-  background-color: #a08686;
-  color: white;
-  padding: 12px;
-  margin: 10px 0;
-  border: none;
-  width: 100%;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 17px;
-}
-
-.btn:hover {
-  background-color: #45a049;
-}
-
-span.preco{
-  float: right;
-  color: grey;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
+  main h2 {
+    text-align: center;
+    padding-left: 0;
+    
   }
   
+   thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+  tr {
+   border: none; 
   }
+
+  .btn, .btn2 {
+    padding: 8px;
+  }
+
+ td { 
+  /* Behave  like a "row" */
+  border: none;
+  border-bottom: 1px solid #eee; 
+  position: relative;
+  padding-left: 50%; 
+  height: 30px;
+  text-align: right;
+}
+
+.table td:last-child {
+  text-align: center;
+  height: 50px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid gray;
+}
+
+.table td:before { 
+  /* Now like a table header */
+  position: absolute;
+  /* Top/left values mimic padding */
+  top: 6px;
+  left: 6px;
+  width: 45%; 
+  padding-right: 10px; 
+  white-space: nowrap;
+  text-align: left;
+}
+
+/*
+Label the data
+*/
+.table td:nth-of-type(0):before { content: "#"; }
+.table td:nth-of-type(1):before { content: "Produto"; font-weight: bold;}
+.table td:nth-of-type(2):before { content: "Valor (Un)"; font-weight: bold;}
+.table td:nth-of-type(3):before { content: "Quantidade"; font-weight: bold;}
+.table td:nth-of-type(4):before { content: "Valor Total"; font-weight: bold;}
+
+.btn2 {
+  display: block;
+  margin: 10px auto;
+}
+
+.titulo {
+  text-align: center;
+}
+
+
+}
+
+@media (max-width: 768px){
+  
+.w3-modal-content{
+  width:500px
+}
+
+.w3-modal{
+  padding-top:90px
+}
+
+#mensagem {
+  margin: 0px; 
+  width: 250px; 
+  height: 66px;
+} 
+
+#btn3 {
+  display: block;
+  margin: 0 auto;
+}
+
+.compras img {
+  padding-bottom: 3px;
+}
+
+.titulo {
+  margin-left: 21%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
 }
