@@ -2,7 +2,7 @@
 
 Teste de software é qualquer procedimento que teste/ajuda a determinar se o que foi criado/programado atinge as expectativas para o que foi criado, mostrando a vulnerabilidade e falta de qualidade do sistema criado.
 
-O Plano de testes é uma forma de diálogo entre projeto e cliente, é um documento com a indicação de diversos casos de testes, é um conjunto destes testes como: testes de desempenho, testes funcionais da história de usuário x, teste de responsividade, teste de campos de formulários, testes de navegabilidade ou links e teste ponta a ponta.
+O Plano de testes é uma forma de diálogo entre projeto e cliente, é um documento com um conjunto de informações que permite que as atividades de testes de um projeto sejam coordenadas e monitoradas. Seguem Alguns exemplos de testes: testes de desempenho, testes funcionais da história de usuário x, teste de responsividade, teste de campos de formulários, testes de navegabilidade ou links e teste ponta a ponta.
 
 Para o desenvolvimento da página decidiu-se adotar os testes abaixo explicitados.
 
@@ -16,7 +16,6 @@ Para o desenvolvimento da página decidiu-se adotar os testes abaixo explicitado
 
 Os requisitos para realização dos testes de software são:
 
-● Site em pleno funcionamento na internet
 
 ● Site em pleno funcionamento na internet
 
