@@ -9,7 +9,7 @@ O projeto de interface oferece uma visão geral da interação do usuário no si
 
 O user flow tem como objetivo mapear o fluxo de telas que o usuário pode percorrer ao interagir com o site. Foi elaborado para atender aos requisitos funcionais, não funcionais e as histórias de usuário abordados na <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md">Documenta&ccedil;&atilde;o de Especifica&ccedil;&atilde;o</a></div>
 
-![UserFlow]<img src="img/wireframes/userflowdoceria.png" width=70% style="text-align:center;">
+<img src="img/wireframes/userflowdoceria.png" width=70%><br>
 Figura 3: Fluxo do usuário
 
 ## Wireframes
@@ -45,7 +45,7 @@ A página inicial do site, com base na estrutura padrão, possui:
 
 A Tela - Sobre, apresenta informações sobre a empresa, sua missão, valores e endereço.
 
- <img src=img/wireframes/sobre.png width=70%/> <img src=img/wireframes/sobremobile.png width=26%/>
+ <img src=img/wireframes/Sobre.png width=70%/> <img src=img/wireframes/sobremobile.png width=26%/>
 Figuras 6 e 7: Tela Sobre em navegador e Mobile
 
 
@@ -68,8 +68,7 @@ Figuras 10 e 11 - Cardápio em navegador e mobile
 Espaço onde é apresentado os produtos selecionados para a compra, junto com seus valores e quantidades. 
 
 
-<img src=img/wireframes/Carrinho.png width=75%/>
-<img src=img/wireframes/carrinhomobile.png width=65%/>
+<img src=img/wireframes/Carrinho.png width=70%/> <img src=img/wireframes/carrinhomobile.png width=26%/>
 Figuras 12 e 13 - Tela - Carrinho em navegador e mobile
 
 ## Tela - Formulário de compra
