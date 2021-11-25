@@ -134,6 +134,15 @@ function editProduct(id) {
     editProductId = id
 }
 
+function totalValue(cart){
+    let totalPrice = 0;
+
+    cart.forEach(element => {
+        totalPrice += (element.qnt * element.vlr)
+    });
+
+    return totalPrice;
+}
 
 
 function getPedido() {
@@ -142,9 +151,10 @@ function getPedido() {
     localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
 
     cart.forEach(element => {
-        strPedido += `      id: ${element.id} - Nome: ${element.nome} - Quantidade: ${element.qnt} %0a`
+        strPedido += `      id: ${element.id} - Nome: ${element.nome} - Quantidade: ${element.qnt} - Preço: R$ ${Number(element.vlr).toFixed(2)} %0a`
     });
 
+    strPedido += `VALOR TOTAL DO PEDIDO: R$ ${Number(totalValue(cart)).toFixed(2)}`
     return strPedido;
 
 }
