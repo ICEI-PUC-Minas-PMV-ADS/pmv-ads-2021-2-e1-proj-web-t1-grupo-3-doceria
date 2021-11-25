@@ -2,18 +2,18 @@
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são  apresentadas na sequência. 
 
-## Tela inicial/Cardápio/Sobre/Carrinho (RF-01, RF-04, RF-08 e RNF-04) 
+## Tela inicial/Cardápio/Sobre/Carrinho (RF-01, RF-04, RNF-01, RNF-02, RNF-03, RNF-04, RE-02, RE-03) 
 
-A tela principal do sistema apresenta um cabeçalho que direciona para as telas sobre e carrinho, e um botão com as categorias do cardápio. Em seguida, no corpo da página, estão o carrossel e cardápio. Por fim, está o rodapé com as redes socias e formas de contato. Alguns exemplos das telas são apresentadas nas Figuras abaixo.
+A tela principal do sistema apresenta um cabeçalho que direciona para as telas sobre,cardápio, promoções e carrinho. No corpo da página, apresenta-se o carrossel com imagens de alguns  produtos e ícones com as categorias dos produtos apresentados no cardápio. Ao clicar em qualquer ícone o cliente é direcionado ao produto, sua descrição e opção de compra. Por fim, consta o rodapé com as redes socias, formas de contato e Copyright, além de um menu flutuante à direita com as redes sociais. Alguns exemplos da tela são apresentadas nas Figuras abaixo.
 
 
-| ![QuadroKanban](img/cardapiotemplate.png) | 
+| ![QuadroKanban](img/paginaprincipal.png) | 
 |:--:| 
-| **Figura 35: Tela inicial/cardápio** |
+| **Figura 35: Tela inicial/principal** |
 
-| ![QuadroKanban](img/sobretemplate.png) | 
+| ![QuadroKanban](img/Paginaprincflutuante.png) | 
 |:--:| 
-| **Figura 36: Tela sobre** |
+| **Figura 36: Tela Inicial/flutuante** |
 
 | ![QuadroKanban](img/carrinhotemplate.png) | 
 |:--:| 
