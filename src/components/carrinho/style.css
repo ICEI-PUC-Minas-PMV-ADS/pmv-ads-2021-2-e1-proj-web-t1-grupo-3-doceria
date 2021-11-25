@@ -644,7 +644,15 @@ Label the data
 }
 
 @media (max-width: 768px){
+
+  .w2-modal-content{
+    width:500px
+  }
   
+  .w2-modal{
+    padding-top:90px
+  }
+
 .w3-modal-content{
   width:500px
 }
