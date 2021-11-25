@@ -39,12 +39,12 @@ __*Artefatos da funcionalidade*__
 
   - index.html 
 
-  - style.css 
+   - novo-style-index.css 
 
   - logo.png 
 
   - carrinho.png 
-  - style-cardapio.css
+  - novo-style-cardapio.css
   - favicon-16x16.png
   - script.js
   - .../src/images/imgcarrosel
@@ -114,14 +114,14 @@ __*Artefatos da funcionalidade*__
 
   - index.html 
 
-  - style.css 
+  - novo-style-index.css 
 
   - logo.png 
-
+  - novocardapio.html
   - carrinho.png 
-  - style-cardapio.css
   - favicon-16x16.png
   - script.js
+  - novo-style-cardapio.css
   - .../src/images/imgcarrosel
   - .../src/images/imgprodutos
 
@@ -195,7 +195,7 @@ __*Estrutura do Documento*__
 
 A estrutura do documento completa está inserida na pasta src do repositório. 
 
-| ![QuadroKanban](img/Sobre.PNG) | 
+| ![QuadroKanban](img/Sobre.png) | 
 |:--:| 
 | **Figura 38: Estrutura do documento** |
 
