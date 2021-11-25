@@ -7,11 +7,11 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 A tela principal do sistema apresenta um cabeçalho que direciona para as telas sobre,cardápio, promoções e carrinho. No corpo da página, apresenta-se o carrossel com imagens de alguns  produtos e ícones com as categorias dos produtos apresentados no cardápio. Ao clicar em qualquer ícone o cliente é direcionado ao produto, sua descrição e opção de compra. Por fim, consta o rodapé com as redes socias, formas de contato e Copyright, além de um menu flutuante à direita com as redes sociais. Alguns exemplos da tela são apresentadas nas Figuras abaixo.
 
 
-| ![QuadroKanban](img/pagina principal.png) | 
+| ![QuadroKanban](img/paginaprincipal.png) | 
 |:--:| 
 | **Figura 35: Tela inicial/principal** |
 
-| ![QuadroKanban](img/sobretemplate.png) | 
+| ![QuadroKanban](img/Paginaprincflutuante.png) | 
 |:--:| 
 | **Figura 36: Tela Inicial/flutuante** |
 
