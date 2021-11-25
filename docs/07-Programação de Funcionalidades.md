@@ -22,12 +22,16 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 __*Requisitos atendidos*__
 
-  - RF-01 -  
+  - RF-01   
 
-  - RF-04 -  
-
-  - RF-08- 
-  - RNF - 04 -
+  - RF-04 
+ 
+  - RNF-01
+  - RNF-02
+  - RNF-03
+  - RNF-04
+  - RE-02
+  - RE-03
 
  
 
@@ -45,7 +49,7 @@ __*Artefatos da funcionalidade*__
   - script.js
   - .../src/images/imgcarrosel
   - .../src/images/imgprodutos
-  - .../src/componentes/sobre
+ 
   - .../src/componentes/carrinho
 
 ## Tela Sobre (RF-01, RF-04, RNF-01, RNF-02, RNF-03, RNF-04, RE-02, RE-03) 
@@ -62,30 +66,19 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 __*Requisitos atendidos*__
 
-  - RF-01 -  
-
-  - RF-04 -  
-
-  - RF-08- 
-  - RNF - 04 -
+ - RF-01 -
+ - RF-04 - 
+ - RNF-01 -
+ - RNF-02 -
+ - RNF-03 -
+ - RNF-04 -
+ - RE-02 -
+ - RE-03
 
  
 __*Artefatos da funcionalidade*__
 
-  - index.html 
-
-  - style.css 
-
-  - logo.png 
-
-  - carrinho.png 
-  - style-cardapio.css
-  - favicon-16x16.png
-  - script.js
-  - .../src/images/imgcarrosel
-  - .../src/images/imgprodutos
-  - .../src/componentes/sobre
-  - .../src/componentes/carrinho
+ - .../src/componentes/sobre
 
 ## Tela Cardápio (RF-01, RF-07, RF-08, RF-09, RNF-01, RNF-02, RNF-03, RNF-04, RE-02, RE-03) 
 
@@ -105,12 +98,16 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 __*Requisitos atendidos*__
 
-  - RF-01 -  
-
-  - RF-04 -  
-
-  - RF-08- 
-  - RNF - 04 -
+ - RF-01-
+ - RF-07-
+ - RF-08-
+ - RF-09-
+ - RNF-01-
+ - RNF-02-
+ - RNF-03-
+ - RNF-04-
+ - RE-02-
+ - RE-03
 
  
 __*Artefatos da funcionalidade*__
@@ -127,8 +124,6 @@ __*Artefatos da funcionalidade*__
   - script.js
   - .../src/images/imgcarrosel
   - .../src/images/imgprodutos
-  - .../src/componentes/sobre
-  - .../src/componentes/carrinho
 
 ## Tela Promoções (RF-01, RF-04, RNF-01, RNF-02, RNF-03, RNF-04, RE-02, RE-03) 
 
@@ -144,30 +139,19 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 __*Requisitos atendidos*__
 
-  - RF-01 -  
-
-  - RF-04 -  
-
-  - RF-08- 
-  - RNF - 04 -
+- RF-01-
+- RF-04-
+- RNF-01-
+- RNF-02-
+- RNF-03-
+- RNF-04-
+- RE-02-
+- RE-03
 
  
 __*Artefatos da funcionalidade*__
 
-  - index.html 
-
-  - style.css 
-
-  - logo.png 
-
-  - carrinho.png 
-  - style-cardapio.css
-  - favicon-16x16.png
-  - script.js
-  - .../src/images/imgcarrosel
-  - .../src/images/imgprodutos
-  - .../src/componentes/sobre
-  - .../src/componentes/carrinho
+- .../src/images/promocoes
 
 ## Tela Meu Pedido/Carrinho (RF-01, RF-02, RF-03, RF-05, RF-06, RF10, RF-11, RNF-01, RNF-02, RNF-03, RNF-04, RNF-05, RE-02, RE-03) 
 
@@ -177,7 +161,7 @@ A tela Meu Pedido/Carrinho do sistema é a que atende a maioria dos requisitos, 
 |:--:| 
 | **Figura 41: Tela Meu Carrinho** |
 
-![QuadroKanban](img/Meucarrinho.png) | 
+![QuadroKanban](img/FinalizePedido.png) | 
 |:--:| 
 | **Figura 42: Tela FormulárioPedido** |
 
@@ -187,31 +171,24 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 __*Requisitos atendidos*__
 
-  - RF-01 -  
-
-  - RF-04 -  
-
-  - RF-08- 
-  - RNF - 04 -
-
+- RF-01-
+- RF-02-
+- RF-03-
+- RF-05-
+- RF-06-
+- RF10-
+- RF-11-
+- RNF-01-
+- RNF-02-
+- RNF-03-
+- RNF-04-
+- RNF-05-
+- RE-02-
+- RE-03-
  
 __*Artefatos da funcionalidade*__
 
-  - index.html 
-
-  - style.css 
-
-  - logo.png 
-
-  - carrinho.png 
-  - style-cardapio.css
-  - favicon-16x16.png
-  - script.js
-  - .../src/images/imgcarrosel
-  - .../src/images/imgprodutos
-  - .../src/componentes/sobre
   - .../src/componentes/carrinho
-
 
 
 __*Estrutura do Documento*__
@@ -230,7 +207,6 @@ __*Instruções de acesso*__
   3. Abra o Visual Studio Code e execute o Live Server;
   4. Ou, abra um navegador de internet e informe a URL: http://localhost:5500/index.html
 
-## Tela inicial/Cardápio/Sobre (RF-01, RF-04 e RF-08) 
 
 **Checklist dos requisitos:** 
 
