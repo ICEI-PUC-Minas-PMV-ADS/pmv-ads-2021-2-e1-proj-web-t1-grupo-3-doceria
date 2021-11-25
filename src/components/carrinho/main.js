@@ -3,48 +3,50 @@ const produtoList = document.getElementById('produto-list');
 
 const produtoCarrinhoList = document.getElementById('produto-carrinho-list');
 
-function removeProduct(id){
+let editProductId = 0
+
+function removeProduct(id) {
 
     let cart = [];
     localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
     let count = 0;
     cart.forEach(element => {
-        if(element.id == id){
+        if (element.id == id) {
             let qnt = 0;
             qnt = parseInt(element.qnt)
 
-            qnt >= 1 ? element.qnt = ( qnt -= 1).toString() : cart = cart.filter(element => element.id != id);
-        
-            if(qnt == 0){
+            qnt >= 1 ? element.qnt = (qnt -= 1).toString() : cart = cart.filter(element => element.id != id);
+
+            if (qnt == 0) {
                 cart = cart.filter(element => element.id != id);
             }
         }
 
         count++;
     });
-    
+
     localStorage.setItem("cart", JSON.stringify(cart));
     findAll();
 }
 
-function editProduct(id, qnt){
+function editProduct(id, qnt) {
 
     let cart = [];
     localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
 
     cart.forEach(element => {
-        if(element.id == id && qnt > 0){
+        if (element.id == id && qnt > 0) {
             element.quantity = qnt;
         }
 
         count++;
     });
-    
+
     localStorage.setItem("cart", JSON.stringify(cart));
     findAll();
 }
 
-function getProductsToCarrinho(){
+function getProductsToCarrinho() {
     let produtos = localStorage.getItem("cart") != null ? JSON.parse(localStorage.getItem("cart")) : [];
     let lista_produtos = '';
     for (let i = 0; i < produtos.length; i++) {
@@ -63,9 +65,42 @@ function getProductsToCarrinho(){
     }
 }
 
+function minProduct(id) {
+    let cart = [];
+    localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
+    cart.forEach(element => {
+        if (element.id == id) {
+            let qnt = 0;
+            qnt = parseInt(element.qnt)
 
+            qnt >= 1 ? element.qnt = (qnt -= 1).toString() : cart = cart.filter(element => element.id != id);
 
-function findAll(){
+            if (qnt == 0) {
+                cart = cart.filter(element => element.id != id);
+            }
+        }
+    });
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+    findAll();
+}
+
+function maxProduct(id) {
+    let cart = [];
+    localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
+    cart.forEach(element => {
+        if (element.id == id) {
+            let qnt = 0;
+            qnt = parseInt(element.qnt)
+            element.qnt = (qnt += 1).toString()
+        }
+    });
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+    findAll();
+}
+
+function findAll() {
     let produtos = localStorage.getItem("cart") != null ? JSON.parse(localStorage.getItem("cart")) : [];
     let lista_produtos = '';
     for (let i = 0; i < produtos.length; i++) {
@@ -75,7 +110,11 @@ function findAll(){
             <th>${produtos[i].id}</th>
             <td>${produtos[i].nome}</td>
             <td>R$${(parseFloat(produtos[i].vlr)).toFixed(2)}</td>
-            <td>${produtos[i].qnt}</td>
+            <td> 
+                <i onclick="minProduct(${produtos[i].id})"; class="fa fa-minus" ></i>
+                    ${produtos[i].qnt} 
+                 <i onclick="maxProduct(${produtos[i].id})" class="fa fa-plus"></i>
+                </td>
             <td>R$${parseFloat(vlt_total).toFixed(2)}</td>
             <td>
                 <a onclick="removeProduct(${produtos[i].id});"class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal-delete">
@@ -90,8 +129,14 @@ function findAll(){
     getProductsToCarrinho();
 }
 
+function editProduct(id) {
+    console.log(id)
+    editProductId = id
+}
 
-function getPedido(){
+
+
+function getPedido() {
     let strPedido = '%0a';
     let cart = [];
     localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
@@ -99,7 +144,7 @@ function getPedido(){
     cart.forEach(element => {
         strPedido += `      id: ${element.id} - Nome: ${element.nome} - Quantidade: ${element.qnt} %0a`
     });
-    
+
     return strPedido;
 
 }
@@ -110,10 +155,10 @@ function getPedido(){
 
 const cep = document.querySelector("#cep")
 
-const showData = (result)=>{
-    for(const campo in result){
-        if(document.querySelector("#"+campo)){
-            document.querySelector("#"+campo).value = result[campo]
+const showData = (result) => {
+    for (const campo in result) {
+        if (document.querySelector("#" + campo)) {
+            document.querySelector("#" + campo).value = result[campo]
         }
     }
 }
@@ -121,8 +166,8 @@ const showData = (result)=>{
 
 
 
-cep.addEventListener("blur",(e)=>{
-    let search = cep.value.replace("-","")
+cep.addEventListener("blur", (e) => {
+    let search = cep.value.replace("-", "")
     const options = {
         method: 'GET',
         mode: 'cors',
@@ -130,8 +175,9 @@ cep.addEventListener("blur",(e)=>{
     }
 
     fetch(`https://viacep.com.br/ws/${search}/json/`, options)
-    .then(response =>{ response.json()
-        .then( data => showData(data))
-    })
-    .catch(e => console.log('Deu Erro: '+ e,message))
+        .then(response => {
+            response.json()
+                .then(data => showData(data))
+        })
+        .catch(e => console.log('Deu Erro: ' + e, message))
 })
