@@ -7,18 +7,13 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 A tela principal do sistema apresenta um cabeçalho que direciona para as telas sobre,cardápio, promoções e carrinho. No corpo da página, apresenta-se o carrossel com imagens de alguns  produtos e ícones com as categorias dos produtos apresentados no cardápio. Ao clicar em qualquer ícone o cliente é direcionado ao produto, sua descrição e opção de compra. Por fim, consta o rodapé com as redes socias, formas de contato e Copyright, além de um menu flutuante à direita com as redes sociais. Alguns exemplos da tela são apresentadas nas Figuras abaixo.
 
 
-| ![QuadroKanban](img/paginaprincipal.png) | 
+| ![QuadroKanban](img/pagprincipal.png) | 
 |:--:| 
 | **Figura 35: Tela inicial/principal** |
 
 | ![QuadroKanban](img/Paginaprincflutuante.png) | 
 |:--:| 
 | **Figura 36: Tela Inicial/flutuante** |
-
-| ![QuadroKanban](img/carrinhotemplate.png) | 
-|:--:| 
-| **Figura 37: Tela meu pedido** |
-
 
 
 <br>
@@ -52,13 +47,178 @@ __*Artefatos da funcionalidade*__
   - .../src/images/imgprodutos
   - .../src/componentes/sobre
   - .../src/componentes/carrinho
+
+## Tela Sobre (RF-01, RF-04, RNF-01, RNF-02, RNF-03, RNF-04, RE-02, RE-03) 
+
+A tela Sobre do sistema apresenta um breve histórico da trajetória da Ana Diniz Doceria, além da foto do local e localização no Google Maps.
   
+![QuadroKanban](img/Sobre.png) | 
+|:--:| 
+| **Figura 37: Tela Sobre** |
+
+<br>
+Para cada requisito funcional, pode ser entregue um artefato desse tipo.
+<br>
+
+__*Requisitos atendidos*__
+
+  - RF-01 -  
+
+  - RF-04 -  
+
+  - RF-08- 
+  - RNF - 04 -
+
+ 
+__*Artefatos da funcionalidade*__
+
+  - index.html 
+
+  - style.css 
+
+  - logo.png 
+
+  - carrinho.png 
+  - style-cardapio.css
+  - favicon-16x16.png
+  - script.js
+  - .../src/images/imgcarrosel
+  - .../src/images/imgprodutos
+  - .../src/componentes/sobre
+  - .../src/componentes/carrinho
+
+## Tela Cardápio (RF-01, RF-07, RF-08, RF-09, RNF-01, RNF-02, RNF-03, RNF-04, RE-02, RE-03) 
+
+A tela Cardápio do sistema apresenta os produtos da Doceria, a descrição dos mesmos e sabores. O cardápio destá categorizado conforme solicitação do cliente, o que permite que seus produtos sejam ordenados e delimitados por tipo de produto, além de ter a opção de selecionar o sabor de um determinado produto e adicioná-lo ao carrinho/pedido de compra.
+  
+![QuadroKanban](img/Cardapio.png) | 
+|:--:| 
+| **Figura 38: Tela Cardápio** |
+
+![QuadroKanban](img/catCardapio.png) | 
+|:--:| 
+| **Figura 39: Tela Categoria - Cardápio** |
+
+<br>
+Para cada requisito funcional, pode ser entregue um artefato desse tipo.
+<br>
+
+__*Requisitos atendidos*__
+
+  - RF-01 -  
+
+  - RF-04 -  
+
+  - RF-08- 
+  - RNF - 04 -
+
+ 
+__*Artefatos da funcionalidade*__
+
+  - index.html 
+
+  - style.css 
+
+  - logo.png 
+
+  - carrinho.png 
+  - style-cardapio.css
+  - favicon-16x16.png
+  - script.js
+  - .../src/images/imgcarrosel
+  - .../src/images/imgprodutos
+  - .../src/componentes/sobre
+  - .../src/componentes/carrinho
+
+## Tela Promoções (RF-01, RF-04, RNF-01, RNF-02, RNF-03, RNF-04, RE-02, RE-03) 
+
+A tela Promoções do sistema atende principalmente o requisito funcional 04, na qual as datas Comemorativas e Promoções ganham destaque e relevância.
+  
+![QuadroKanban](img/Promocoes.png) | 
+|:--:| 
+| **Figura 40: Tela Promoções** |
+
+<br>
+Para cada requisito funcional, pode ser entregue um artefato desse tipo.
+<br>
+
+__*Requisitos atendidos*__
+
+  - RF-01 -  
+
+  - RF-04 -  
+
+  - RF-08- 
+  - RNF - 04 -
+
+ 
+__*Artefatos da funcionalidade*__
+
+  - index.html 
+
+  - style.css 
+
+  - logo.png 
+
+  - carrinho.png 
+  - style-cardapio.css
+  - favicon-16x16.png
+  - script.js
+  - .../src/images/imgcarrosel
+  - .../src/images/imgprodutos
+  - .../src/componentes/sobre
+  - .../src/componentes/carrinho
+
+## Tela Meu Pedido/Carrinho (RF-01, RF-02, RF-03, RF-05, RF-06, RF10, RF-11, RNF-01, RNF-02, RNF-03, RNF-04, RNF-05, RE-02, RE-03) 
+
+A tela Meu Pedido/Carrinho do sistema é a que atende a maioria dos requisitos, os produtos escolhidos são adicionados à tela meu carrinho, a qual permite o cliente editar e remover o produto. Além disso, ao finalizar o pedido são solicitados, Dados Pessoais como nome e telefone; Dados de Entrega como Opção de Entrega e Retirada, além do endereço se a opção for entrega, o qual utilizou-se integração da API Cep para facilitar preenchimento de formulário; Taxa de frete; Escolha de forma de pagamento (obs.: não utilizou-se API de integração por opção do cliente) e Opção de envio de Mensagem e Observação. Além dos botões de Limpar (limpa o formulário), Salvar (salva o que foi preenchido), Continuar comprando (volta à página principal) e Enviar Pedido, o qual possui uma API de integração com o WhatsApp que envia as informações do formulário para o whatsApp da doceria. cumprindo assim com os requisitos funcionais 2, 3, 5, 6, 11 e 12, preservando a LGPD.
+  
+![QuadroKanban](img/Meucarrinho.png) | 
+|:--:| 
+| **Figura 41: Tela Meu Carrinho** |
+
+![QuadroKanban](img/Meucarrinho.png) | 
+|:--:| 
+| **Figura 42: Tela FormulárioPedido** |
+
+<br>
+Para cada requisito funcional, pode ser entregue um artefato desse tipo.
+<br>
+
+__*Requisitos atendidos*__
+
+  - RF-01 -  
+
+  - RF-04 -  
+
+  - RF-08- 
+  - RNF - 04 -
+
+ 
+__*Artefatos da funcionalidade*__
+
+  - index.html 
+
+  - style.css 
+
+  - logo.png 
+
+  - carrinho.png 
+  - style-cardapio.css
+  - favicon-16x16.png
+  - script.js
+  - .../src/images/imgcarrosel
+  - .../src/images/imgprodutos
+  - .../src/componentes/sobre
+  - .../src/componentes/carrinho
+
+
 
 __*Estrutura do Documento*__
 
 A estrutura do documento completa está inserida na pasta src do repositório. 
 
-| ![QuadroKanban](img/estruturadecodigo.PNG) | 
+| ![QuadroKanban](img/Sobre.PNG) | 
 |:--:| 
 | **Figura 38: Estrutura do documento** |
 
