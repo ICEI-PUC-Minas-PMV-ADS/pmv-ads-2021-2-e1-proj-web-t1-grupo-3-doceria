@@ -19,9 +19,34 @@ Os requisitos para realização dos testes de software são:
 ● Site em pleno funcionamento na internet
 
 ● Site em pleno funcionamento na internet
+
 ● Navegador da Internet - Chrome, Firefox, Edge, Safari e mobile
+
 ● Funcionamento das APIs
+
 ● Conectividade de Internet para acesso às plataformas (APISs)
+
+|   Caso de Teste  |  CT-01 - Acessar Página Principal |
+| Requisitos 
+Associados    |    RF-01 - O site deve apresentar na página principal notícias 
+dinâmicas obtidas por meio de canais de notícias da Internet (API)
+RF-02 - O site deve apresentar, para cada notícia, uma imagem 
+correspondente ao assunto apresentado (thumbnail)|
+| Objetivo do 
+Teste | Verificar se as imagens estão carregando corretamente, menu está em pleno funcionamento e os ícones estão sendos direcionados corretamente  |
+| Passos   | 1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página principal
+4) Acessar itens abaixo do Carrossel  |
+| Critérios de 
+Êxito  | - Deve haver um recurso do navegador
+- As imagens do Carrossel devem ser exibidas corretamente no site, sendo 
+necessárias pelo menos 3 imagens sendo apresentadas
+- Os links das categorias do cardápio exibidos abaixo do Carrossel devem estar acessíveis
+|
+
+
+
 
 
  
