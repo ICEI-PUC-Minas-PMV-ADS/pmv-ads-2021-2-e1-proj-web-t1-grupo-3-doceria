@@ -92,12 +92,12 @@ function findAll(){
 
 
 function getPedido(){
-    let strPedido = '';
+    let strPedido = '%0a';
     let cart = [];
     localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
 
     cart.forEach(element => {
-        strPedido += `%0a      id: ${element.id} - Nome: ${element.nome} - Quantidade: ${element.qnt} %0a`
+        strPedido += `      id: ${element.id} - Nome: ${element.nome} - Quantidade: ${element.qnt} %0a`
     });
     
     return strPedido;
