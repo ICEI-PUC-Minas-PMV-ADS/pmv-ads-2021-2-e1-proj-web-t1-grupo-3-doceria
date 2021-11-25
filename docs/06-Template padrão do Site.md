@@ -36,13 +36,13 @@ Layout com a exibição do cardápio com a divisão de categorias de produtos: I
 ## Tela Sobre
 Tela sobre a trajetória da loja
 
-| ![QuadroKanban](img/wireframes/Sobre.png) | 
+| ![QuadroKanban](img/sobretemp.png) | 
 |:--:| 
 | **Figura 33: Tela Sobre** |
  
  ## Tela Meu Pedido/Carrinho
  Tela do pedido de compra, demonstra produtos, valores unitários, quantidade e valor total. Além da possibilidade de adicionar produtos.
 
-| ![QuadroKanban](img/wireframes/Carrinho.png) | 
+| ![QuadroKanban](img/carrinho.png) | 
 |:--:| 
 | **Figura 34: Tela Carrinho/Pedido** |
