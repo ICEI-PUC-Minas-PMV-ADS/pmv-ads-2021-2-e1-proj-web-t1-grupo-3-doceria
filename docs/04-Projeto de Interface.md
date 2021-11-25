@@ -9,10 +9,8 @@ O projeto de interface oferece uma visão geral da interação do usuário no si
 
 O user flow tem como objetivo mapear o fluxo de telas que o usuário pode percorrer ao interagir com o site. Foi elaborado para atender aos requisitos funcionais, não funcionais e as histórias de usuário abordados na <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md">Documenta&ccedil;&atilde;o de Especifica&ccedil;&atilde;o</a></div>
 
-![UserFlow](img/wireframes/userflowdoceria.png)
+![UserFlow]<img src="img/wireframes/userflowdoceria.png" width=70% style="text-align:center;">
 Figura 3: Fluxo do usuário
-![UserFlow2](img/wireframes/userflowtelas.png)
-Figura 4: Fluxo do usuário - Telas
 
 ## Wireframes
 
@@ -24,106 +22,68 @@ As telas do site são apresentadas em detalhes nos itens que se seguem e apresen
 
 <b>Rodapé</b> - apresenta dados de copyright e mais detalhes sobre o site. 
 
-E por fim, um botão, presente em todas as páginas, que direciona o cliente automaticamente para o WhatsApp da empresa.
+E por fim, um botão, presente em todas as páginas, que direciona o cliente automaticamente para as redes sociais da empresa.
 
-<center><img src=img/wireframes/estruturapadrao.png width=70%/></center>
- Figura 5 - Estrutura padrão do site 
+<img src=img/wireframes/estruturapadrao.png width=70%/>
+ Figura 4 - Estrutura padrão do site 
  
-## Tela - Home-page
+## Tela - Página Inicial
 
-Sendo a página inicial do site, a home-page, ou cardápio, com base na estrutura padrão, possui:
+A página inicial do site, com base na estrutura padrão, possui:
  
-<b>Cabeçalho</b> - com menu de navegação para as páginas sobre, cardápio, contato e carrinho de compras. 
+<b>Cabeçalho</b> - com menu de navegação para as páginas sobre, cardápio, promoções e carrinho de compras. 
 
-<b>Bloco de Conteúdo</b> - com espaço de destaque para itens promocionais e comemorativos, um espaço para pesquisa e filtro de produtos, e uma lista de produtos separados por categorias.
+<b>Bloco de Conteúdo</b> - com espaço de destaque para itens promocionais e comemorativos, e uma lista de categorias que organizam os produtos do cardápio.
 
-<b>Rodapé</b> - com link para as políticas da empresa, e informações sobre endereço, métodos de pagamento, redes sociais e copyright.
+<b>Rodapé</b> - com link para as redes sociais e copyright.
 
 
-<center><img src=img/wireframes/homepage.png width=70%/>
- Figura 6 - Tela Inicial - Promoções e destaques 
- 
- <p></p>
- 
-<img src=img/wireframes/homepage2.png width=70%/>
- Figura 7 - Tela Inicial - Cardápio 
- 
- <p></p>
- 
-<img src=img/wireframes/homemobile.png width=70%/></center> 
-Figura 8 - Tela Inicial - Mobile 
-
+<img src=img/wireframes/Telainicial.png width=70%/><img src=img/wireframes/telainicialmobile.png width=26%/>
+ Figura 5 - Tela Inicial em navegador e Mobile
 
 ## Tela - Sobre
 
 A Tela - Sobre, apresenta informações sobre a empresa, sua missão, valores e endereço.
 
  <img src=img/wireframes/sobre.png width=70%/> <img src=img/wireframes/sobremobile.png width=26%/>
-Figuras 9 e 10: Tela Sobre em navegador e Mobile
+Figuras 6 e 7: Tela Sobre em navegador e Mobile
 
-## Tela - Políticas
 
-Apresenta as políticas gerais da empresa quanto a entrega, trocas e devoluções, pagamentos a privacidade.
+## Tela - Promoções
 
-<img src=img/wireframes/politicas.png width=70%/> <img src=img/wireframes/politicasmobile.png width=26%/>
-Figuras 11 e 12: Tela - Políticas em navegador e Mobile
+Mostra uma lista de imagens de produtos promocionais vendidos apenas em datas comemorativas.
 
-## Tela - Contato
+<img src=img/wireframes/promocoes.png width=70%/> <img src=img/wireframes/promocoesmobile.png width=26%/>
+Figuras 8 e 9 - Tela de Promoções em navegador e mobile
 
-Oferece informações sobre redes sociais da loja e telefone.
+## Tela - Cardápio
 
-<center><img src=img/wireframes/contato.png width=70%/></center>
-Figura 13 - Tela Contato em navegador e Mobile
+Lista dos produtos vendidos, separados por categorias. Os itens são caracterizados por nome, descrição, valor e imagem. Além de botão para selecionar entre sabores e adicionar ao carrinho. 
 
-## Tela - Resultado da Busca
-
-Em seu bloco de conteúdo apresenta uma lista de produtos relacionados, com suas respectivas imagens e valores, que foram selecionados por meio de comandos digitados na barra de pesquisa. É possível adicionar produtos ao carrinho por meio dessa página.
-
-<img src=img/wireframes/resultado.png width=70%/> <img src=img/wireframes/resultadomobile.png width=26%/>
-Figuras 14 e 15 - Tela - Resultado da Busca em navegador e Mobile 
-
-## Tela - Produtos
-
-Mostra os produtos inclusos em uma das categorias principais apresentadas na home-page e segue o padrão da tela de Resultado da Busca. Também é possível adicionar produtos ao carrinho por meio dessa página.
-
-<img src=img/wireframes/produtos.png width=70%/> <img src=img/wireframes/produtosmobile.png width=26%/>
-Figuras 16 e 17 - Tela de Produtos em navegador e mobile
-
-## Tela - Descrição do Produto
-
-Acessada ao clicar em um produto incluso nas telas de produto ou resultado, a página apresenta detalhes sobre os produtos como descrição, ingredientes, avaliação e disponibilidade. Também é possível adicionar produtos ao carrinho por meio dessa página.
-
-<img src=img/wireframes/descricaoproduto.png width=70%/> <img src=img/wireframes/descricaomobile.png width=26%/>
-Figuras 18 e 19 - Descrição do Produto em navegador e mobile
+<img src=img/wireframes/Cardapio.png width=70%/> <img src=img/wireframes/cardapiomobile.png width=26%/>
+Figuras 10 e 11 - Cardápio em navegador e mobile
 
 ## Tela - Carrinho
 
-Espaço onde é apresentado os produtos selecionados, seus valores e quantidades. Também contém os formulários para o cliente preencher com seus dados pessoais (nome e telefone), endereço, preferencias de entrega e pagamento, além de um campo para anotar alguma observação adicional ao pedido, e por fim, o botão para finalizar pedido. 
+Espaço onde é apresentado os produtos selecionados para a compra, junto com seus valores e quantidades. 
 
 
-<center><img src=img/wireframes/carrinho.png width=75%/>
-<img src=img/wireframes/carrinhomobile.png width=65%/></center>
-Figuras 20 e 21 - Tela - Carrinho em navegador e mobile
+<img src=img/wireframes/Carrinho.png width=75%/>
+<img src=img/wireframes/carrinhomobile.png width=65%/>
+Figuras 12 e 13 - Tela - Carrinho em navegador e mobile
 
-## Tela - Compra Confirmada
+## Tela - Formulário de compra
 
-Tela informativa que avisa ao cliente que a compra foi confirmada e reconhecida pelo sistema.
+Acionada a partir da tela do carrinho, contém o formulário para o cliente preencher com seus dados pessoais (nome e telefone), endereço, preferencias de entrega e pagamento, além de um campo para anotar alguma observação adicional ao pedido, e por fim, o botão para finalizar pedido que direciona ao whatsapp onde o pedido é efetuado. 
 
-<img src=img/wireframes/comprafinalizada.png width=70%/> <img src=img/wireframes/compramobile.png width=26%/>
-Figuras 22 e 23 - Tela - Compra Confirmada em navegador e mobile
-
-## Tela - Avaliação 
-
-Permite ao ciente avaliar o produto por meio de classificação por estrelas e comentários.
-
-<img src=img/wireframes/avaliacao.png width=70%/> <img src=img/wireframes/avaliacaomobile.png width=26%/>
-Figuras 24 e 25 - Tela - Avaliação em navegador e mobile
+<img src=img/wireframes/finalizarpedido.png width=70%/> <img src=img/wireframes/formularioentregamobile.png width=26%/>
+Figuras 14 e 15 - Tela - Compra Confirmada em navegador e mobile
 
 ## Tela - Erro 
 
 Tela informativa que avisa ao cliente que ocorreu um erro durante a compra e solicita que o cliente entre em contato.
 
 <img src=img/wireframes/falha.png width=70%/> <img src=img/wireframes/erromobile.png width=26%/>
-Figuras 26 e 27 - Tela - Erro em navegador e mobile
+Figuras 16 e 17 - Tela - Erro em navegador e mobile
 
 
