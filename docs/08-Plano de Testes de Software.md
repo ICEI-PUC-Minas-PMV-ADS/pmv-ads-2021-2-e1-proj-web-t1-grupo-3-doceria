@@ -1,19 +1,27 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Teste de software é qualquer procedimento que teste/ajuda a determinar se o que foi criado/programado atinge as expectativas para o que foi criado, mostrando a vulnerabilidade e falta de qualidade do sistema criado.
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+O Plano de testes é uma forma de diálogo entre projeto e cliente, é um documento com a indicação de diversos casos de testes, é um conjunto destes testes como: testes de desempenho, testes funcionais da história de usuário x, teste de responsividade, teste de campos de formulários, testes de navegabilidade ou links e teste ponta a ponta.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Para o desenvolvimento da página decidiu-se adotar os testes abaixo explicitados.
+
+1- Teste de unidade: teste de cada html, css, script e javascript desenvolvidos. Ao criar a página os testes foram sendo desenvolvidos, inicialmente, foram criados o Header, body e footer e sua estilização primária e todas as páginas seguem o mesmo padrão. Após isso, cada página desenvolvida foi incrementada e estilizada de acordo com os requisitos funcionais, não funcionais e restritos.
+
+2 - Teste de integração: verifica a integração entre os módulos agrupando-os até formar o sistema. Estes testes foram realizados em conjunto, a integração do GitHub com o VScode facilita tal processo.
+
+3 - Teste de Sistema: Simulação do ambiente de uso final e realização de testes com apontamento das falhas.
+
+4 - Teste de Aceitação informal: a empresa realizará os testes e dará o feedback apontando melhorias e vulnerabilidades. Ou Teste Beta: não impossibilidade da testagem pela aceitação informal, utilizar-se-a o teste Beta como teste de aceitação.
+
+Os requisitos para realização dos testes de software são:
+
+● Site em pleno funcionamento na internet
+
+● Site em pleno funcionamento na internet
+● Navegador da Internet - Chrome, Firefox, Edge, Safari e mobile
+● Funcionamento das APIs
+● Conectividade de Internet para acesso às plataformas (APISs)
+
+
  
-## Ferramentas de Testes (Opcional)
-
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
