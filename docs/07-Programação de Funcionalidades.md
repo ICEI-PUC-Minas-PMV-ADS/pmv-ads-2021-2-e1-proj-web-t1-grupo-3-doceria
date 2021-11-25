@@ -195,7 +195,7 @@ __*Estrutura do Documento*__
 
 A estrutura do documento completa está inserida na pasta src do repositório. 
 
-| ![QuadroKanban](img/Sobre.png) | 
+| ![QuadroKanban](img/estruturadecodigo.PNG) | 
 |:--:| 
 | **Figura 38: Estrutura do documento** |
 
@@ -205,7 +205,7 @@ __*Instruções de acesso*__
   1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
   2. Descompacte o arquivo em uma pasta específica;
   3. Abra o Visual Studio Code e execute o Live Server;
-  4. Ou, abra um navegador de internet e informe a URL: http://localhost:5500/index.html
+  4. Ou, abra um navegador de internet e informe a URL: https://elements.heroku.com/buildpacks/pedrodanieljardim/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria
 
 
 **Checklist dos requisitos:** 
