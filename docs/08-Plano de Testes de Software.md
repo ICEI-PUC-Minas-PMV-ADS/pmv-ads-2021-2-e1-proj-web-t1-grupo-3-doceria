@@ -45,6 +45,91 @@ necessárias pelo menos 3 imagens sendo apresentadas
 - Os links das categorias do cardápio exibidos abaixo do Carrossel devem estar acessíveis
 |
 
+CT - 02 - Visualizar Página Sobre
+Requisitos 
+Associados  - RF - 
+Objetivo do 
+Teste - Verificar se as informações da página Sobre estão corretas e fidedignas além da API Google Maps está em pleno funcionamento
+Passos:
+1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página Principal
+4) Clicar menu Sobre
+Critérios de 
+Êxito - A página deve apresentar Informações sobre a loja, imagem da mesma, localização no google maps.
+
+CT - 03 - Visualizar e Acessar e Testar Página Cardápio
+Requisitos 
+Associados  - RF - 
+Objetivo do 
+Teste - Verificar se as categorias da página cardápio estão funcionando, se as imagens foram carregadas e não estão desconfiguradas e, se a funcionalidade de adicionar está funcionando.
+Passos:
+1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página Principal
+4) Clicar menu Cardápio
+5) Testar categorias
+6) Testar botão Adicionar
+Critérios de 
+Êxito - A página deve estar separada por categoria de produtos, além de ter a descrição e valor dos mesmos, opção de sabores e de adicionar o produto no carrinho
+
+CT - 04 - Visualizar e Acessar Página Promoções
+Requisitos 
+Associados  - RF - 
+Objetivo do 
+Teste - Verificar as imagens da Página Promoções está carregando e se ao selecionar uma promoção, há direcionamento para as mesmas.
+Passos:
+1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página Principal
+4) Clicar menu Promoção
+5) Visualizar imagens
+6) Clicar nas imagens
+Critérios de 
+Êxito - A página deve conter imagens com as datas comemorativas e direcionar para as promoções das mesmas
+
+CT - 05 - Visualizar e Acessar Página Meu Pedido
+Requisitos 
+Associados  - RF - 
+Objetivo do 
+Teste - Verificar se os itens adicionados ao carrinho estão presentes na lista de compras do Meu Pedido
+Passos:
+1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página Principal
+4) Clicar menu Meu Pedido
+5) Visualizar Itens do Carrinho
+6) Editar quantidade
+7) Remover Produto
+8) Finalizar Pedido
+Critérios de 
+Êxito - A página deve conter os itens selescionados em cardápio e permitir editar e remover produto. Ao clicar em Finalizar Pedido deve abrir uma tela para preenchimento de dados.
+
+
+CT - 06 - Visualizar e Acessar Tela de Finalizar Pedido
+Requisitos 
+Associados  - RF - 
+Objetivo do 
+Teste - Verificar se ao Finalizar Pedido, o cliente é direcionado para uma tela pra preenchimento de Dados Pessoais, Dados de Entrega, Forma de pagamento e Mensagem, Botão de Limpar, Salvar e Envio do pedido e Continuar comprando
+Passos:
+1) Continuar No processo de compra em Finalizar Pedido
+2) Verificar se os produtos do carrinho foram carregados juntamente com quantidade e valor para o formulario
+3) Inserir Dados Pessoais
+4) Inserir Dados de Entrega e verificar se a API CEP está funcionando
+5) Selecionar Taxa de Entrega
+6) Selecionar forma de pagamento
+7) Preencher campo de Mensagem 
+8) Testar se o botao Limpar, Limpa os dados do formulário
+9) Testar se o botao Salvar, Salva os dados do formulário
+10) Testar se o botao Continuar comprando, voltar para a página principal
+11) Testar se o botao Envio de Pedido, Envia os dados do formulário para o whatsapp da doceria
+Critérios de 
+Êxito - A página trazer os produtos, quantidade, valor unitario e total do carrinho e todos os dados preenchidos devem ser enviados para o whatsApp da Doceria
+
+
+
+
+
 
 
 
