@@ -110,11 +110,12 @@
             <thead>
               <tr>
                 <th class="codigo">#</th>
-                <th class="produto">Produto</th>
+                <th class="produto" >Produto</th>
                 <th class="valor">Valor (Un.)</th>
                 <th class="quantidade">Quantidade</th>
                 <th class="valortotal">Valor Total</th>
                 <th class="botoes"></th>
+                <th class="sabor" style="width: 5%; white-space: nowrap; padding-right: 20px;">Sabor do Produto</th>
               </tr>
             </thead>
             <tbody id='produto-list'>
@@ -154,7 +155,7 @@
                             <th class="valor">Valor (Un.)</th>
                             <th class="quantidade">Quantidade</th>
                             <th class="valortotal">Valor Total</th>
-                            <th class="botoes"></th>
+                            <th class="botoes">Sabor do Produto</th>
                           </tr>
                         </thead>
                         <tbody id='produto-carrinho-list'>
@@ -231,9 +232,9 @@
               <div class="modal-body">
                 <div class="form-group">
                   <label for="taxaentrega" class="col-form-label"><strong>Taxa de Entrega:</strong></label>
-                  <select id="taxaentrega" required>
+                  <select id="taxaentrega" required onchange="incrementTaxValue()">
                     <option selected disabled value="">Selecione a taxa de entrega:</option>
-                    <option>R$ 1,50 </option><small>Bairros: Castelo Branco, Fernão Dias</small>
+                    <option>R$ 1,50 - Bairros: Castelo Branco, Fernão Dias</option>
                     <option>R$ 5,00 - Bairro: Dumaville</option>
                     <option>R$ 3,00 - Bairro: Fernão Dias</option>
                   </select>
@@ -261,6 +262,15 @@
                 <div class="form-group">
                   <p><label for="msg"><strong>Mensagem do Cliente:</strong></label>
                     <textarea name="tMsg" id="mensagem" cols="45"></textarea>
+                  </p>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <div class="modal-body">
+                <div class="form-group">
+                  <p><label for="msg"><strong>Valor Final do Pedido:</strong></label>
+                    <div id='total-pedido-value'></div>
                   </p>
                 </div>
               </div>
@@ -388,21 +398,9 @@
   <!--Rodapé-->
   <div class="footer">
     <footer>
-      <div class="align-item: itens">
-        <p> Contatos: </p>
-
-        <div style="align-items: flex-end; display: flex; justify-content: center; padding-top: 10px;">
-          <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
-              src="../../images/174855.png" alt="new-logo"></a>
-          <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
-              src="../../images/124010.png" alt="new-logo"></a>
-          <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
-              src="../../images/989997.png" alt="new-logo"></a>
-        </div>
-      </div>
-        <div class="corpyright-footer" style="padding-top: 10px;">
-          Copyright 2021 © Ana Diniz Doceira
-        </div>
+      <p>
+        Copyright 2021 © Ana Diniz Doceira
+      </p>
     </footer>
   </div>
 

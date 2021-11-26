@@ -138,15 +138,15 @@
             <div class="dropdownsabores">
               <button class="dropbtnsabores">Sabores ▾</button>
               <div class="dropdown-contentsabores">
-                <a href="#">Brigadeiro de Ninho</a>
-                <a href="#">Ninho com nutella</a>
-                <a href="#">Brigadeiro preto</a>
-                <a href="#">Brigadeiro preto com nutella</a>
-                <a href="#">Brigadeiro de ovomaltine</a>
-                <a href="#">Brigadeiro duo(ninho/preto)</a>
-                <a href="#">Doce de leite</a>
+                <a id='mini-add' onclick="addToCart({id: 102, nome:'Brownie Recheado', vlr: '6.50', qnt: '1', type: 'Brigadeiro de Ninho' })" href="#">Brigadeiro de Ninho</a>
+                <a id='mini-add' onclick="addToCart({id: 103, nome:'Brownie Recheado', vlr: '6.50', qnt: '1', type: 'Ninho com nutella' })" href="#">Ninho com nutella</a>
+                <a id='mini-add' onclick="addToCart({id: 104, nome:'Brownie Recheado', vlr: '6.50', qnt: '1', type: 'Brigadeiro preto' })" href="#">Brigadeiro preto</a>
+                <a id='mini-add' onclick="addToCart({id: 105, nome:'Brownie Recheado', vlr: '6.50', qnt: '1', type: 'Brigadeiro preto com nutella' })" href="#">Brigadeiro preto com nutella</a>
+                <a id='mini-add' onclick="addToCart({id: 106, nome:'Brownie Recheado', vlr: '6.50', qnt: '1', type: 'Brigadeiro de ovomaltine' })" href="#">Brigadeiro de ovomaltine</a>
+                <a id='mini-add' onclick="addToCart({id: 107, nome:'Brownie Recheado', vlr: '6.50', qnt: '1', type: 'Brigadeiro duo(ninho/preto)' })" href="#">Brigadeiro duo(ninho/preto)</a>
+                <a id='mini-add' onclick="addToCart({id: 108, nome:'Brownie Recheado', vlr: '6.50', qnt: '1', type: 'Doce de leite' })"  href="#">Doce de leite</a>
               </div>
-            </div><button class="comprar" onclick="addToCart({id: 2, nome:'Brownie', vlr: '6.50', qnt: '1' })">Adicionar
+            </div><button class="comprar" onclick="addToCart({id: 2, nome:'Brownie Recheado', vlr: '6.50', qnt: '1', type: 'Sortido' })">Adicionar
               <img class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -163,7 +163,7 @@
             <p class="titulo">Pão de Mel</p>
             <p class="descricao">Recheio de doce de leite e cobertura de chocolate.</p>
             <p class="valor">R$6,00</p>
-            <button class="umaopcao" onclick="addToCart({id: 1, nome:'Pao de Mel', vlr: '6.00', qnt: '1' })">Adicionar
+            <button id= 'adicionar' class="umaopcao" onclick="addToCart({id: 1, nome:'Pao de Mel', vlr: '6.00', qnt: '1', type: 'Sortido' })">Adicionar
               <img class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -182,13 +182,13 @@
             <div class="dropdownsabores">
               <button class="dropbtnsabores">Sabores ▾</button>
               <div class="dropdown-contentsabores">
-                <a href="#">Brigadeiro de Ninho</a>
-                <a href="#">Ninho com nutella e amendoin</a>
-                <a href="#">Ninho</a>
-                <a href="#">50% Cacau</a>
-                <a href="#">Duo(ninho com 50% cacau)</a>
+                <a id='mini-add' onclick="addToCart({id: 109, nome:'Cone Trufado', vlr: '8.00', qnt: '1', type: 'Brigadeiro de Ninho' })" href="#">Brigadeiro de Ninho</a>
+                <a id='mini-add' onclick="addToCart({id: 110, nome:'Cone Trufado', vlr: '8.00', qnt: '1', type: 'Ninho com nutella e amendoin' })" href="#">Ninho com nutella e amendoin</a>
+                <a id='mini-add' onclick="addToCart({id: 111, nome:'Cone Trufado', vlr: '8.00', qnt: '1', type: 'Ninho' })" href="#">Ninho</a>
+                <a id='mini-add' onclick="addToCart({id: 112, nome:'Cone Trufado', vlr: '8.00', qnt: '1', type: '50% Cacau' })" href="#">50% Cacau</a>
+                <a id='mini-add' onclick="addToCart({id: 113, nome:'Cone Trufado', vlr: '8.00', qnt: '1', type: 'Duo(ninho com 50% cacau)' })" href="#">Duo(ninho com 50% cacau)</a>
               </div>
-            </div><button class="comprar" onclick="addToCart({id: 3, nome:'Brownie', vlr: '8.00', qnt: '1' })">Adicionar
+            </div><button class="comprar" onclick="addToCart({id: 3, nome:'Cone Trufado', vlr: '8.00', qnt: '1', type: 'Sortido' })">Adicionar
               <img class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -207,11 +207,11 @@
             <div class="dropdownsabores">
               <button class="dropbtnsabores">Sabores ▾</button>
               <div class="dropdown-contentsabores">
-                <a href="#">Chocolate Preto</a>
-                <a href="#">Chocolate Branco</a>
+                <a href="#" id='mini-add' onclick="addToCart({id: 114, nome:'Dadinhos de Brownie', vlr: '8.00', qnt: '1', type: 'Chocolate Preto' })">Chocolate Preto</a>
+                <a href="#" id='mini-add' onclick="addToCart({id: 115, nome:'Dadinhos de Brownie', vlr: '8.00', qnt: '1', type: 'Chocolate Branco' })" >Chocolate Branco</a>
               </div>
             </div><button class="comprar"
-              onclick="addToCart({id: 4, nome:'Dadinhos de Brownie', vlr: '8.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 4, nome:'Dadinhos de Brownie', vlr: '8.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -230,11 +230,11 @@
             <div class="dropdownsabores">
               <button class="dropbtnsabores">Sabores ▾</button>
               <div class="dropdown-contentsabores">
-                <a href="#">Ninho</a>
-                <a href="#">50% Cacau</a>
+                <a href="#" id='mini-add' onclick="addToCart({id: 116, nome:'Palha Italiana', vlr: '7.00', qnt: '1', type: 'Ninho' })" >Ninho</a>
+                <a href="#" id='mini-add' onclick="addToCart({id: 117, nome:'Palha Italiana', vlr: '7.00', qnt: '1', type: '50% Cacau' })">50% Cacau</a>
               </div>
             </div><button class="comprar"
-              onclick="addToCart({id: 5, nome:'Palha Italiana', vlr: '7.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 5, nome:'Palha Italiana', vlr: '7.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -251,7 +251,7 @@
             <p class="descricao">Com brigadeiro 50% cacau, brownies, morango e ninho.</p>
             <p class="valor">R$8,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 6, nome:'Pote duo morango', vlr: '8.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 6, nome:'Pote duo morango', vlr: '8.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -268,7 +268,7 @@
             <p class="descricao">Coberto com ganache de chocolate branco.</p>
             <p class="valor">R$8,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 7, nome:'Mousse de limão', vlr: '8.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 7, nome:'Mousse de limão', vlr: '8.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -285,7 +285,7 @@
             <p class="descricao">Coberto com geléia caseira de maracujá.</p>
             <p class="valor">R$8,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 8, nome:'Mousse de Maracujá', vlr: '8.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 8, nome:'Mousse de Maracujá', vlr: '8.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -304,12 +304,12 @@
             <div class="dropdownsabores">
               <button class="dropbtnsabores">Sabores ▾</button>
               <div class="dropdown-contentsabores">
-                <a href="#">Brigadeiro de ninho</a>
-                <a href="#">Brigadeiro preto com granulado</a>
-                <a href="#">Brigadeiro preto com amendoim</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 118, nome:'Coxinha com morango', vlr: '7.00', qnt: '1', type: 'Brigadeiro de ninho' })">Brigadeiro de ninho</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 119, nome:'Coxinha com morango', vlr: '7.00', qnt: '1', type: 'Brigadeiro preto com granulado' })">Brigadeiro preto com granulado</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 120, nome:'Coxinha com morango', vlr: '7.00', qnt: '1', type: 'Brigadeiro preto com amendoim' })">Brigadeiro preto com amendoim</a>
               </div>
             </div><button class="comprar"
-              onclick="addToCart({id: 9, nome:'Coxinha com morango', vlr: '7.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 9, nome:'Coxinha com morango', vlr: '7.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -328,11 +328,11 @@
             <div class="dropdownsabores">
               <button class="dropbtnsabores">Sabores ▾</button>
               <div class="dropdown-contentsabores">
-                <a href="#">Brigadeiro de ninho com nutella</a>
-                <a href="#">Brigadeiro preto com amendoim e nutella</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 121, nome:'Coxinha com morango/nutella', vlr: '8.00', qnt: '1', type: 'Brigadeiro de ninho com nutella' })" >Brigadeiro de ninho com nutella</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 122, nome:'Coxinha com morango/nutella', vlr: '8.00', qnt: '1', type: 'Brigadeiro preto com amendoim e nutella' })">Brigadeiro preto com amendoim e nutella</a>
               </div>
             </div><button class="comprar"
-              onclick="addToCart({id: 10, nome:'Coxinha com morango/nutella', vlr: '8.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 10, nome:'Coxinha com morango/nutella', vlr: '8.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -349,7 +349,7 @@
             <p class="descricao">Ninho, ouro-branco, brownies, chocolate e chantininho.</p>
             <p class="valor">R$17,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 11, nome:'Duo/ouro-branco', vlr: '17.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 11, nome:'Duo/ouro-branco', vlr: '17.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -366,7 +366,7 @@
             <p class="descricao">Ninho, morangos, brownie e chantininho.</p>
             <p class="valor">R$17,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 12, nome:'Copão Ninho/morango', vlr: '17.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 12, nome:'Copão Ninho/morango', vlr: '17.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -383,7 +383,7 @@
             <p class="descricao">Chocolate, amendoim, brownie e nutella.</p>
             <p class="valor">R$20,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 13, nome:'Copão Nutella', vlr: '20.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 13, nome:'Copão Nutella', vlr: '20.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -400,7 +400,7 @@
             <p class="descricao">Chocolate, brownie, mousse de Oreo, ninho e chantininho.</p>
             <p class="valor">R$18,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 14, nome:'Copão brownie/oreo', vlr: '18.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 14, nome:'Copão brownie/oreo', vlr: '18.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -417,7 +417,7 @@
             <p class="descricao">Ninho com morangos e biscoito maltado.</p>
             <p class="valor">R$13,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 15, nome:'Tortinha de morango', vlr: '13.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 15, nome:'Tortinha de morango', vlr: '13.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -434,7 +434,7 @@
             <p class="descricao">Ninho com uvas verdes e ganache de chocolate.</p>
             <p class="valor">R$13,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 16, nome:'Bombom aberto de uva', vlr: '13.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 16, nome:'Bombom aberto de uva', vlr: '13.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -451,7 +451,7 @@
             <p class="descricao"> Mousse de nutella com ninho, amendoim e nutella.</p>
             <p class="valor">R$14,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 17, nome:'Mousse de nutella/ninho', vlr: '14.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 17, nome:'Mousse de nutella/ninho', vlr: '14.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -468,7 +468,7 @@
             <p class="descricao">bolo, mousse, pedaços e creme de chocolate.</p>
             <p class="valor">R$13,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 18, nome:'Tortinha só chocolate', vlr: '13.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 18, nome:'Tortinha só chocolate', vlr: '13.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -485,7 +485,7 @@
             <p class="descricao">Bolo de chocolate, creme de côco e ganache de chocolate.</p>
             <p class="valor">R$13,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 19, nome:'Tortinha Prestígio', vlr: '13.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 19, nome:'Tortinha Prestígio', vlr: '13.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -502,7 +502,7 @@
             <p class="descricao">Ninho, doce de leite, bolo de baunilha e canela.</p>
             <p class="valor">R$12,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 20, nome:'Tortinha de churros', vlr: '12.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 20, nome:'Tortinha de churros', vlr: '12.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -519,7 +519,7 @@
             <p class="descricao">Bolo, creme de abacaxi, morangos, ninho e côco.</p>
             <p class="valor">R$12,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 21, nome:'Cumbuca abacaxi/morango', vlr: '12.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 21, nome:'Cumbuca abacaxi/morango', vlr: '12.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -536,7 +536,7 @@
             <p class="descricao">Kinder Bueno, chocolate branco e preto, chantininho.</p>
             <p class="valor">R$15,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 22, nome:'Mousse Kinder Bueno', vlr: '15.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 22, nome:'Mousse Kinder Bueno', vlr: '15.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -555,14 +555,14 @@
             <div class="dropdownsabores">
               <button class="dropbtnsabores">Sabores ▾</button>
               <div class="dropdown-contentsabores">
-                <a href="#">Frango com bacon</a>
-                <a href="#">Frango com cheddar</a>
-                <a href="#">Frango com catupiry</a>
-                <a href="#">Frango com palmito</a>
-                <a href="#">Pizza</a>
-                <a href="#">Queijo</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 123, nome:'Empada', vlr: '3.50', qnt: '1', type: 'Frango com bacon' })" >Frango com bacon</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 124, nome:'Empada', vlr: '3.50', qnt: '1', type: 'Frango com cheddar' })">Frango com cheddar</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 125, nome:'Empada', vlr: '3.50', qnt: '1', type: 'Frango com catupiry' })">Frango com catupiry</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 126, nome:'Empada', vlr: '3.50', qnt: '1', type: 'Frango com palmito' })">Frango com palmito</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 127, nome:'Empada', vlr: '3.50', qnt: '1', type: 'Pizza' })">Pizza</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 128, nome:'Empada', vlr: '3.50', qnt: '1', type: 'Queijo' })">Queijo</a>
               </div>
-            </div><button class="comprar" onclick="addToCart({id: 23, nome:'Empada', vlr: '3.50', qnt: '1' })">Adicionar
+            </div><button class="comprar" onclick="addToCart({id: 23, nome:'Empada', vlr: '3.50', qnt: '1', type: 'Sortido' })">Adicionar
               <img class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -579,7 +579,7 @@
             <p class="descricao">Com recheio de presunto e mussarela.</p>
             <p class="valor">R$4,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 24, nome:'Enrolado Assado', vlr: '4.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 24, nome:'Enrolado Assado', vlr: '4.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -596,7 +596,7 @@
             <p class="descricao">Pastel assado de frango. Contém milho.</p>
             <p class="valor">R$4,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 25, nome:'Pastel Assado', vlr: '4.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 25, nome:'Pastel Assado', vlr: '4.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -613,7 +613,7 @@
             <p class="descricao">Tortinha de frango com catupiry.</p>
             <p class="valor">R$4,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 26, nome:'Tortinha de Frango', vlr: '4.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 26, nome:'Tortinha de Frango', vlr: '4.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -632,13 +632,13 @@
             <div class="dropdownsabores">
               <button class="dropbtnsabores">Sabores ▾</button>
               <div class="dropdown-contentsabores">
-                <a href="#">Coca-cola</a>
-                <a href="#">Fanta</a>
-                <a href="#">Pepsi</a>
-                <a href="#">Guaraná</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 129, nome:'Refrigerante Lata', vlr: '4.00', qnt: '1', type: 'Coca-cola' })">Coca-cola</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 130, nome:'Refrigerante Lata', vlr: '4.00', qnt: '1', type: 'Fanta' })">Fanta</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 131, nome:'Refrigerante Lata', vlr: '4.00', qnt: '1', type: 'Pepsi' })">Pepsi</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 132, nome:'Refrigerante Lata', vlr: '4.00', qnt: '1', type: 'Guaraná' })">Guaraná</a>
               </div>
             </div><button class="comprar"
-              onclick="addToCart({id: 27, nome:'Refrigerante Lata', vlr: '4.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 27, nome:'Refrigerante Lata', vlr: '4.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -657,14 +657,14 @@
             <div class="dropdownsabores">
               <button class="dropbtnsabores">Sabores ▾</button>
               <div class="dropdown-contentsabores">
-                <a href="#">Coca-cola</a>
-                <a href="#">Coca zero</a>
-                <a href="#">Fanta</a>
-                <a href="#">Pepsi</a>
-                <a href="#">Guaraná</a>
+                <a href="#"  id='mini-add'  onclick="addToCart({id: 133, nome:'Refrigerante Garrafa', vlr: '2.00', qnt: '1', type: 'Coca-cola' })" >Coca-cola</a>
+                <a href="#"  id='mini-add'  onclick="addToCart({id: 134, nome:'Refrigerante Garrafa', vlr: '2.00', qnt: '1', type: 'Coca zero' })" >Coca zero</a>
+                <a href="#"  id='mini-add'  onclick="addToCart({id: 135, nome:'Refrigerante Garrafa', vlr: '2.00', qnt: '1', type: 'Fanta' })" >Fanta</a>
+                <a href="#"  id='mini-add'  onclick="addToCart({id: 136, nome:'Refrigerante Garrafa', vlr: '2.00', qnt: '1', type: 'Pepsi' })" >Pepsi</a>
+                <a href="#"  id='mini-add'  onclick="addToCart({id: 137, nome:'Refrigerante Garrafa', vlr: '2.00', qnt: '1', type: 'Guaraná' })" >Guaraná</a>
               </div>
             </div><button class="comprar"
-              onclick="addToCart({id: 28, nome:'Refrigerante Garrafa', vlr: '2.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 28, nome:'Refrigerante Garrafa', vlr: '2.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -683,12 +683,12 @@
             <div class="dropdownsabores">
               <button class="dropbtnsabores">Sabores ▾</button>
               <div class="dropdown-contentsabores">
-                <a href="#">Uva</a>
-                <a href="#">Pêssego</a>
-                <a href="#">Goiaba</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 138, nome:'Suco Lata', vlr: '4.00', qnt: '1', type: 'Uva' })">Uva</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 139, nome:'Suco Lata', vlr: '4.00', qnt: '1', type: 'Pêssego' })">Pêssego</a>
+                <a href="#" id='mini-add'  onclick="addToCart({id: 140, nome:'Suco Lata', vlr: '4.00', qnt: '1', type: 'Goiaba' })">Goiaba</a>
               </div>
             </div><button class="comprar"
-              onclick="addToCart({id: 29, nome:'Suco Lata', vlr: '4.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 29, nome:'Suco Lata', vlr: '4.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -705,7 +705,7 @@
             <p class="descricao">Água mineral gasosa São Lourenço.</p>
             <p class="valor">R$3,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 30, nome:'Água com gás', vlr: '3.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 30, nome:'Água com gás', vlr: '3.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -722,7 +722,7 @@
             <p class="descricao">Refrescante água mineral natural gelada.</p>
             <p class="valor">R$2,00</p>
             <button class="umaopcao"
-              onclick="addToCart({id: 31, nome:'Água Natural', vlr: '2.00', qnt: '1' })">Adicionar <img
+              onclick="addToCart({id: 31, nome:'Água Natural', vlr: '2.00', qnt: '1', type: 'Sortido' })">Adicionar <img
                 class="carrinho-botao" src="carrinho2.png"></button>
           </td>
         </tr>
@@ -759,7 +759,51 @@
         </li>
       </ul>
     </div>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+  
     <script>
+      let type = ''
+
+      function saveOption(option){
+        console.log(option)
+        type = option;
+        console.log(type)
+      }
+
+
+      $(document).ready(function() {
+          toastr.options.timeOut = 1500; // 1.5s
+          toastr.progressBar = true;
+          toastr.preventDuplicates = true;
+          
+          $('#adicionar').click(function () {
+            toastr.success(`Produto adicionado com sucesso no carrinho !`);
+          });
+
+          $('.comprar').click(function () {
+            toastr.success(`Produto adicionado com sucesso no carrinho !`);
+          });
+
+          $('.umaopcao').click(function () {
+            toastr.success(`Produto adicionado com sucesso no carrinho !`);
+          });
+
+          $('.umaopcao').click(function () {
+            toastr.success(`Produto adicionado com sucesso no carrinho !`);
+          });
+
+          $('.mini-add').click(function () {
+            toastr.success(`Produto adicionado com sucesso no carrinho !`);
+          });
+          
+
+        });
+
+
+
       function toggleFAB(fab) {
         if (document.querySelector(fab).classList.contains('show')) {
           document.querySelector(fab).classList.remove('show');
@@ -770,11 +814,15 @@
 
       function addToCart(product) {
         let cart = [];
+        console.log(product)
+        toastr.success(`Produto adicionado com sucesso no carrinho !`);
+        
         localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
         cart.find(e => e.id === product.id) != undefined ? cart.filter(e => e.id === product.id).map(e => e.qnt++) : cart.push(product);
         localStorage.setItem("cart", JSON.stringify(cart));
-
       }
+
+      
 
       document.querySelector('.fab .main').addEventListener('click', function () {
         toggleFAB('.fab');
@@ -784,31 +832,21 @@
         item.addEventListener('click', function () {
           toggleFAB('.fab');
         });
-      });
+        });
+
+
+
     </script>
 
 
-    <!--Rodapé-->
-    <div class="footer">
-      <footer>
-        <div class="align-item: itens">
-          <p> Contatos: </p>
+  <div class="footer">
+    <footer>
+      <p>
+        Copyright 2021 © Ana Diniz Doceira
+      </p>
+    </footer>
+  </div>
 
-          <div style="align-items: flex-end; display: flex; justify-content: center; padding-top: 10px;">
-            <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
-                src="./images/174855.png" alt="new-logo"></a>
-            <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
-                src="./images/124010.png" alt="new-logo"></a>
-            <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
-                src="./images/989997.png" alt="new-logo"></a>
-          </div>
-        </div>
-        <div class="corpyright-footer" style="padding-top: 10px;">
-          Copyright 2021 © Ana Diniz Doceira
-        </div>
-
-      </footer>
-    </div>
   </div>
   </div>
 

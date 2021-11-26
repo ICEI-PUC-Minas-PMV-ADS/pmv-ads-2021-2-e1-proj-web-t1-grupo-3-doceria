@@ -527,6 +527,10 @@ table {
     margin-top: 10px;
 }
 
+.footer {
+  order: 14;
+}
+
 .logo-icon {
     width: 30px;
     display: block;
@@ -747,8 +751,6 @@ table {
   order: 13;
 }
 
-.footer {
-  order: 14;
-}
+
 
 }
