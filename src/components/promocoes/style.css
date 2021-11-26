@@ -306,6 +306,7 @@ img {vertical-align: middle;}
 footer {
   width:100%;
 }
+
 .footer {
     clear: both;
     color: white;
@@ -315,7 +316,7 @@ footer {
     font-family: sans-serif;
     font-size: 14px;
     margin-top: 10px;
-  }
+}
   
   .logo-icon {
     width: 30px;

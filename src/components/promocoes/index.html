@@ -204,20 +204,30 @@
                         Natal
                     </h4>
                     <div class="slideshow-container">
+
                         <div class="mySlide5">
-                            <img src="../../images/promocoes/natal/a3.jpeg" style="width:500px; height: 444px;">
+                          <img src="../../images/promocoes/natal/a6.jpeg" style="width:500px; height: 444px;">
                         </div>
 
                         <div class="mySlide5">
-                            <img src="../../images/promocoes/natal/a2.jpeg" style="width:500px; height: 444px;">
+                          <img src="../../images/promocoes/natal/a7.jpeg" style="width:500px; height: 444px;">
                         </div>
 
                         <div class="mySlide5">
-                            <img src="../../images/promocoes/natal/a1.jpeg" style="width:500px; height: 444px;">
-                        </div>
+                          <img src="../../images/promocoes/natal/a8.jpeg" style="width:500px; height: 444px;">
+                      </div>
 
-                        <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+                      <div class="mySlide5">
+                        <img src="../../images/promocoes/natal/a9.jpeg" style="width:500px; height: 444px;">
+                    </div>
+
+                    <div class="mySlide5">
+                      <img src="../../images/promocoes/natal/a10.jpeg" style="width:500px; height: 444px;">
+                    </div>
+
+                      <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -234,20 +244,23 @@
         showSlides(1, 4);
         showSlides(1, 5);
 
-
         function plusSlides(n, no) {
             showSlides(slideIndex[no] += n, no);
         }
 
         function showSlides(n, no) {
+            console.log(n, no)
             var i;
             var x = document.getElementsByClassName(slideId[no]);
 
+            console.log(x)
             if (n > x.length) { slideIndex[no] = 1 }
             if (n < 1) { slideIndex[no] = x.length }
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
+
+            console.log(x[slideIndex[no] - 1].style)
 
             x[slideIndex[no] - 1].style.display = "block";
         }
@@ -261,27 +274,14 @@
         crossorigin="anonymous"></script>
         
 <!--Rodapé-->
-<footer>
 <div class="footer">
-    
-      <div class="align-item: itens">
-        <p> Contatos: </p>
-  
-        <div style="align-items: flex-end; display: flex; justify-content: center; padding-top: 10px;">
-          <a href='https://www.instagram.com/anadinizdoceria/' target="_blank"><img class="logo-icon"
-              src="../../images/174855.png" alt="new-logo"></a>
-          <a href='https://www.facebook.com/anadinizbrownies/' target="_blank"><img class="logo-icon"
-              src="../../images/124010.png" alt="new-logo"></a>
-          <a href='https://api.whatsapp.com/send?phone=5531998325314' target="_blank"><img class="logo-icon"
-              src="../../images/989997.png" alt="new-logo"></a>
-        </div>
-      </div>
-      <div class="corpyright-footer" style="padding-top: 10px;">
-        Copyright 2021 © Ana Diniz Doceira
-      </div>
-    
-  </div>
-</footer>
+  <footer>
+    <p>
+      Copyright 2021 © Ana Diniz Doceira
+    </p>
+  </footer>
+</div>
+
 </body>
 
 </html>

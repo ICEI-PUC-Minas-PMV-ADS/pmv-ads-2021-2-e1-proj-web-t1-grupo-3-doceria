@@ -2,8 +2,10 @@
 const produtoList = document.getElementById('produto-list');
 
 const produtoCarrinhoList = document.getElementById('produto-carrinho-list');
+const totalPedidoValue = document.getElementById('total-pedido-value');
 
 let editProductId = 0
+let totalPedido = 0;
 
 function removeProduct(id) {
 
@@ -58,11 +60,48 @@ function getProductsToCarrinho() {
             <td>R$${(parseFloat(produtos[i].vlr)).toFixed(2)}</td>
             <td>${produtos[i].qnt}</td>
             <td>R$${parseFloat(vlt_total).toFixed(2)}</td>
+            <td>${produtos[i].type}</td>
         </tr>
         `;
 
         produtoCarrinhoList.innerHTML = lista_produtos
     }
+
+    showValorFinalPedido(0);
+}
+
+function incrementTaxValue(){
+    let taxValue = 0;
+    var localidade = document.getElementById("taxaentrega").value;
+
+    switch(localidade){
+        case "R$ 5,00 - Bairro: Dumaville" :
+            taxValue = 5
+            break;
+        case "R$ 3,00 - Bairro: Fernão Dias":
+            taxValue = 3
+            break;
+        case "R$ 1,50 - Bairros: Castelo Branco, Fernão Dias":
+            taxValue = 1.5
+            break;
+    }
+
+
+    showValorFinalPedido(taxValue)
+
+}
+
+
+
+function showValorFinalPedido(taxValue){
+    let produtos = localStorage.getItem("cart") != null ? JSON.parse(localStorage.getItem("cart")) : [];
+
+    let valorTotalPedido = totalValue(produtos) + taxValue
+
+    let valorProdutos = `
+        <p> R$${valorTotalPedido.toFixed(2)}</p>
+    `
+    totalPedidoValue.innerHTML = valorProdutos;
 }
 
 function minProduct(id) {
@@ -108,19 +147,21 @@ function findAll() {
         lista_produtos += `
         <tr>
             <th>${produtos[i].id}</th>
-            <td>${produtos[i].nome}</td>
+            <td style="white-space: nowrap !important;">${produtos[i].nome}</td>
             <td>R$${(parseFloat(produtos[i].vlr)).toFixed(2)}</td>
             <td> 
                 <i onclick="minProduct(${produtos[i].id})"; class="fa fa-minus" ></i>
                     ${produtos[i].qnt} 
                  <i onclick="maxProduct(${produtos[i].id})" class="fa fa-plus"></i>
                 </td>
-            <td>R$${parseFloat(vlt_total).toFixed(2)}</td>
+            <td style="padding-left: 20px;"> R$${parseFloat(vlt_total).toFixed(2)}</td>
             <td>
                 <a onclick="removeProduct(${produtos[i].id});"class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal-delete">
                     <i  class="fa fa-trash"></i> Remover
                 </a>
             </td>
+            <td style="white-space: nowrap !important; padding-right: 20px;" >${produtos[i].type}</td>
+
         </tr>
         `;
         produtoList.innerHTML = lista_produtos;
@@ -134,6 +175,15 @@ function editProduct(id) {
     editProductId = id
 }
 
+function totalValue(cart){
+    let totalPrice = 0;
+
+    cart.forEach(element => {
+        totalPrice += (element.qnt * element.vlr)
+    });
+
+    return totalPrice;
+}
 
 
 function getPedido() {
@@ -142,9 +192,10 @@ function getPedido() {
     localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
 
     cart.forEach(element => {
-        strPedido += `      id: ${element.id} - Nome: ${element.nome} - Quantidade: ${element.qnt} %0a`
+        strPedido += `      id: ${element.id} - Nome: ${element.nome} - Quantidade: ${element.qnt} - Sabor do Produto: ${element.type} - Preço: R$ ${Number(element.vlr).toFixed(2)} %0a`
     });
 
+    strPedido += `VALOR TOTAL DO PEDIDO: R$ ${Number(totalValue(cart)).toFixed(2)}`
     return strPedido;
 
 }
