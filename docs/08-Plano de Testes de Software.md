@@ -1,6 +1,10 @@
 # Plano de Testes de Software
 
-Teste de software é qualquer procedimento que teste/ajuda a determinar se o que foi criado/programado atinge as expectativas para o que foi criado, mostrando a vulnerabilidade e falta de qualidade do sistema criado.
+Os requisitos para realização dos testes de software são:<br>
+● Site publicado na Internet (https://doceria-ana-diniz.herokuapp.com/index.html) <br>
+● Navegador da Internet - Chrome, Firefox ou Edge <br>
+● Conectividade de Internet para acesso às plataformas (APISs)
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 O Plano de testes é uma forma de diálogo entre projeto e cliente, é um documento com um conjunto de informações que permite que as atividades de testes de um projeto sejam coordenadas e monitoradas. Seguem Alguns exemplos de testes: testes de desempenho, testes funcionais da história de usuário x, teste de responsividade, teste de campos de formulários, testes de navegabilidade ou links e teste ponta a ponta.
 
