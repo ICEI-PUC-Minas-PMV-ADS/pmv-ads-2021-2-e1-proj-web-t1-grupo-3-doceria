@@ -35,7 +35,8 @@ Nesta aba o cliente relatou um erro a promoção aos dia dos avós, pois foi o u
 
 CT-05-Visualizar e Acessar a Página meu Pedido
 
-O cliente relatou que alguns itens não estão sendo adicionados ao carrinho de compras.
+O cliente relatou que não está conseguindo esvaziar o carrinho de compras, sempre fica um pedido parado.
+O cliente também relatou que alguns itens não estão sendo adicionados ao carrinho de compras.
 itens que ele relatou: Tortinha de frango, mousse kinder bueno, copão brownie/óreo, coxinha morango/nutella, mousse de maracujá.
 
 
