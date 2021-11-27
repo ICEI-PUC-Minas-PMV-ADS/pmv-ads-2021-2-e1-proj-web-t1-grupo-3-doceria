@@ -13,57 +13,57 @@ A grande vantagem do projeto foi ter uma boa definição nos passos anteriores q
 Abaixo temos os casos de testes especificado por seção, bem como os pontos que apresentaram alguma necessidade de melhoria. 
 
 
-CT-01-Acessar Página Principal
+#### CT-01-Acessar Página Principal
 
 Ao realizar os testes e requisitos deste item foi certificado que ele se encontra em pleno funcionamento, com bom tempo de resposta, os icones estão apontando corretamente.
+<br>
 
-
-CT-02-Visualizar Página Sobre
+#### CT-02-Visualizar Página Sobre
 
 Ao realizar os testes, o cliente relatou que foram encontrados alguns erros de digitação.
+<br>
 
-
-CT-03-Visualizar e Acessar e Testar Página Cardápio
+#### CT-03-Visualizar e Acessar e Testar Página Cardápio
 
 Foi verificado para realizar uma pequena correção, ele adiciona o pedido corretamente, mas está exibindo 4 faixas avisando que algo foi adicionado ao carrinho.
 Outro detalhe encontrado dentro do cardápio é que quando você clica em sabores de algum item, está aba não fecha, a unica opção seria retornar ao menu principal.
+<br>
 
-
-CT-04-Visualizar e Acessar e Testar Página Promoções
+#### CT-04-Visualizar e Acessar e Testar Página Promoções
 
 Nesta aba o cliente relatou um erro na promoção do dia dos avós, pois foi o unico item que não abriram mais imagens.
+<br>
 
-
-CT-05-Visualizar e Acessar a Página meu Pedido
+#### CT-05-Visualizar e Acessar a Página meu Pedido
 
 O cliente relatou que não está conseguindo esvaziar o carrinho de compras, sempre fica um pedido parado, sendo necessário a remoção de um item de cada vez, o que gera certa impaciência, caso o carrinho tenha uma quantidade alta de produtos pré-selecionados.
 O cliente também relatou que alguns itens aleatórios não estão sendo adicionados ao carrinho de compras.
 Itens identificados: Tortinha de frango, mousse kinder bueno, copão brownie/óreo, coxinha morango/nutella, mousse de maracujá.
+<br>
 
-
-CT-06-  Visualizar e Acessar tela de Finalizar Pedido
+#### CT-06-  Visualizar e Acessar tela de Finalizar Pedido
 
 Cliente relatou uma observação que ao tentar salvar o pedido o sistema informava que havia um erro de digitação no campo telefone, impossibilitando de concluir o pedido.
 Na próxima iteração este ponto de validação de dados será o foco principal para que não ocorra nenhum tipo de problema no armazenamento dos dados dos pedidos e impacte os relatórios de vendas e prospecções futuras que o a administração da loja deseja fazer. 
+<br>
 
-
-CT-07-Visualizar Acessibilidade no Heroku
+#### CT-07-Visualizar Acessibilidade no Heroku
 
 Cliente relatou que concluiu com exito este item.
+<br>
 
-
-CT-08-Responsividade da Página e Compatibilidade
+#### CT-08-Responsividade da Página e Compatibilidade
 
 O site está responsivo para diversos tamanhos de tela, testamos e documentamos via print as duas versões mais utilizadas, os prints serão anexados a esta documentação. 
+<br>
 
-
-CT-09-Cores e Contraste
+#### CT-09-Cores e Contraste
 
 Cliente deu o feedback que o site está de acordo com o 04-Projeto de Interface.md seguindo e respeitando a identidade visual que a loja já possuia com grande engajamento nas mídias sociais e na cidade de origem.
 
 <br>
 
-### Nesta seção teremos os prints do fluxo intuitivo da página:
+## Nesta seção teremos os prints do fluxo intuitivo da página: <br>
 
 #### Home
 ![image](https://user-images.githubusercontent.com/90658683/143687983-02783d8e-1597-4819-ba07-dc9922bfe601.png)
@@ -103,5 +103,31 @@ Cliente deu o feedback que o site está de acordo com o 04-Projeto de Interface.
 ![image](https://user-images.githubusercontent.com/90658683/143688753-76af6634-e35e-4448-8299-02188f79192f.png)
 
 ![image](https://user-images.githubusercontent.com/90658683/143688771-bc10a5ce-e936-4a61-8998-f2fe1b23c6d2.png)
+
+
+<br>
+
+### Pedidos e finalização (Integração WhatsApp)
+![image](https://user-images.githubusercontent.com/90658683/143688919-dd197766-fbc8-47af-a663-8955fb9db11a.png)
+
+![image](https://user-images.githubusercontent.com/90658683/143688935-dead9bd5-1d0f-4f32-bb88-23043b9c3c75.png)
+
+![image](https://user-images.githubusercontent.com/90658683/143689108-201ccbca-0dad-41c4-9161-f4f9343e0323.png)
+
+![image](https://user-images.githubusercontent.com/90658683/143689130-67eb347d-bd8d-46f9-b8e8-c27741a39128.png)
+
+
+## Finalização via Whatsapp
+![image](https://user-images.githubusercontent.com/90658683/143689156-456969a8-bfce-4468-8788-9471b5516d52.png)
+
+![image](https://user-images.githubusercontent.com/90658683/143689180-eccaab4a-5577-4bf5-a6dd-fbceaf12bd88.png)
+
+
+![image](https://user-images.githubusercontent.com/90658683/143689215-927424f1-da51-4493-8740-c25fee40e84e.png)
+
+![image](https://user-images.githubusercontent.com/90658683/143689255-72cf7171-3df8-4a83-902c-49c95968642f.png)
+
+### Erro button salvar
+![image](https://user-images.githubusercontent.com/90658683/143689306-5233e5f9-94d9-445c-8ec5-593283b1771b.png)
 
 
