@@ -20,25 +20,25 @@ Ao realizar os testes e requisitos deste item foi certificado que ele se encontr
 
 #### CT-02-Visualizar Página Sobre
 
-Ao realizar os testes, o cliente relatou que foram encontrados alguns erros de digitação.
+Ao realizar os testes, o cliente relatou que foram encontrados alguns erros de digitação. Dados acertados em 29/11/2021.
 <br>
 
 #### CT-03-Visualizar e Acessar e Testar Página Cardápio
 
 Foi verificado para realizar uma pequena correção, ele adiciona o pedido corretamente, mas está exibindo 4 faixas avisando que algo foi adicionado ao carrinho.
-Outro detalhe encontrado dentro do cardápio é que quando você clica em sabores de algum item, está aba não fecha, a unica opção seria retornar ao menu principal.
+Outro detalhe encontrado dentro do cardápio é que quando você clica em sabores de algum item, está aba não fecha, a única opção seria retornar ao menu principal.
 <br>
 
 #### CT-04-Visualizar e Acessar e Testar Página Promoções
 
-Nesta aba o cliente relatou um erro na promoção do dia dos avós, pois foi o unico item que não abriram mais imagens.
+Nesta aba o cliente relatou um erro na promoção do dia dos avós, pois foi o único item que não abriram mais imagens. Não foi enviado  mais imagens para inserir neste ícone, permanecendo somente uma.
 <br>
 
-#### CT-05-Visualizar e Acessar a Página meu Pedido
+#### CT-05-Visualizar e Acessar a Página Meu Pedido
 
 O cliente relatou que não está conseguindo esvaziar o carrinho de compras, sempre fica um pedido parado, sendo necessário a remoção de um item de cada vez, o que gera certa impaciência, caso o carrinho tenha uma quantidade alta de produtos pré-selecionados.
 O cliente também relatou que alguns itens aleatórios não estão sendo adicionados ao carrinho de compras.
-Itens identificados: Tortinha de frango, mousse kinder bueno, copão brownie/óreo, coxinha morango/nutella, mousse de maracujá.
+Itens identificados: Tortinha de frango, mousse kinder bueno, copão brownie/oreo, coxinha morango/nutella, mousse de maracujá.
 <br>
 
 #### CT-06-  Visualizar e Acessar tela de Finalizar Pedido
@@ -59,7 +59,7 @@ O site está responsivo para diversos tamanhos de tela, testamos e documentamos 
 
 #### CT-09-Cores e Contraste
 
-Cliente deu o feedback que o site está de acordo com o 04-Projeto de Interface.md seguindo e respeitando a identidade visual que a loja já possuia com grande engajamento nas mídias sociais e na cidade de origem.
+Cliente deu o feedback que o site está de acordo com o 04-Projeto de Interface.md seguindo e respeitando a identidade visual que a loja já possuía com grande engajamento nas mídias sociais e na cidade de origem.
 
 <br>
 
