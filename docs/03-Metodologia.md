@@ -71,15 +71,18 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 A metodologia escolhida para gerenciamento de projeto pela equipe foi a metodologia ágil, tendo escolhido o Scrum como base para definição do processo de desenvolvimento e permitir um acompanhamento mais próximo do andamento do projeto.
 
 A equipe está organizada da seguinte maneira: 
+
 - Scrum Master: Pedro Daniel Jardim
-- Product Owner: Renata Diniz Guimarães de Oliveira  
+
+- Product Owner: Renata Diniz Guimarães de Oliveira 
+ 
 - Equipe de Desenvolvimento 
   - Cristiano Garcia Ridolfi 
   - Luis Galdino de Almeida da Silva 
   - Michelle Leal Rodrigues 
   - Pedro Daniel Jardim 
   - Renata Diniz Guimarães de Oliveira 
-  - Willian de Jesus Silva 
+  
 - Equipe de Design 
   - Michelle Leal Rodrigues  
 
