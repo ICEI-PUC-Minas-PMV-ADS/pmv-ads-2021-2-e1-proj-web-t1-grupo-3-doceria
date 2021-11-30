@@ -200,6 +200,15 @@ function getPedido() {
 
 }
 
+function btn_save() {
+    var resposta = confirm("Deseja salvar o registro?");
+  
+    if (resposta === true) {
+  
+  
+    }
+  
+  }
 
 
 //API CEP
