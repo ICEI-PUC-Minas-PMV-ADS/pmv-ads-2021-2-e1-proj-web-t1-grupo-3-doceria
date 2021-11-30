@@ -813,7 +813,7 @@
       function addToCart(product) {
         let cart = [];
         console.log(product)
-        toastr.success(`Produto adicionado com sucesso aocarrinho !`);
+        toastr.success(`Produto adicionado com sucesso ao carrinho !`);
         
         localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
         cart.find(e => e.id === product.id) != undefined ? cart.filter(e => e.id === product.id).map(e => e.qnt++) : cart.push(product);
