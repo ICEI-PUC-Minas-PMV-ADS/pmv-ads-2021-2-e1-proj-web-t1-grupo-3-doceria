@@ -21,7 +21,6 @@ através de um aplicativo de mensagens, e-mail ou fale conosco.
 - Michelle Leal Rodrigues
 - Pedro Daniel Jardim 
 - Renata Diniz Guimarães de Oliveira
-- Willian de Jesus Silva
 
 ## Orientador
 
