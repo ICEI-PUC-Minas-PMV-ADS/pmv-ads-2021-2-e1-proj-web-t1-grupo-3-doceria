@@ -185,9 +185,11 @@ display: none;
   .slider{
     width: 100%;
     max-width: 900px;
+    min-width: 700px;
     height: 450px;
     border-radius: 10px;
     overflow: hidden;
+    margin: -10px auto;
   }
   
   .slides{
@@ -319,6 +321,26 @@ display: none;
 .linkcardapio {
   text-decoration: none;
   color: #946362;
+}
+
+
+.itenscardapio {
+  margin-top: -37px;
+}
+
+.tabelaitens {
+  width: 100%;
+  max-width: 902px;
+  min-width: 700px;
+  margin: 0 auto;
+}
+
+.tabelaitens td {
+  width: 33.33%;
+}
+
+.itemgrid {
+  display: none;
 }
 
 /*botao flutuante*/
@@ -601,6 +623,8 @@ display: none;
 /*carrossel*/
 .slider {
   height: 200px;
+  margin: 0;
+  min-width: 300px;
 }
 
 .slides img {
@@ -642,16 +666,18 @@ display: none;
   z-index: 2;
 }
 
+.tabelaitens {
+  display: none;
+}
+
 .itema, .itemb, .itemc,
 .itemd, .iteme, .itemf {
   min-width:35%; 
     
 }
-.item {
-	margin: 5px;
-	background: tomato;
-	text-align: center;
-	font-size: 1.5em;
+
+.itemgrid {
+  display: inline;
 }
 
 .grid {
