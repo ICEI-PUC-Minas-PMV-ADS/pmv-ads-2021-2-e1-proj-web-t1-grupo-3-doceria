@@ -526,6 +526,16 @@ label {
   font-size: 17px;
 }
 
+.btn1 {
+  background-color: #a08686;
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
 .btn2 {
   margin: 2% 44%;
   background-color: #a08686;

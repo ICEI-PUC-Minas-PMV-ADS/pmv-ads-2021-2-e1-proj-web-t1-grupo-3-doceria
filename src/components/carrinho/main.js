@@ -28,7 +28,7 @@ function removeProduct(id) {
     });
 
     localStorage.setItem("cart", JSON.stringify(cart));
-    findAll();
+    location.reload();
 }
 
 function editProduct(id, qnt) {
@@ -45,7 +45,7 @@ function editProduct(id, qnt) {
     });
 
     localStorage.setItem("cart", JSON.stringify(cart));
-    findAll();
+    location.reload();
 }
 
 function getProductsToCarrinho() {
@@ -121,7 +121,7 @@ function minProduct(id) {
     });
 
     localStorage.setItem("cart", JSON.stringify(cart));
-    findAll();
+    location.reload();
 }
 
 function maxProduct(id) {
@@ -136,7 +136,7 @@ function maxProduct(id) {
     });
 
     localStorage.setItem("cart", JSON.stringify(cart));
-    findAll();
+    location.reload();
 }
 
 function findAll() {
@@ -199,6 +199,13 @@ function getPedido() {
     return strPedido;
 
 }
+
+function resetCart(){
+    localStorage.setItem("cart", JSON.stringify([]));
+    toastr.success(`Carrinho limpo com sucesso!`);
+    location.reload();
+}
+
 
 function btn_save() {
     var resposta = confirm("Deseja salvar o registro?");

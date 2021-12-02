@@ -776,28 +776,6 @@
           toastr.options.timeOut = 1500; // 1.5s
           toastr.progressBar = true;
           toastr.preventDuplicates = true;
-          
-          $('#adicionar').click(function () {
-            toastr.success(`Produto adicionado com sucesso ao carrinho !`);
-          });
-
-          $('.comprar').click(function () {
-            toastr.success(`Produto adicionado com sucesso ao carrinho !`);
-          });
-
-          $('.umaopcao').click(function () {
-            toastr.success(`Produto adicionado com sucesso ao carrinho !`);
-          });
-
-          $('.umaopcao').click(function () {
-            toastr.success(`Produto adicionado com sucesso ao carrinho !`);
-          });
-
-          $('.mini-add').click(function () {
-            toastr.success(`Produto adicionado com sucesso ao carrinho !`);
-          });
-          
-
         });
 
 
@@ -812,12 +790,11 @@
 
       function addToCart(product) {
         let cart = [];
-        console.log(product)
-        toastr.success(`Produto adicionado com sucesso ao carrinho !`);
         
         localStorage.getItem("cart") != null ? cart = JSON.parse(localStorage.getItem("cart")) : [];
         cart.find(e => e.id === product.id) != undefined ? cart.filter(e => e.id === product.id).map(e => e.qnt++) : cart.push(product);
         localStorage.setItem("cart", JSON.stringify(cart));
+        toastr.success(`Produto adicionado com sucesso ao carrinho !`);
       }
 
       

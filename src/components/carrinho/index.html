@@ -126,8 +126,12 @@
   </div>
   </main>
   <!--  Modal apresentada para solicitar os dados para preenchimento do formulário -->
-  <div class="w3-container" onload="findAll()">
-    <button onclick="document.getElementById('id01').style.display='block'" class="btn2">Finalizar pedido</button>
+  <div class="w3-container" style="text-align: center;" onload="findAll()">
+    <div style="display: inline !important;">
+      <button onclick="document.getElementById('id01').style.display='block'" class="btn1">Finalizar pedido</button>
+      <button onclick="resetCart()" class="btn1">Limpar Carrinho</button>
+    </div>
+
 
     <div id="id01" class="w3-modal">
       <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:100%">
@@ -280,7 +284,7 @@
               <div class="w3-container w3-center">
                 <div class="w3-bar">
                   <input type="reset" value="Limpar" button
-                    style="background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;">
+                    style="background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;" onclick="resetCart()">
                    <input class style= "background: #946362; border-radius: 6px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 12px;" type='button' id='salvar' value='Salvar' onclick="btn_save();" />
                   <a href="/index.html" target="_blank">
                     <class
@@ -308,6 +312,13 @@
   <!--// Associar envio whatsapp -->
 
   <script>
+      $(document).ready(function() {
+          toastr.options.timeOut = 1500; // 1.5s
+          toastr.progressBar = true;
+          toastr.preventDuplicates = true;
+        });
+    
+
     function gotowhatsapp() {
       var name = document.getElementById("name").value;
       var phone = document.getElementById("phone").value;
