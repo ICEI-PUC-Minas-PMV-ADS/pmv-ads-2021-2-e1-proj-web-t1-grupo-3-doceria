@@ -253,12 +253,21 @@
                     <input type="radio" name="Pagamento" id="pagamento" value="debito">Cartão de Débito
                   </label>
                   <label>
-                    <input type="radio" name="Pagamento" id="pagamento" value="dinheiro">Dinheiro
-                  </label>
-                  <label>
                     <input type="radio" name="Pagamento" id="pagamento" value="pix">PIX
                   </label>
+                  <label>
+                    <input type="radio" name="Pagamento" id="pagamento" value="dinheiro">Dinheiro
+                  </label>
                 </div>
+                 <div class="form-group">
+                            <label for="pagamento"><strong>Precisa de Troco?</strong></label>
+                            <label>
+                            <input type="radio" name="troco" id="troco" value="sim">Sim
+                            </label>
+                            <label>
+                            <input type="radio" name="troco" id="troco" value="não">Não
+                            </label>
+                          </div>
               </div>
             </fieldset>
             <fieldset>
@@ -320,6 +329,7 @@
       var uf = document.getElementById("uf").value;
       var taxaentrega = document.getElementById("taxaentrega").value;
       var pagamento = document.getElementById("pagamento").value;
+      var troco = document.getElementById("troco").value;
       var mensagem = document.getElementById("mensagem").value;
       var infoPedido = getPedido()
 
@@ -334,6 +344,7 @@
         + "UF: " + uf + "%0a"
         + "Taxaentrega: " + taxaentrega + "%0a"
         + "Pagamento: " + pagamento + "%0a"
+        + "troco: " + troco + "%0a"
         + "tMsg: " + mensagem + "%0a"
         + "Info do Pedido: " + infoPedido + "%0a"
       window.open(url, '_blank').focus();
