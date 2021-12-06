@@ -128,7 +128,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RF-002| O site deve permitir que os pedidos sejam ordenados por ordem de chegada, local de entrega e prioridade   | ALTA |
 |RF-003| O site deve permitir a chegada de uma notificação a cada pedido efetuado    | ALTA |
 |RF-004| O site deve oferecer destaque para informações e produtos das datas comemorativas   | ALTA |
-|RF-005| O site deve permitir que o cliente insira endereço de entrega, nome, telefone de contato   | ALTA |
+|RF-005| O site deve permitir que o cliente insira endereço de entrega, nome, telefone de contato e a opção de necessidade de troco  | ALTA |
 |RF-006| O site deve permitir diversas formas de pagamento como Pic Pay, Pix, cartão de débito e crédito   | ALTA |
 |RF-007| O site deve permitir a visualização da disponibilidade de produtos   | MÉDIA |
 |RF-008| O site deve permitir a descrição dos produtos   | MÉDIA |
