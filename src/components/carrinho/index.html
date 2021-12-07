@@ -56,7 +56,7 @@
               <div id="menu-desktop">
                 <ul>
                   <li>
-                    <a href='../../components/sobre/index.html'>Sobre</a>
+                    <a style="color: #946362;" href='../../components/sobre/index.html'>Sobre</a>
                   </li>
                   <li>
                     <div class="dropdown">
@@ -73,7 +73,7 @@
                     </div>
                   </li>
                   <li>
-                    <a href='../../components/promocoes/index.html'>Promoções</a>
+                    <a style="color: #946362;" href='../../components/promocoes/index.html'>Promoções</a>
                   </li>
                 </ul>
             </td>
@@ -103,7 +103,7 @@
     </div>
     <main>
 
-      <h2>Seu Pedido</h2>
+      <h2 class="seupedido">Seu Pedido</h2>
       <div class="row">
         <div class="col-50">
           <table class="table" id="table">
@@ -237,7 +237,7 @@
               <div class="modal-body">
                 <div class="form-group">
                   <label for="taxaentrega" class="col-form-label"><strong>Taxa de Entrega:</strong></label>
-                  <select id="taxaentrega" required onchange="incrementTaxValue()">
+                  <select style="width: 280px;" id="taxaentrega" required onchange="incrementTaxValue()">
                     <option selected disabled value="">Selecione a taxa de entrega:</option>
                     <option>R$ 1,50 - Bairros: Castelo Branco, Fernão Dias</option>
                     <option>R$ 5,00 - Bairro: Dumaville</option>
@@ -255,6 +255,15 @@
                     <option>PIX</option>
                   </select>
                 </div>
+                 <div class="form-group">
+                            <label for="pagamento"><strong>Precisa de Troco?</strong></label>
+                            <label>
+                            <input type="radio" name="troco" id="troco" value="sim">Sim
+                            </label>
+                            <label>
+                            <input type="radio" name="troco" id="troco" value="não">Não
+                            </label>
+                          </div>
               </div>
             </fieldset>
             <fieldset>
@@ -316,6 +325,7 @@
       var uf = document.getElementById("uf").value;
       var taxaentrega = document.getElementById("taxaentrega").value;
       var pagamento = document.getElementById("pagamento").value;
+      var troco = document.getElementById("troco").value;
       var mensagem = document.getElementById("mensagem").value;
       var infoPedido = getPedido()
 
@@ -330,6 +340,7 @@
         + "UF: " + uf + "%0a"
         + "Taxaentrega: " + taxaentrega + "%0a"
         + "Pagamento: " + pagamento + "%0a"
+        + "troco: " + troco + "%0a"
         + "tMsg: " + mensagem + "%0a"
         + "Info do Pedido: " + infoPedido + "%0a"
       window.open(url, '_blank').focus();

@@ -28,7 +28,7 @@ através de um aplicativo de mensagens, e-mail ou fale conosco.
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+A aplicação desenvolvida pode ser acessada através do link https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t1-grupo-3-doceria/src/index.html ou http://doceria-ana-diniz.herokuapp.com/
 
 # Documentação
 

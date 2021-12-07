@@ -62,6 +62,7 @@ table {
 
 .menu-principal a:hover {
   text-decoration: none;
+  color: #946362;
 }
 
 nav a:visited {
