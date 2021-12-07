@@ -257,13 +257,11 @@
                 </div>
                  <div class="form-group">
                             <label for="pagamento"><strong>Precisa de Troco?</strong></label>
-                            <label>
-                            <input type="radio" name="troco" id="troco" value="sim">Sim
-                            </label>
-                            <label>
-                            <input type="radio" name="troco" id="troco" value="não">Não
-                            </label>
-                          </div>
+                            <select id="troco" required>
+                    <option selected disabled value="">Selecione se precisa de troco:</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                   </select>
               </div>
             </fieldset>
             <fieldset>
