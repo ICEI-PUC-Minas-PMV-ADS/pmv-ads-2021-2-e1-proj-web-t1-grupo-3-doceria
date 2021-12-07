@@ -189,14 +189,15 @@
             <fieldset>
               <div class="modal-body">
                 <div class="form-group">
-                  <h3>Dados para Entrega</h3>
-                  <label for="entrega" class="col-form-label"><strong>Entrega/Retirada:</strong></label>
-                  <label>
-                    <input type="radio" name="Entrega" id="entrega" value="retirada">Retirada
-                  </label>
-                  <label>
-                    <input type="radio" name="Entrega" id="entrega" value="entrega" checked>Entrega
-                  </label>
+                  <div style="margin-bottom: 5px;">
+                    <h3>Dados para Entrega</h3>
+                    <label for="entrega" class="col-form-label"><strong>Entrega/Retirada:</strong></label>
+                    <select id="entrega" required>
+                      <option selected disabled value="">Selecione a Formas de Entrega:</option>
+                      <option>Retirada</option>
+                      <option>Entrega</option>
+                    </select>
+                  </div>
                   <br>
                   <small>Se a escolha for entrega, preencha os dados de endereço abaixo</small>
                 </div>
@@ -246,18 +247,13 @@
                 <p></p>
                 <div class="form-group">
                   <label for="pagamento"><strong>Formas de Pagamento:</strong></label>
-                  <label>
-                    <input type="radio" name="Pagamento" id="pagamento" value="credito" checked>Cartão de Crédito
-                  </label>
-                  <label>
-                    <input type="radio" name="Pagamento" id="pagamento" value="debito">Cartão de Débito
-                  </label>
-                  <label>
-                    <input type="radio" name="Pagamento" id="pagamento" value="dinheiro">Dinheiro
-                  </label>
-                  <label>
-                    <input type="radio" name="Pagamento" id="pagamento" value="pix">PIX
-                  </label>
+                  <select id="pagamento" required>
+                    <option selected disabled value="">Selecione a Formas de Pagamento:</option>
+                    <option>Cartão de Crédito</option>
+                    <option>Cartão de Débito</option>
+                    <option>Dinheiro</option>
+                    <option>PIX</option>
+                  </select>
                 </div>
               </div>
             </fieldset>
