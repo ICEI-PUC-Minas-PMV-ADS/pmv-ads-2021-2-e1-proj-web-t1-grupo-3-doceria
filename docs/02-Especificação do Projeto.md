@@ -66,9 +66,11 @@ Fonte: Acervo Pessoal
 **Hobbies, História**
 -	Tem personalidade forte, empreendedora. Gosta de dar aula e lidar com os jovens. 
 
-## Alexandre (Atendente) 
+## Alexandra (Atendente) 
 
+![Atendente](https://user-images.githubusercontent.com/90404960/134686993-1b21d5b9-1728-427b-aa53-8026081cb86e.png)
 
+Fonte: depositphotos (2015)	
 
 **Idade**: 22 anos
 
@@ -113,7 +115,6 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Alexandra (Atendente)  | Gerenciar quantidade elevadas de pedidos| Para organizar recursos e tempo ao separar os pedidos com mais agilizados|
 |Alexandra (Atendente)  | Conseguir separar os pedidos com mais agilidade| Para diminuir o tempo gasto com logística entre o momento do pedido ao destino do produto|
 |Alexandra (Atendente)  | Ter ordenação de pedidos por prioridade, ordem de chegada, local de entrega| Para as prioridades de pedidos serem respeitados na hora de preparar/organizar pedidos|
-
 ## Requisitos
 
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
