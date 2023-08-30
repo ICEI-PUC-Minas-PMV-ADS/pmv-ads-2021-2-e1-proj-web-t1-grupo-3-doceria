@@ -66,11 +66,9 @@ Fonte: Acervo Pessoal
 **Hobbies, História**
 -	Tem personalidade forte, empreendedora. Gosta de dar aula e lidar com os jovens. 
 
-## Alexandra (Atendente) 
+## Alexandre (Atendente) 
 
-![Atendente](https://user-images.githubusercontent.com/90404960/134686993-1b21d5b9-1728-427b-aa53-8026081cb86e.png)
 
-Fonte: depositphotos (2015)	
 
 **Idade**: 22 anos
 
